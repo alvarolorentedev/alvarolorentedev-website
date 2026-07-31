@@ -29,7 +29,7 @@
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="we-already-create-more-than-we-need">We Already Create More Than We Need<a href="https://alvarolorente.dev/blog/2026/06/15/ai-didnt-kill-roi-it-killed-the-excuse#we-already-create-more-than-we-need" class="hash-link" aria-label="Direct link to We Already Create More Than We Need" title="Direct link to We Already Create More Than We Need" translate="no">​</a></h2>
 <p>My suspicion is that many companies already create more product development work than they need.</p>
 <p>Not because people are lazy. Usually the opposite. People are working very hard. They are responding to customers, sales pressure, executive ideas, competitor comparisons, roadmap commitments, compliance requirements, internal escalations, platform needs, and the permanent pressure to show progress.</p>
-<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/dea3e6e4-3a2e-46ab-9214-3261599d0ea0_1254x1254.png" alt="" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/dea3e6e4-3a2e-46ab-9214-3261599d0ea0_1254x1254.png" alt="Organizational bias toward creation over validation in feature factories" class="img_ev3q"></p>
 <p>But the system is biased toward creation.</p>
 <p>It is easier to add than to remove. Easier to build than to say no. Easier to ship the small request than to challenge whether it should exist. Easier to satisfy the stakeholder than to explain why their idea is not strategically important. Easier to show a roadmap full of activity than a roadmap full of hard decisions.</p>
 <p>Over time, the product becomes a museum of accumulated commitments.</p>
@@ -66,13 +66,13 @@
 <p>Every feature still has a carrying cost: documentation, QA, security, support, maintenance, cognitive load, sales enablement, customer confusion, product surface area, and strategic distraction. AI can reduce creation cost, but it does not remove ownership cost.</p>
 <p>This is where slop enters the company.</p>
 <p>Not only as ugly AI content. As unnecessary work that looks professional enough to survive. A polished product brief with no real trade-off. A roadmap analysis with no decision. A generated PR that creates review burden. A strategy document that sounds smart but changes nothing. A customer summary that is fluent but misses the actual pain.</p>
-<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/8ff8167b-559e-4d24-9f27-9f8b9f941588_1254x1254.png" alt="" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/8ff8167b-559e-4d24-9f27-9f8b9f941588_1254x1254.png" alt="AI-generated content polished enough to survive without real validation" class="img_ev3q"></p>
 <p>AI did not create the old bias toward output.</p>
 <p>It made it faster, cheaper, and harder to excuse.</p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="our-departments-are-already-oversized">Our Departments Are Already Oversized<a href="https://alvarolorente.dev/blog/2026/06/15/ai-didnt-kill-roi-it-killed-the-excuse#our-departments-are-already-oversized" class="hash-link" aria-label="Direct link to Our Departments Are Already Oversized" title="Direct link to Our Departments Are Already Oversized" translate="no">​</a></h2>
 <p>This is the uncomfortable conclusion.</p>
 <p>Many departments are already too big for the amount of value they can actually validate.</p>
-<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/89e230f0-84bd-4f4d-8dfb-ce95a1147b49_1254x1254.png" alt="" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/89e230f0-84bd-4f4d-8dfb-ce95a1147b49_1254x1254.png" alt="Organizational right-sizing from oversized to validation-focused departments" class="img_ev3q"></p>
 <p>Not too big because people are lazy. Too big because they were designed for an older world where producing work was expensive. More people meant more features, more documents, more tickets, more campaigns, more analysis, more delivery.</p>
 <p>AI breaks that logic.</p>
 <p>If output becomes cheap, output is no longer the scarce thing.</p>
@@ -111,7 +111,7 @@
 <p>What we call experience is really just a brain shaped by repetition, feedback, failure, and survival. We do not solve most engineering problems from first principles every time. We recognize patterns. We follow familiar paths. We reuse what has worked before. That is what makes experienced engineers effective in the first place.</p>
 <p>But the same mechanism that makes us effective also makes us rigid.</p>
 <p>A brain trained on years of similar constraints becomes efficient by exploring less. It learns what usually works, what usually fails, and what is usually not worth trying. That creates speed. It also creates bias. We become better at navigating the world that trained us, but worse at noticing when the world itself has changed.</p>
-<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/e1e80dda-3c40-4229-9afc-aee063fcf851_1024x1024.png" alt="" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/e1e80dda-3c40-4229-9afc-aee063fcf851_1024x1024.png" alt="Experience as double-edged sword providing judgement and rigidity" class="img_ev3q"></p>
 <p>This is where ego enters the system.</p>
 <p>Because once experience hardens, we stop treating our mental models as useful approximations and start treating them as authority. We grow attached to legibility, familiarity, and control. We trust what we can explain. We distrust what does not fit our internal map. That is why ego in engineering so often looks like rigor. It is often just our need for control disguised as judgment.</p>
 <p>That is why experience is always a double-edged sword. It gives us judgment, but it also narrows the range of things we are willing to take seriously. It sharpens intuition, but it can also turn intuition into an unchallenged default.</p>
@@ -126,7 +126,7 @@
 <p>That used to be a reasonable proxy for quality.</p>
 <p>It is not anymore.</p>
 <p>The question is no longer whether the solution matches our reasoning. The question is whether it works in the context that matters. In other words, our work is shifting from producing the answer to judging the answer. In many ways, engineering has already been drifting in that direction as coordination, trade-offs, and decision-making under ambiguity take more weight than pure execution.</p>
-<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/9f12b0f6-bfaf-40e7-b0fd-c845074c2c8a_1024x1024.png" alt="" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/9f12b0f6-bfaf-40e7-b0fd-c845074c2c8a_1024x1024.png" alt="Mental models and ego challenged by AI generating valid alternative solutions" class="img_ev3q"></p>
 <p>That is a much bigger change than most engineers want to admit.</p>
 <p>Because AI is not just challenging how we build. It is challenging the identity we built around being the person who knows.</p>
 <p>In a probabilistic world, experience does not disappear. But it loses its status as final authority. It becomes one input among others.</p>
@@ -137,7 +137,7 @@
 <p>The difference is scale, speed, tools and attachment.</p>
 <p>The machine has broader exposure, faster iteration, and no ego attached to its last answer. We have context, judgment, and an understanding of constraints the machine still lacks. These are not competing strengths. They are complementary ones.</p>
 <p>That is why the future of engineering is not about beating the machine. It is about pairing with it.</p>
-<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/59b6c4e4-9a0a-42cc-8550-ba50ddc09756_1024x1024.png" alt="" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/59b6c4e4-9a0a-42cc-8550-ba50ddc09756_1024x1024.png" alt="Pairing with AI as collaborative partner leveraging complementary strengths" class="img_ev3q"></p>
 <p>The leverage is not in proving we are smarter. It is in knowing where we are stronger. The machine is better at exploring, generating, and iterating without hesitation. We are better at framing the problem, understanding the environment, and judging what matters.</p>
 <p>The teams that win will be the ones that stop treating AI like a rival and start treating it like a second brain. Not a replacement for judgment, but an amplifier of it. Not a source of truth, but a system that expands the range of what we can test, challenge, and validate.</p>
 <p>That is the adaptation.</p>
@@ -224,7 +224,7 @@
 <p>This is where many teams will get trapped. They will see AI increase output and assume the next move is simply more output. More features. More tickets. More code. But if generation scales faster than validation, you do not get a better engineering organization.</p>
 <p>You get more review debt.</p>
 <p>You get more plausible nonsense entering the system. More rework disguised as speed. More software that looked good in the editor and collapsed the moment it touched production reality.</p>
-<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/210de0f0-df30-46b6-8433-8b1fc9feccf3_1024x1024.png" alt="" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/210de0f0-df30-46b6-8433-8b1fc9feccf3_1024x1024.png" alt="QA validation leverage increasing as code generation becomes abundant" class="img_ev3q"></p>
 <p>The bottleneck does not disappear.</p>
 <p>It moves.</p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="qa-was-never-a-phase-it-was-the-real-leverage">QA was never a phase. It was the real leverage.<a href="https://alvarolorente.dev/blog/2026/04/29/qa-engineering-won-the-war-why-ai-is-shifting-engineering-from-building-to-validation#qa-was-never-a-phase-it-was-the-real-leverage" class="hash-link" aria-label="Direct link to QA was never a phase. It was the real leverage." title="Direct link to QA was never a phase. It was the real leverage." translate="no">​</a></h2>
@@ -241,7 +241,7 @@
 <p>The future engineer looks less like a pure craftsperson and more like a judge.</p>
 <p>Not a bureaucrat. Not a ticket approver. A judge.</p>
 <p>Someone who can evaluate competing outputs under uncertainty. Someone who can decide what is good enough to proceed, what needs tighter constraints, and what should be rejected entirely. Someone who understands that the job is no longer just constructing the mechanism by hand, but designing an environment in which good mechanisms can be trusted and bad ones are caught early.</p>
-<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/bb2708a8-485a-4edf-bcc5-1156a5776e0f_1024x1024.png" alt="" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/bb2708a8-485a-4edf-bcc5-1156a5776e0f_1024x1024.png" alt="Engineering judgment and guardrails replacing pure craftsperson authorship" class="img_ev3q"></p>
 <p>That is why the winning engineering model will not be more gates. It will be better guardrails.</p>
 <p>The organizations that adapt will not respond to AI by piling on manual approvals forever. They will reduce handoffs, clarify ownership, automate policy where they can, and make the safe path the easy path. They will rely less on heroics and more on systems of validation that scale. That direction is already supported in the research: the operating models that hold up best are the ones that replace slow approval-heavy coordination with clearer decision rights, designed interfaces, and guardrails.</p>
 <p>And this is also why domain knowledge becomes more valuable, not less.</p>
@@ -251,7 +251,7 @@
 <p>The engineer who understands the domain can interrogate machine output with force. One person asks, “Does this compile?” The other asks, “Does this survive contact with the business?”</p>
 <p>Only one of those questions creates durable value.</p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="qa-engineering-won-the-war">QA engineering won the war<a href="https://alvarolorente.dev/blog/2026/04/29/qa-engineering-won-the-war-why-ai-is-shifting-engineering-from-building-to-validation#qa-engineering-won-the-war" class="hash-link" aria-label="Direct link to QA engineering won the war" title="Direct link to QA engineering won the war" translate="no">​</a></h2>
-<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/ba5afe17-19d6-442f-a92e-832cadde3492_1024x1024.png" alt="" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/ba5afe17-19d6-442f-a92e-832cadde3492_1024x1024.png" alt="QA engineering leverage from validation becoming scarce capability" class="img_ev3q"></p>
 <p>So yes, I believe that sentence.</p>
 <p>QA engineering won the war.</p>
 <p>Not because titles changed. Not because every company suddenly respects testing. Not because validation became fashionable.</p>
@@ -274,7 +274,7 @@
 <p>But that assumption was built for a different world.</p>
 <p>A world where writing software was expensive. A world where change was slow. A world where mistakes were costly to recover from.</p>
 <p>That world is disappearing, but our mental models have not caught up.</p>
-<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/366d545f-8173-4418-83fe-e94602f9286a_1536x1024.png" alt="" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/366d545f-8173-4418-83fe-e94602f9286a_1536x1024.png" alt="&quot;-ilities&quot; response to past constraints losing relevance with new cost structure" class="img_ev3q"></p>
 <p>In previous articles, I explored how AI is not removing complexity, but shifting where it lives. Execution is no longer the bottleneck. The constraints have moved toward coordination, decision-making, and validation. The system did not get simpler. It just changed shape.</p>
 <p>If you haven’t read them, this builds directly on:</p>
 <ul>
@@ -293,7 +293,7 @@
 <p>Reusability exists because duplication was costly. If writing the same logic twice meant additional effort, additional bugs, and additional maintenance overhead, then abstracting and centralizing logic became the obvious optimization.</p>
 <p>Testability exists because confidence was hard to achieve. When systems were opaque and debugging was slow, the only scalable way to reduce risk was to introduce layers of validation.</p>
 <p>These were not universal truths about good engineering. They were adaptations to a specific cost structure.</p>
-<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/1e794bcd-52b8-4bc7-a3d1-91d436f55020_1536x1024.png" alt="" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/1e794bcd-52b8-4bc7-a3d1-91d436f55020_1536x1024.png" alt="Maintainability and reusability value decrease as regeneration becomes cheap" class="img_ev3q"></p>
 <hr>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="that-cost-structure-has-changed">That cost structure has changed<a href="https://alvarolorente.dev/blog/2026/04/16/most-software-engineering-ilities-are-becoming-irrelevant-in-the-age-of-ai#that-cost-structure-has-changed" class="hash-link" aria-label="Direct link to That cost structure has changed" title="Direct link to That cost structure has changed" translate="no">​</a></h2>
 <p>With AI-assisted development, the cost of producing code has dropped significantly. Generating, modifying, and even rewriting large portions of a system is no longer a prohibitive activity. What used to require careful design upfront can now be explored iteratively at a much lower cost.</p>
@@ -322,7 +322,7 @@
 <hr>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="the--ilities-that-remain">The -ilities that remain<a href="https://alvarolorente.dev/blog/2026/04/16/most-software-engineering-ilities-are-becoming-irrelevant-in-the-age-of-ai#the--ilities-that-remain" class="hash-link" aria-label="Direct link to The -ilities that remain" title="Direct link to The -ilities that remain" translate="no">​</a></h2>
 <p>If we shift the focus from code to systems, a different set of concerns emerges. These are not tied to how code is written, but to how systems behave under continuous change.</p>
-<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/42dcc6c6-98f4-4490-b1a1-3eb434f67d20_1536x1024.png" alt="" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/42dcc6c6-98f4-4490-b1a1-3eb434f67d20_1536x1024.png" alt="Observability, reliability, security, scalability, evolvability replacing &quot;-ilities&quot;" class="img_ev3q"></p>
 <ul>
 <li class="">
 <p>Observability becomes critical because systems evolve faster than individuals can track. Understanding behavior in production becomes more valuable than understanding implementation details. When change accelerates, visibility becomes the only stable reference point.</p>
@@ -386,7 +386,7 @@
 <p>The industry still treats the code as literature.</p>
 <p>It is increasingly closer to bytecode.</p>
 <p>And because of that, a large part of what we call “good engineering” has quietly become unnecessary. Meaning, patterns, and languages are becoming less important.</p>
-<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/47cff2fb-67dd-4c98-9dea-b0cc08902076_1024x1024.png" alt="" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/47cff2fb-67dd-4c98-9dea-b0cc08902076_1024x1024.png" alt="Code now read by machines instead of humans shifting design optimization" class="img_ev3q"></p>
 <hr>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-cost-model-has-inverted"><strong>The Cost Model Has Inverted</strong><a href="https://alvarolorente.dev/blog/2026/04/08/clean-architecture-is-dying-how-ai-is-killing-essential-software-patterns#the-cost-model-has-inverted" class="hash-link" aria-label="Direct link to the-cost-model-has-inverted" title="Direct link to the-cost-model-has-inverted" translate="no">​</a></h2>
 <p>This transformation is the shift most people haven’t fully internalized.</p>
@@ -400,7 +400,7 @@
 <p>But underneath, they all share the same assumption: we don’t know what will change, and when it does, it will be expensive.</p>
 <p>So we prepare. We abstract. We decouple. We introduce interfaces that may never have more than one implementation. We create layers of indirection to absorb hypothetical futures.</p>
 <p>We built systems that are easy to change because changing them was hard.</p>
-<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/af00a3e1-b74c-48cd-95b3-43aa6724def4_1024x1024.png" alt="" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/af00a3e1-b74c-48cd-95b3-43aa6724def4_1024x1024.png" alt="Clean architecture patterns unnecessary when regeneration is cheaper" class="img_ev3q"></p>
 <p>AI changes that equation. We are now operating in a world where regeneration is getting cheaper faster than abstraction.</p>
 <p>Abstractions exist to preserve structure over time. They reduce the need to change codes by anticipating variations.</p>
 <p>Regeneration does the opposite. It embraces change. It assumes that structure is temporary and can be recreated as needed.</p>
@@ -432,7 +432,7 @@
 <p>The trade-off flips. We no longer optimize for developer time. We optimize for machine time.</p>
 <p>And that naturally pulls us toward languages and paradigms we spent years abstracting away from.</p>
 <p>We might return to low-level languages not because developers improved, but because developers matter less in the loop.</p>
-<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/ae259ae0-ef1f-4622-9907-8bb352f0fa03_1024x1024.png" alt="" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/ae259ae0-ef1f-4622-9907-8bb352f0fa03_1024x1024.png" alt="Runtime behavior now defining quality over internal code structure elegance" class="img_ev3q"></p>
 <hr>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-part-nobody-wants-to-admit"><strong>The Part Nobody Wants to Admit</strong><a href="https://alvarolorente.dev/blog/2026/04/08/clean-architecture-is-dying-how-ai-is-killing-essential-software-patterns#the-part-nobody-wants-to-admit" class="hash-link" aria-label="Direct link to the-part-nobody-wants-to-admit" title="Direct link to the-part-nobody-wants-to-admit" translate="no">​</a></h2>
 <p>A large part of modern software engineering exists to compensate for human limitations.</p>
@@ -497,7 +497,7 @@
 <p>Feedback is delayed, indirect, or disconnected from the original decision. By the time signals arrive, multiple layers of work have already been built on top of unvalidated assumptions. The system moves quickly, but without a tight connection to reality.</p>
 <p>Improving this does not require more data, but better alignment between decisions and feedback.</p>
 <p>Every initiative should define, upfront, what change it expects to create—whether in user behavior, system performance, or business outcomes. Feedback mechanisms should be designed to observe that change as directly as possible. When that is not feasible, uncertainty should be made explicit rather than ignored.</p>
-<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/f5dc4217-8412-4efb-94c4-3971034e8cf0_1536x1024.png" alt="" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/f5dc4217-8412-4efb-94c4-3971034e8cf0_1536x1024.png" alt="Learning velocity optimization connecting decisions to validation feedback" class="img_ev3q"></p>
 <p>Research on software delivery performance consistently shows that high-performing teams are defined not just by speed, but by how quickly they can detect and recover from mistakes.</p>
 <p>In a world of cheap execution, the advantage is not who builds faster.</p>
 <p>It is who learns faster.</p>
@@ -511,7 +511,7 @@
 <p>Flow efficiency shifts the lens. Instead of asking whether people are busy, it asks whether work is progressing smoothly through the system. Whether ideas become outcomes without unnecessary friction.</p>
 <p>This leads to very different design choices.</p>
 <p>Smaller batches, so uncertainty and decisions surface earlier instead of accumulating. Fewer parallel initiatives, so attention is not fragmented across competing priorities. Reduced handoffs, so context is preserved and rework minimized. Clear ownership, so work does not stall in ambiguity or shared responsibility.</p>
-<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/e8fee924-e2b0-42f6-9409-e3164f3a4bbb_1536x1024.png" alt="" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/e8fee924-e2b0-42f6-9409-e3164f3a4bbb_1536x1024.png" alt="Flow efficiency through smaller batches reducing work-in-progress queues" class="img_ev3q"></p>
 <p>These are not optimizations of effort—they are optimizations of movement.</p>
 <p>Research in lean systems and software delivery consistently shows that reducing work-in-progress and shortening queues improves system performance disproportionately. Not by increasing output, but by eliminating waiting time and coordination overhead.</p>
 <p>Because when execution becomes fast, queues become the dominant constraint.</p>
@@ -523,7 +523,7 @@
 <p>Every addition introduces complexity. Dependencies increase, constraints accumulate, and the system becomes harder to evolve. These costs are not immediate, which is why they are often ignored. Over time, the system doesn’t fail because it lacks capability—it fails because it has too much of it.</p>
 <p>At that point, speed stops helping. You can still ship, but each change requires more coordination, more context, more effort. The system moves, but with increasing friction.</p>
 <p>This is rarely framed as a consequence of saying “yes” too often, but that is exactly what it is.</p>
-<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/5d86a05e-72f0-41a4-94d2-2cf668aa730c_1536x1024.png" alt="" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/5d86a05e-72f0-41a4-94d2-2cf668aa730c_1536x1024.png" alt="Saying no institutionalizing against unlimited feature and complexity growth" class="img_ev3q"></p>
 <p>In most organizations, saying no is informal. It depends on individuals, moments, and negotiation. That makes it inconsistent. Some things are rejected, many are not, and very little is ever removed.</p>
 <p>Without removal, complexity only grows.</p>
 <p>Research on cognitive load consistently shows that beyond a certain point, more options and features degrade both usability and decision quality. More is not neutral. It actively makes the system worse.</p>
@@ -564,7 +564,7 @@
 <blockquote>
 <p>When improving one part of a system no longer improves the whole, it usually means the constraint has moved elsewhere.</p>
 </blockquote>
-<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/3b841a9f-4522-458d-9fa7-5c386769f628_1536x1024.png" alt="" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/3b841a9f-4522-458d-9fa7-5c386769f628_1536x1024.png" alt="Engineering bottleneck shift from execution to coordination and decisions" class="img_ev3q"></p>
 <hr>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-real-bottleneck-coordination-and-decisions">The real bottleneck: coordination and decisions<a href="https://alvarolorente.dev/blog/2026/03/25/the-real-bottleneck-in-engineering-why-ai-didnt-fix-what-slows-teams-down#the-real-bottleneck-coordination-and-decisions" class="hash-link" aria-label="Direct link to The real bottleneck: coordination and decisions" title="Direct link to The real bottleneck: coordination and decisions" translate="no">​</a></h2>
 <p>Modern engineering is not a pipeline—it is a network.</p>
@@ -574,7 +574,7 @@
 <p>In practice, this means that a growing portion of engineering time is not spent building but navigating communication: meetings, alignment discussions, clarifications, and trade-offs.</p>
 <p>This is where the real work happens.</p>
 <p>Deciding what to build. Aligning on why it matters. Understanding how it fits into an evolving system. And validating it affects the correct metrics in the expected way.</p>
-<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/77402805-ae57-4e5f-82c5-6f1dc5411864_1536x1024.png" alt="" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/77402805-ae57-4e5f-82c5-6f1dc5411864_1536x1024.png" alt="AI accelerates execution but exposes hidden coordination complexity" class="img_ev3q"></p>
 <p>These activities are inherently slower, more ambiguous, and harder to optimize than execution. And unlike code generation, they cannot be easily automated.</p>
 <p>This has always been and will continue to be a bottleneck, as it’s a system absorption problem and not a procedural optimization.</p>
 <hr>
@@ -605,7 +605,7 @@
 <p>The result is predictable.</p>
 <p>Teams hit the coordination bottleneck more frequently. More work enters the system than the organization can properly process. Context switching increases. Alignment becomes fragmented. And decision quality begins to degrade under pressure.</p>
 <p>We did not remove complexity. We increased the rate at which we collide with it.</p>
-<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/3ceeb00e-a558-4900-807a-e4868780a4b4_1536x1024.png" alt="" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/3ceeb00e-a558-4900-807a-e4868780a4b4_1536x1024.png" alt="Cognitive bottleneck now limiting engineering performance in AI age" class="img_ev3q"></p>
 <hr>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="conclusion-the-constraint-is-now-cognitive-not-technical">Conclusion: The constraint is now cognitive, not technical<a href="https://alvarolorente.dev/blog/2026/03/25/the-real-bottleneck-in-engineering-why-ai-didnt-fix-what-slows-teams-down#conclusion-the-constraint-is-now-cognitive-not-technical" class="hash-link" aria-label="Direct link to Conclusion: The constraint is now cognitive, not technical" title="Direct link to Conclusion: The constraint is now cognitive, not technical" translate="no">​</a></h2>
 <p>For years, we thought the limiting factor in engineering was only technical.</p>
@@ -628,7 +628,7 @@
             <description><![CDATA[Two weeks ago, I built an MVP for StrengthsOS in under 12 days. At the same time, I started rewriting Octolaunch from scratch. That’s not the interesting part.]]></description>
             <content:encoded><![CDATA[<p>Two weeks ago, I built an MVP for <a href="http://strengthsos.com/" target="_blank" rel="noopener noreferrer" class="">StrengthsOS</a> in under 12 days. At the same time, I started rewriting <a href="https://octolaunch.com/" target="_blank" rel="noopener noreferrer" class="">Octolaunch</a> from scratch. That’s not the interesting part.</p>
 <p>The interesting part is that this is becoming normal.</p>
-<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/7ced8e12-6d3c-4e5e-8e87-7e441bfeb383_480x432.png" alt="" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/7ced8e12-6d3c-4e5e-8e87-7e441bfeb383_480x432.png" alt="AI acceleration mismatch between output speed and outcome improvement" class="img_ev3q"></p>
 <p>What used to feel like exceptional productivity is quickly turning into baseline. Features that once required days of focused work now emerge in hours. Entire systems can be scaffolded in a single sitting. The barrier between idea and implementation has almost disappeared.</p>
 <p>And if you look at most engineering teams right now, the signals all point in the same direction: more output, faster cycles, and shorter time to code.</p>
 <p>So why does it feel like nothing is actually improving?</p>
@@ -638,7 +638,7 @@
 <p>Developers are shipping more code than ever before. Pull requests are increasing, backlogs are moving faster, and the visible indicators of productivity are trending up. On dashboards and status reports, it looks like acceleration.</p>
 <p>But when you step back and look at the system as a whole, the picture becomes less convincing.</p>
 <p>Quality is not improving in a meaningful way. Delivery performance remains largely unchanged. In many cases, rework is quietly increasing. The system absorbs more activity, but it does not translate into better outcomes.</p>
-<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/0d196d12-f8fc-4ab0-9896-d9dd79d402c3_735x389.png" alt="" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/0d196d12-f8fc-4ab0-9896-d9dd79d402c3_735x389.png" alt="Output exploding while outcomes remain flat in AI-driven teams" class="img_ev3q"></p>
 <p>This is not just anecdotal. Early data is starting to surface a contradiction. Some studies show developers <em>feel</em> significantly more productive—reporting perceived speed increases of over 50% when using AI tooling. At the same time, controlled experiments on complex tasks show performance can actually degrade, particularly for experienced engineers. And broader delivery metrics show little to no improvement in throughput, with stability in some cases declining.</p>
 <p>At the individual level, everything feels faster. At the system level, nothing really moves.</p>
 <p>That is the paradox.</p>
@@ -653,7 +653,7 @@
 <p>Research consistently shows that as organizations scale, these coordination costs grow faster than the teams themselves. More stakeholders, more dependencies, more alignment overhead. In many environments, the majority of time is already consumed by communication, meetings, and context switching rather than actual building.</p>
 <p>AI does not remove this complexity.</p>
 <p>It simply makes it easier to execute whatever decision has already been made.</p>
-<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/35a44842-d452-4de5-b132-b08e04a1dd15_681x588.png" alt="" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/35a44842-d452-4de5-b132-b08e04a1dd15_681x588.png" alt="Execution optimized by AI but decision-making remains constrained" class="img_ev3q"></p>
 <hr>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="you-can-now-scale-bad-decisions">You can now scale bad decisions<a href="https://alvarolorente.dev/blog/2026/03/18/the-illusion-of-speed-why-ai-is-making-teams-fasterbut-not-better#you-can-now-scale-bad-decisions" class="hash-link" aria-label="Direct link to You can now scale bad decisions" title="Direct link to You can now scale bad decisions" translate="no">​</a></h2>
 <p>This is where the dynamic becomes dangerous.</p>
@@ -661,7 +661,7 @@
 <p>That constraint is now gone. Execution is nearly instantaneous, but validation is not. Customer feedback still takes time. Business impact still takes time. Understanding whether something actually works still takes time.</p>
 <p>So we’ve created a mismatch. Decisions are made quickly. They are implemented even faster. But they are validated at the same speed as before.</p>
 <p>That means teams are now chaining decisions that haven’t proven themselves yet. A feature is extended before its value is clear. A direction is reinforced before it’s tested. An assumption becomes a roadmap before it becomes evidence.</p>
-<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/1e587833-e700-4ef8-9de6-8704edb91375_1536x1024.png" alt="" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/1e587833-e700-4ef8-9de6-8704edb91375_1536x1024.png" alt="AI execution outpacing the slower validation and learning loop" class="img_ev3q"></p>
 <p>What used to be a sequence of build → learn → adjust is quietly turning into build → build → build. We are not just scaling bad decisions. We are scaling <strong>unvalidated ones</strong>. And the more we accelerate execution without closing that validation loop, the weaker the connection becomes between what we build and the value it creates.</p>
 <p>More output doesn’t mean more impact. It just means we are moving faster on assumptions we haven’t yet earned the right to trust.</p>
 <hr>
@@ -673,7 +673,14 @@
 <p>That is now the limiting factor.</p>
 <p>And most teams are still optimizing for the layer that stopped being the constraint.</p>
 <hr>
-<p>In the next issue, I’ll break down where the real bottleneck is hiding—and why most organizations are not designed to handle it.</p>]]></content:encoded>
+<p>In the next issue, I’ll break down where the real bottleneck is hiding—and why most organizations are not designed to handle it.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="related-reading">Related reading<a href="https://alvarolorente.dev/blog/2026/03/18/the-illusion-of-speed-why-ai-is-making-teams-fasterbut-not-better#related-reading" class="hash-link" aria-label="Direct link to Related reading" title="Direct link to Related reading" translate="no">​</a></h2>
+<ul>
+<li class=""><a class="" href="https://alvarolorente.dev/blog/2026/03/25/the-real-bottleneck-in-engineering-why-ai-didnt-fix-what-slows-teams-down">The real bottleneck in engineering after AI</a></li>
+<li class=""><a class="" href="https://alvarolorente.dev/blog/2026/04/01/engineering-after-ai-3-ways-to-fix-the-real-bottlenecks-in-modern-teams">Three ways to fix modern engineering bottlenecks</a></li>
+<li class=""><a class="" href="https://alvarolorente.dev/blog/2026/04/29/qa-engineering-won-the-war-why-ai-is-shifting-engineering-from-building-to-validation">Why QA engineering gains leverage in the AI era</a></li>
+</ul>
+<p>Learn how I help organizations improve engineering performance through my <a class="" href="https://alvarolorente.dev/services">services</a>.</p>]]></content:encoded>
             <category>ai</category>
             <category>productivity</category>
             <category>software</category>
@@ -691,7 +698,7 @@
 <p>At a certain stage of organizational growth, engineering leaders begin to notice a structural shift: the majority of their time is no longer invested in enabling value creation or shaping long-term direction. Instead, it is absorbed by coordination, documentation, reporting, and operational synchronization.</p>
 <p>This is the moment the process starts eating the day. The risk is not that the process exists. The risk is when the process begins to systematically displace strategic and value-generating work.</p>
 <p>The paradox is clear: process is introduced to support value creation, yet beyond a certain threshold, it competes with it.</p>
-<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/225eaa5e-9a9d-4a4c-853f-09eef91395d4_1024x1536.png" alt="" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/225eaa5e-9a9d-4a4c-853f-09eef91395d4_1024x1536.png" alt="Process overwhelming value work at organizational growth inflection point" class="img_ev3q"></p>
 <hr>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="governance-in-growing-environment-normally-becomes-self-reinforcing">Governance in Growing Environment Normally Becomes Self-Reinforcing<a href="https://alvarolorente.dev/blog/2026/03/04/the-moment-process-starts-eating-your-day#governance-in-growing-environment-normally-becomes-self-reinforcing" class="hash-link" aria-label="Direct link to Governance in Growing Environment Normally Becomes Self-Reinforcing" title="Direct link to Governance in Growing Environment Normally Becomes Self-Reinforcing" translate="no">​</a></h2>
 <p>As organizations grow, process layers are often added in response to past incidents or perceived risk. Rarely are they removed. Over time, leaders inherit overlapping rituals, redundant reporting, and duplicated reviews.</p>
@@ -741,7 +748,7 @@
 </li>
 </ul>
 <p>Both categories are necessary. However, only one category compounds long-term engineering capability.</p>
-<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/0130b8cd-55f0-4766-a81c-115a45745316_1536x1024.png" alt="" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/0130b8cd-55f0-4766-a81c-115a45745316_1536x1024.png" alt="Value work versus process work time allocation in leadership roles" class="img_ev3q"></p>
 <p>Beyond the time allocation, there is also a cognitive dimension to this problem. As value-oriented tasks require uninterrupted cognitive bandwidth. When leadership calendars are saturated with 30-minute blocks dedicated to reporting, coordination, and alignment, deep thinking becomes fragmented.</p>
 <p>The result is not immediate failure, but a slow erosion of strategic clarity:</p>
 <ul>
@@ -783,7 +790,7 @@
 <p>These investments may not generate immediate visibility, but they determine long-term competitiveness.</p>
 <p><strong><a href="https://cloud.google.com/devops" target="_blank" rel="noopener noreferrer" class="">DORA research</a></strong> demonstrates that elite-performing engineering organizations achieve both higher velocity and stronger stability. This dual capability is not accidental; it results from consistent investment in foundational engineering practices.</p>
 <p>If leadership capacity is absorbed entirely by governance management, the organization risks optimizing for short-term coordination while sacrificing long-term capability.</p>
-<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/1f1c5f3f-d222-4504-a210-19e5c4a3187d_1536x1024.png" alt="" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/1f1c5f3f-d222-4504-a210-19e5c4a3187d_1536x1024.png" alt="Strategic opportunity cost when process work consumes technical leadership time" class="img_ev3q"></p>
 <hr>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="restoring-balance-designing-for-strategic-capacity">Restoring Balance: Designing for Strategic Capacity<a href="https://alvarolorente.dev/blog/2026/03/04/the-moment-process-starts-eating-your-day#restoring-balance-designing-for-strategic-capacity" class="hash-link" aria-label="Direct link to Restoring Balance: Designing for Strategic Capacity" title="Direct link to Restoring Balance: Designing for Strategic Capacity" translate="no">​</a></h2>
 <p>The solution is not eliminating the process. Governance is necessary in complex systems. The objective is balance.</p>
@@ -831,7 +838,7 @@
 <p>Financial efficiency initiatives often depend on architectural optimization and automation.</p>
 </li>
 </ul>
-<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/72fe64c0-2ab0-4077-85eb-a01ff5d90b0c_1536x1024.png" alt="" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/72fe64c0-2ab0-4077-85eb-a01ff5d90b0c_1536x1024.png" alt="Engineering as organizational convergence layer and execution engine" class="img_ev3q"></p>
 <p>Cross-functional coordination has grown accordingly. A <strong><a href="https://hbr.org/2016/01/collaborative-overload" target="_blank" rel="noopener noreferrer" class="">Harvard Business Review analysis on collaboration overload</a></strong> by Rob Cross and colleagues found that time spent on collaborative work has increased dramatically over the past two decades, often consuming more than 50% of managers’ time. In environments where engineering sits at the center of execution, this coordination burden is amplified.</p>
 <p>The dependency of multiple functions on engineering does not inherently create dysfunction. However, it does create a system in which engineering leaders must continuously reconcile competing priorities within finite capacity constraints.</p>
 <hr>
@@ -859,7 +866,7 @@
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="finite-capacity-in-a-system-of-expanding-demand-and-its-cognitive-fallout">Finite Capacity in a System of Expanding Demand and its Cognitive Fallout<a href="https://alvarolorente.dev/blog/2026/02/25/when-you-realize-engineering-is-everyones-dependency#finite-capacity-in-a-system-of-expanding-demand-and-its-cognitive-fallout" class="hash-link" aria-label="Direct link to Finite Capacity in a System of Expanding Demand and its Cognitive Fallout" title="Direct link to Finite Capacity in a System of Expanding Demand and its Cognitive Fallout" translate="no">​</a></h2>
 <p>One of the defining characteristics of engineering dependency is simultaneous urgency. Growth initiatives, enterprise deals, compliance obligations, reliability improvements, and platform modernization all present as high priority.</p>
 <p>However, engineering throughput is bounded. The <strong>Theory of Constraints</strong>, introduced by Eliyahu Goldratt, provides a useful systems lens: in any production system, throughput is limited by its bottleneck. In software organizations, engineering frequently becomes that constraint.</p>
-<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/649f544d-ca87-45f1-b574-13fcbdd7bb31_1536x1024.png" alt="" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/649f544d-ca87-45f1-b574-13fcbdd7bb31_1536x1024.png" alt="Engineering as system bottleneck under theory of constraints" class="img_ev3q"></p>
 <p>Empirical research reinforces this. The <a href="https://cloud.google.com/devops" target="_blank" rel="noopener noreferrer" class="">DORA research</a> program highlights that elite-performing teams focus on improving flow efficiency and limiting work in progress rather than maximizing parallel initiatives. Organizations that attempt to advance too many simultaneous priorities experience degraded delivery performance.</p>
 <p>When engineering is everyone’s dependency, the leadership challenge shifts from evaluating importance to sequencing work deliberately.</p>
 <p>As dependency increases, so does coordination load. Research on <strong><a href="https://hbr.org/2016/01/collaborative-overload" target="_blank" rel="noopener noreferrer" class="">“collaboration overload”</a></strong> shows that high-performing individuals often become central nodes in communication networks, leading to disproportionate demand on their time.</p>
@@ -926,7 +933,7 @@
 </li>
 </ul>
 <p>And I found it hard to give recommendations while I was still inside the fog. It felt dishonest to write “how to lead clearly” when I was figuring it out myself. So I stopped.</p>
-<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/e656200b-1aac-4208-9926-8d31c4b859fd_1024x1536.png" alt="" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/e656200b-1aac-4208-9926-8d31c4b859fd_1024x1536.png" alt="Engineering tax concept representing hidden organizational cost" class="img_ev3q"></p>
 <p>Over this last year, something clicked. The problem wasn’t a lack of ideas. It was that I was trying to write about leadership as if it were clean and structured.</p>
 <p>It isn’t.</p>
 <p>Engineering leadership at scale is messy. It’s trade-offs. It’s governance creep. It’s explaining why output isn’t outcome. It’s protecting teams from becoming process administrators. It’s absorbing pressure so others can build.</p>
@@ -975,7 +982,7 @@
 <blockquote>
 <p><strong>Feedback</strong> occurs when outputs of a system are routed back as inputs as part of a chain of cause and effect that forms a circuit or loop. The system can then be said to <em>feed back</em> into itself.</p>
 </blockquote>
-<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/a2b982ea-1b47-4abe-a1b4-13528921cc89_1531x652.png" alt="" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/a2b982ea-1b47-4abe-a1b4-13528921cc89_1531x652.png" alt="Feedback definition showing outputs routed back as circular inputs" class="img_ev3q"></p>
 <p>This type of feedback requires an event to occur before it can become an input for future iterations. In human interactions, we typically think of <strong>Corrective feedback:</strong></p>
 <blockquote>
 <p>A practice that typically involves a learner receiving either formal or informal feedback on their understanding or performance on various tasks by an agent such as teacher, employer or peer(s). To successfully deliver corrective feedback, it needs to be non-evaluative, supportive, timely, and specific</p>
@@ -988,9 +995,9 @@
 <p>— Karl Johan Åström and Richard M.Murray, <em>Feedback Systems: An Introduction for Scientists and Engineers</em></p>
 </blockquote>
 <p>We can represent this with the next graphic:</p>
-<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/04e04160-c543-462f-b2a5-e6a91a70bc46_1810x552.png" alt="" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/04e04160-c543-462f-b2a5-e6a91a70bc46_1810x552.png" alt="Circular feedback system showing interaction between two parties" class="img_ev3q"></p>
 <p>This dynamic often leads to a situation where the feedback provider includes their personal views on the receiver's output, introducing bias or prejudice into the system. As a result, what should be feedback becomes merely an opinion or judgment.</p>
-<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/243d0c34-cf10-4f60-ab40-97725a356ce4_1795x556.png" alt="" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/243d0c34-cf10-4f60-ab40-97725a356ce4_1795x556.png" alt="Observer bias in feedback contaminating pure feedback with opinion" class="img_ev3q"></p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-difference-between-feedback-judgment--opinion">The difference between Feedback, Judgment &amp; Opinion<a href="https://alvarolorente.dev/blog/2025/05/13/are-we-providing-feedback-or-something-else#the-difference-between-feedback-judgment--opinion" class="hash-link" aria-label="Direct link to The difference between Feedback, Judgment &amp; Opinion" title="Direct link to The difference between Feedback, Judgment &amp; Opinion" translate="no">​</a></h2>
 <p>While we've defined feedback, there are related concepts that often get confused with it:</p>
 <ol>
@@ -1004,7 +1011,7 @@
 <p>As humans, we find it challenging to provide pure feedback, since we're not machines. Our own biases and prejudices influence our input. When communicating, we tend to over-explain and insert our views about what the next iteration should be.</p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="ensure-feedback-remains-untainted-by-the-observers-perspective">Ensure feedback remains untainted by the observer's perspective<a href="https://alvarolorente.dev/blog/2025/05/13/are-we-providing-feedback-or-something-else#ensure-feedback-remains-untainted-by-the-observers-perspective" class="hash-link" aria-label="Direct link to Ensure feedback remains untainted by the observer's perspective" title="Direct link to Ensure feedback remains untainted by the observer's perspective" translate="no">​</a></h2>
 <p>Like many complex problems, the solution lies in simplification. Here, we can remove layers of bias and prejudice by leveraging the recipient's capacity for self-reflection.</p>
-<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/9114a40f-94ae-4a4a-8697-fef14d11af4a_1487x672.png" alt="" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/9114a40f-94ae-4a4a-8697-fef14d11af4a_1487x672.png" alt="Reflection-based feedback that separates observation from judgment" class="img_ev3q"></p>
 <p>Why this approach avoids bias:</p>
 <ul>
 <li class="">
@@ -1068,7 +1075,7 @@
 <p><strong>Customer-Centric Approach:</strong> By aligning development and operations goals, teams can better understand and meet the needs of end-users, resulting in higher customer satisfaction.</p>
 </li>
 </ul>
-<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/bdbf3ca6-a5d8-4c6f-967f-fe46640e59e2_1000x1000.png" alt="" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/bdbf3ca6-a5d8-4c6f-967f-fe46640e59e2_1000x1000.png" alt="DevOps culture vs Dev vs Ops organizational transformation" class="img_ev3q"></p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-birth-of-the-platform-team">The Birth of the Platform Team<a href="https://alvarolorente.dev/blog/2025/05/08/transforming-systems-operations-teams-into-a-unified-platform-team#the-birth-of-the-platform-team" class="hash-link" aria-label="Direct link to The Birth of the Platform Team" title="Direct link to The Birth of the Platform Team" translate="no">​</a></h2>
 <p>A platform team acts as a service provider for all internal stream-aligned teams, offering essential tools, infrastructure, and support to streamline their work and enhance productivity. We could start enumerating systems and solutions that a platform team can own. But the reality is that would be the same as creating a product without doing any research on your clients.</p>
 <p>To truly drive value within an organization, a platform team must deeply understand and address the needs of stream-aligned teams. These teams are directly responsible for delivering products and services to customers, and their success hinges on the support and resources provided by the platform team. Here’s how a platform team can effectively drive value by focusing on the needs of stream-aligned teams:</p>
@@ -1098,7 +1105,7 @@
 <p><strong>Reliability:</strong> A dedicated platform team ensures that the infrastructure is reliable and secure, minimizing downtime and enhancing the overall stability of applications.</p>
 </li>
 </ul>
-<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/2608ec91-e93d-4b9d-993c-1711f92f9a4a_1000x1000.png" alt="" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/2608ec91-e93d-4b9d-993c-1711f92f9a4a_1000x1000.png" alt="Platform team providing abstractions reducing cognitive load for stream teams" class="img_ev3q"></p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="closing-thoughts">Closing thoughts<a href="https://alvarolorente.dev/blog/2025/05/08/transforming-systems-operations-teams-into-a-unified-platform-team#closing-thoughts" class="hash-link" aria-label="Direct link to Closing thoughts" title="Direct link to Closing thoughts" translate="no">​</a></h2>
 <p>By fostering a culture of ownership and collaboration, and by providing abstractions that simplify operations, the platform team can significantly reduce the cognitive load on stream-aligned teams. This transformation brings enhanced collaboration, improved efficiency, greater innovation, and a customer-centric approach, ultimately driving the success of the organization.</p>
 <p>As we continue to evolve, the key to driving value lies in deeply understanding and addressing the needs of stream-aligned teams. Through active engagement, continuous improvement, metrics tracking, and empowerment, the platform team can ensure that stream-aligned teams are equipped to deliver exceptional products and services to our customers. This strategy not only centralizes infrastructure management and standardizes tools but also ensures reliability and consistency across the organization, paving the way for sustained growth and success.</p>]]></content:encoded>
@@ -1111,7 +1118,7 @@
             <pubDate>Mon, 28 Apr 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[As someone who has spent years navigating the complexities of engineering leadership, I can tell you that transparency is one of the most critical elements...]]></description>
             <content:encoded><![CDATA[<p>As someone who has spent years navigating the complexities of engineering leadership, I can tell you that transparency is one of the most critical elements of effective leadership. If you're aspiring to take on a leadership role, understanding the importance of transparency and how it contributes to a healthy chain of command is essential.</p>
-<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/00100645-f92a-437c-8197-7e45b8753a18_2000x2000.png" alt="" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/00100645-f92a-437c-8197-7e45b8753a18_2000x2000.png" alt="Transparency in leadership concept visual representation" class="img_ev3q"></p>
 <p>Leads Horizons is a reader-supported publication. To receive new posts and support my work, consider becoming a free or paid subscriber.</p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="why-transparency-matters"><strong>Why Transparency Matters</strong><a href="https://alvarolorente.dev/blog/2025/04/28/the-role-of-transparency-in-leadership#why-transparency-matters" class="hash-link" aria-label="Direct link to why-transparency-matters" title="Direct link to why-transparency-matters" translate="no">​</a></h2>
 <p>Transparency in leadership is about being open, honest, and straightforward with your team. It involves sharing information, explaining decisions, and being clear about expectations and goals. This openness builds trust, fosters a culture of accountability, and encourages open communication.</p>
@@ -1135,7 +1142,7 @@
 <p>When transparency is lacking, it can lead to misunderstandings, mistrust, and a breakdown in communication. Team members may feel left out of the loop, leading to disengagement and decreased morale. On the other hand, a transparent chain of command fosters a sense of unity and collaboration, as everyone is aware of their roles and how they contribute to the organization's success.</p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-importance-of-avoiding-secrecy-in-strategic-decisions"><strong>The Importance of Avoiding Secrecy in Strategic Decisions</strong><a href="https://alvarolorente.dev/blog/2025/04/28/the-role-of-transparency-in-leadership#the-importance-of-avoiding-secrecy-in-strategic-decisions" class="hash-link" aria-label="Direct link to the-importance-of-avoiding-secrecy-in-strategic-decisions" title="Direct link to the-importance-of-avoiding-secrecy-in-strategic-decisions" translate="no">​</a></h2>
 <p>While there are instances where strategic secrecy is necessary, it's equally important to recognize the potential downsides of keeping strategic decisions hidden from your team. Transparency in strategic decision-making can significantly enhance trust, engagement, and overall organizational performance.</p>
-<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/e84d664e-2c2f-45ce-af76-02e71cff9a37_2000x2000.png" alt="" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/e84d664e-2c2f-45ce-af76-02e71cff9a37_2000x2000.png" alt="Strategic decision transparency avoiding secrecy benefits" class="img_ev3q"></p>
 <p>Here’s why avoiding secrecy in strategic decisions is crucial:</p>
 <ul>
 <li class="">
@@ -1161,7 +1168,7 @@
             <description><![CDATA[Dear readers, I am back. It has been a few “interesting” months in my life that have made me reflect a lot on some topics that before I thought were...]]></description>
             <content:encoded><![CDATA[<p>Dear readers, I am back. It has been a few “interesting” months in my life that have made me reflect a lot on some topics that before I thought were trivial, and one-sided. I will try to share some thoughts over the next few posts. So let's start with a subject that is really fresh in my mind, as it's what has been affecting me over the last few months.</p>
 <p>To the question “During your career, did to pass a Job probation period?” the most common answer will be “Yes”. Traditionally, it is viewed as a tool for employers to evaluate potential hires, nevertheless it's crucial to recognize that these periods serve a dual purpose. They are, in fact, a two-way street that benefits both employers and employees alike.</p>
-<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/03da3cea-93f6-4d53-9fe0-0f4641af5c91_1080x1080.jpeg" alt="" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/03da3cea-93f6-4d53-9fe0-0f4641af5c91_1080x1080.jpeg" alt="Probation period as two-way evaluation street symbol" class="img_ev3q"></p>
 <p>Leads Horizons is a reader-supported publication. To receive new posts and support my work, consider becoming a free or paid subscriber.</p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-is-in-for-us">What is in for Us?<a href="https://alvarolorente.dev/blog/2024/09/26/job-probation-period-a-two-way-street-for-success#what-is-in-for-us" class="hash-link" aria-label="Direct link to What is in for Us?" title="Direct link to What is in for Us?" translate="no">​</a></h2>
 <p>The probation period is an evaluation period, it can even be seen as an extension of the interview process, as you will never get to know a person you will spend most of your awake workday day with.</p>
@@ -1238,7 +1245,7 @@
 <p><strong>Regular feedback sessions:</strong> as a manager, schedule frequent check-ins to address concerns and acknowledge progress.</p>
 </li>
 </ul>
-<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/81d4a0d9-3506-4da3-a8bd-0b8af0fcd72e_1080x1080.jpeg" alt="" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/81d4a0d9-3506-4da3-a8bd-0b8af0fcd72e_1080x1080.jpeg" alt="Onboarding plan structure showing buddy and mentor pairing" class="img_ev3q"></p>
 <p>A well-structured onboarding plan helps new employees quickly integrate into their roles and the organization, reducing the learning curve and increasing productivity during the probation period.</p>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="30-60-90-plan">30-60-90 Plan<a href="https://alvarolorente.dev/blog/2024/09/26/job-probation-period-a-two-way-street-for-success#30-60-90-plan" class="hash-link" aria-label="Direct link to 30-60-90 Plan" title="Direct link to 30-60-90 Plan" translate="no">​</a></h3>
 <p>A 30-60-90 plan is a strategic framework used for onboarding new employees or setting goals for the first 90 days in a new role. It breaks down objectives and expectations into three distinct periods:</p>
@@ -1253,7 +1260,7 @@
 <p><strong>90 days:</strong> Fully integrate into the role, start driving results, and propose long-term strategies or improvements.</p>
 </li>
 </ul>
-<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/8b614285-73a1-4d18-bf6f-980f0152cc1d_1080x1080.jpeg" alt="" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/8b614285-73a1-4d18-bf6f-980f0152cc1d_1080x1080.jpeg" alt="30-60-90 day plan roadmap for new employee integration milestones" class="img_ev3q"></p>
 <p>This plan helps structure the transition period, ensuring clear expectations and measurable progress for both the employee and the employer during the probation period, with a framework that can help focus the feedback and</p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="evaluation-of-the-outcome-of-a-probation-period">Evaluation of the outcome of a probation period<a href="https://alvarolorente.dev/blog/2024/09/26/job-probation-period-a-two-way-street-for-success#evaluation-of-the-outcome-of-a-probation-period" class="hash-link" aria-label="Direct link to Evaluation of the outcome of a probation period" title="Direct link to Evaluation of the outcome of a probation period" translate="no">​</a></h2>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="pass">Pass<a href="https://alvarolorente.dev/blog/2024/09/26/job-probation-period-a-two-way-street-for-success#pass" class="hash-link" aria-label="Direct link to Pass" title="Direct link to Pass" translate="no">​</a></h3>
@@ -1267,7 +1274,7 @@
 <p>When an employee decides not to continue after the probation period, it's equally important to handle the situation professionally.</p>
 <p>The employee should provide honest feedback about their experience, highlighting any misalignment or concerns that led to their decision. This feedback can be valuable for the employer to improve their onboarding process or workplace environment.</p>
 <p>The employee should also ensure they fulfill any contractual obligations, such as providing proper notice.</p>
-<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/9cf02d48-79e4-4b70-a97a-1e6615ab30fc_1080x1080.jpeg" alt="" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/9cf02d48-79e4-4b70-a97a-1e6615ab30fc_1080x1080.jpeg" alt="Celebrating successful probation period completion milestone" class="img_ev3q"></p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="conclusion">Conclusion<a href="https://alvarolorente.dev/blog/2024/09/26/job-probation-period-a-two-way-street-for-success#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion" translate="no">​</a></h2>
 <p>Job probation periods are an opportunity for both parties to evaluate the potential for a long-term, mutually beneficial relationship. By approaching these periods with transparency, open communication, and a willingness to learn, both employers and employees can make informed decisions about their future together.</p>
 <p>This period should not be demonized, even if it ends in a “No Pass”, it should be taken as a good outcome as it's a relationship that would have most probably failed, or would create friction and other risks down the road when legal obligation from both sides are more complex. If you're the employee, remember this is not a failure. Your worth remains unchanged—it simply wasn't the right fit or timing. If you're the employer, don't be too hard on yourself. Not all relationships work out. The best approach is to move forward and end things on the best terms possible.</p>]]></content:encoded>
@@ -1293,7 +1300,7 @@
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-current-concept-of-technical-task">The Current Concept of Technical Task<a href="https://alvarolorente.dev/blog/2024/07/31/rethinking-technical-tasks-define-all-tasks-as-user-value#the-current-concept-of-technical-task" class="hash-link" aria-label="Direct link to The Current Concept of Technical Task" title="Direct link to The Current Concept of Technical Task" translate="no">​</a></h2>
 <p>Technical tasks are typically considered those that involve the underlying work on non-functional related endeavors. These can include activities like updating dependencies, improving performance, etc.</p>
 <p>While they may not always have a direct visible impact on the end user, In reality, almost every task a development team undertakes has some level of impact on the product. Even tasks perceived as purely technical, such as improving code quality or optimizing performance, ultimately contribute to a better user experience and product reliability.</p>
-<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/c0414364-e7a8-40cc-96bc-5efa20d80151_1080x1080.jpeg" alt="" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/c0414364-e7a8-40cc-96bc-5efa20d80151_1080x1080.jpeg" alt="Value calculation concept for evaluating technical task ROI" class="img_ev3q"></p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="understanding-the-net-value-of-tasks">Understanding the Net Value of Tasks<a href="https://alvarolorente.dev/blog/2024/07/31/rethinking-technical-tasks-define-all-tasks-as-user-value#understanding-the-net-value-of-tasks" class="hash-link" aria-label="Direct link to Understanding the Net Value of Tasks" title="Direct link to Understanding the Net Value of Tasks" translate="no">​</a></h2>
 <blockquote>
 <p>Any team effort needs to have a clear purpose, whether it's technical or product-related.</p>
@@ -1310,7 +1317,7 @@
 </ul>
 <p>It's normally simpler to calculate the expected value of functional tasks because their impact on user experience and business metrics is more direct and measurable. However, even technical tasks, when evaluated through this lens, can reveal significant contributions to the product's overall value.</p>
 <p>The benefit we will achieve from this approach is a more cohesive and efficient development process, where all tasks are recognized for their contribution to the product's success. This integrated approach to task management allows for more strategic prioritization. When all tasks are evaluated based on their potential impact on the product, teams can make more informed decisions about where to allocate their resources. This can result in more timely delivery of features and improvements, better risk management, and a more adaptable development process.</p>
-<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/9d28ed39-a436-42f3-b59f-eb0eafa539ef_1080x1080.jpeg" alt="" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/9d28ed39-a436-42f3-b59f-eb0eafa539ef_1080x1080.jpeg" alt="Example net value calculations comparing functional and non-functional tasks" class="img_ev3q"></p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="example-of-task-calculations">Example of Task Calculations<a href="https://alvarolorente.dev/blog/2024/07/31/rethinking-technical-tasks-define-all-tasks-as-user-value#example-of-task-calculations" class="hash-link" aria-label="Direct link to Example of Task Calculations" title="Direct link to Example of Task Calculations" translate="no">​</a></h2>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="functional-task-adding-a-new-feature">Functional Task: Adding a New Feature<a href="https://alvarolorente.dev/blog/2024/07/31/rethinking-technical-tasks-define-all-tasks-as-user-value#functional-task-adding-a-new-feature" class="hash-link" aria-label="Direct link to Functional Task: Adding a New Feature" title="Direct link to Functional Task: Adding a New Feature" translate="no">​</a></h3>
 <p><strong>Task</strong>: Implement a new user login feature.</p>
@@ -1493,13 +1500,13 @@
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="kingmans-formula">Kingman's Formula<a href="https://alvarolorente.dev/blog/2024/07/17/long-term-team-productivity#kingmans-formula" class="hash-link" aria-label="Direct link to Kingman's Formula" title="Direct link to Kingman's Formula" translate="no">​</a></h3>
 <p>Kingman's Formula, also known as the VUT equation, is a widely used approximation in queuing theory. It helps estimate the average waiting time in a queue. The formula is given by:</p>
 <p>Kingman's Formula highlights the impact of variability and utilization on waiting times. As utilization approaches 100%, waiting times increase dramatically, which is why it's crucial to avoid overloading systems.</p>
-<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/4fb72926-2d5a-4437-bc54-962a08c49f3e_941x287.png" alt="" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/4fb72926-2d5a-4437-bc54-962a08c49f3e_941x287.png" alt="Kingman's formula VUT equation for queueing theory waiting times" class="img_ev3q"></p>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="littles-law">Little's Law<a href="https://alvarolorente.dev/blog/2024/07/17/long-term-team-productivity#littles-law" class="hash-link" aria-label="Direct link to Little's Law" title="Direct link to Little's Law" translate="no">​</a></h3>
 <p>Little's Law is a fundamental theorem in queuing theory that relates the average number of items in a queue (L), the average arrival rate of items (λ), and the average time an item spends in the system (W). The law is expressed as:</p>
 <p>Little's Law is useful for understanding and managing queues in various contexts, including software development. It implies that to reduce the number of tasks in progress (L), you can either decrease the arrival rate of tasks (λ) or reduce the time tasks spend in the system (W). This principle supports the idea of not overloading development teams and allowing adequate time for tasks to be completed efficiently.</p>
 <p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/a92e7807-a3e3-4ded-8828-e3d3be32ac69_300x145.png" alt="Water Tank Littles Law" title="Water Tank Littles Law" class="img_ev3q"></p>
 <p>If we combine both formulas, we can have an obvious image of what happens to our system when a 100% utilization is reached and there is even the slightest amount of variability</p>
-<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/805947a1-258f-4e0d-823c-c53980810896_882x552.png" alt="" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://substack-post-media.s3.amazonaws.com/public/images/805947a1-258f-4e0d-823c-c53980810896_882x552.png" alt="System degradation chart showing waiting time at high utilization levels" class="img_ev3q"></p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="effects-of-100-long-term-utilization">Effects of +100% Long-Term Utilization<a href="https://alvarolorente.dev/blog/2024/07/17/long-term-team-productivity#effects-of-100-long-term-utilization" class="hash-link" aria-label="Direct link to Effects of +100% Long-Term Utilization" title="Direct link to Effects of +100% Long-Term Utilization" translate="no">​</a></h2>
 <p>Now that we have clarified, the math being our task management at work. Let’s discuss the effects of long term sustained high utilization. There are many systems that follow the previous principles, allowing us to observe the stress test effects on both human and non-human systems.</p>
 <p>For example, when a CPU or any other system is used at 100% for extended periods or overclocked beyond its standard limits, several adverse effects can occur:</p>

@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkalvarolorente_dev=globalThis.webpackChunkalvarolorente_dev||[]).push([[8947],{6600(e){e.exports=JSON.parse('{"authors":[{"name":"Alvaro Jose","title":"Fractional CTO & Founder","url":"https://github.com/alvarolorentedev","imageURL":"https://avatars.githubusercontent.com/u/3071208","key":"alvarolorentedev","page":null,"count":64}]}')}}]);
