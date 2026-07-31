@@ -10,7 +10,8 @@ tags:
   - software
 draft: false
 series: Engineering After AI
-canonical_url: https://theengineeringtax.com/p/engineering-after-ai-3-ways-to-fix
+canonical_url: 'https://alvarolorente.dev/blog/2026/04/01/engineering-after-ai-3-ways-to-fix-the-real-bottlenecks-in-modern-teams'
+source_url: 'https://theengineeringtax.com/p/engineering-after-ai-3-ways-to-fix'
 cover_image: https://substack-post-media.s3.amazonaws.com/public/images/f5dc4217-8412-4efb-94c4-3971034e8cf0_1536x1024.png
 ---
 
@@ -52,7 +53,7 @@ Improving this does not require more data, but better alignment between decision
 
 Every initiative should define, upfront, what change it expects to create—whether in user behavior, system performance, or business outcomes. Feedback mechanisms should be designed to observe that change as directly as possible. When that is not feasible, uncertainty should be made explicit rather than ignored.
 
-![](https://substack-post-media.s3.amazonaws.com/public/images/f5dc4217-8412-4efb-94c4-3971034e8cf0_1536x1024.png)
+![Learning velocity optimization connecting decisions to validation feedback](https://substack-post-media.s3.amazonaws.com/public/images/f5dc4217-8412-4efb-94c4-3971034e8cf0_1536x1024.png)
 
 Research on software delivery performance consistently shows that high-performing teams are defined not just by speed, but by how quickly they can detect and recover from mistakes.
 
@@ -80,7 +81,7 @@ This leads to very different design choices.
 
 Smaller batches, so uncertainty and decisions surface earlier instead of accumulating. Fewer parallel initiatives, so attention is not fragmented across competing priorities. Reduced handoffs, so context is preserved and rework minimized. Clear ownership, so work does not stall in ambiguity or shared responsibility.
 
-![](https://substack-post-media.s3.amazonaws.com/public/images/e8fee924-e2b0-42f6-9409-e3164f3a4bbb_1536x1024.png)
+![Flow efficiency through smaller batches reducing work-in-progress queues](https://substack-post-media.s3.amazonaws.com/public/images/e8fee924-e2b0-42f6-9409-e3164f3a4bbb_1536x1024.png)
 
 These are not optimizations of effort—they are optimizations of movement.
 
@@ -104,7 +105,7 @@ At that point, speed stops helping. You can still ship, but each change requires
 
 This is rarely framed as a consequence of saying “yes” too often, but that is exactly what it is.
 
-![](https://substack-post-media.s3.amazonaws.com/public/images/5d86a05e-72f0-41a4-94d2-2cf668aa730c_1536x1024.png)
+![Saying no institutionalizing against unlimited feature and complexity growth](https://substack-post-media.s3.amazonaws.com/public/images/5d86a05e-72f0-41a4-94d2-2cf668aa730c_1536x1024.png)
 
 In most organizations, saying no is informal. It depends on individuals, moments, and negotiation. That makes it inconsistent. Some things are rejected, many are not, and very little is ever removed.
 

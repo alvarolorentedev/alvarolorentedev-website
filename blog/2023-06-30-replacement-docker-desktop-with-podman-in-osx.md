@@ -10,6 +10,7 @@ description: a how to tutorial migrate from docker desktop to podman in OSX
 draft: false
 cover_image: https://raw.githubusercontent.com/alvarolorentedev/website/main/static/img/blog/docker-desktop.png
 series: OSX How To...
+canonical_url: 'https://alvarolorente.dev/blog/2023/06/30/replacement-docker-desktop-with-podman-in-osx'
 ---
 
 

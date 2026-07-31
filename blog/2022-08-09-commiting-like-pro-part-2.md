@@ -10,7 +10,7 @@ tags:
 - productivity
 draft: false
 series: commiting Like a Pro in NodeJs
-canonical_url: https://www.alvarolorente.dev/blog/2022/08/09/commiting-like-pro-part-2
+canonical_url: 'https://alvarolorente.dev/blog/2022/08/09/commiting-like-pro-part-2'
 cover_image: https://commitizen-tools.github.io/commitizen/images/demo.gif
 ---
 
@@ -39,7 +39,7 @@ This tool purpose is to define a standard way of committing rules and communicat
 
 [Commitizen](https://github.com/commitizen) will prompt you a series of questions that will generate the final commit message. It has multiple adapters, in my case I prefer to be controlling the questions, so I use [cz-format-extension](https://github.com/tyankatsu0105/cz-format-extension "tyankatsu0105/cz-format-extension").
 
-![](https://commitizen-tools.github.io/commitizen/images/demo.gif)
+![Commitizen CLI prompt demonstration for commit message generation](https://commitizen-tools.github.io/commitizen/images/demo.gif)
 
 You can add commitizen to your project with the next command line
 

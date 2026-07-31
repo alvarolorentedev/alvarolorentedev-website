@@ -10,7 +10,7 @@ tags:
 - programming
 - architecture
 series: The journey from the monolith to microservices
-canonical_url: https://www.alvarolorente.dev/blog/2022/09/04/common-mistakes-when-splitting-the-monolith
+canonical_url: 'https://alvarolorente.dev/blog/2022/09/04/common-mistakes-when-splitting-the-monolith'
 cover_image: https://user-images.githubusercontent.com/3071208/188307797-7c30c8cb-bff7-4755-822b-7cf469cba372.JPG
 ---
 
@@ -30,7 +30,7 @@ Nevertheless, it tends to outgrow itself and become more a pain than a solution.
 
 Due to these pains, microservices were created. To give team/domain independence to create focused solutions on a business that has already been validated.
 
-![](https://www.alvarolorente.dev/img/blog/monolith.JPG)
+![Traditional monolithic architecture structure](https://www.alvarolorente.dev/img/blog/monolith.JPG)
 
 ## The Microservices
 
@@ -61,7 +61,7 @@ Even if we think this are 'independent' services, synchronous communication can 
 * Slow services are forced to scale by faster services requirements.
 * There is additional latency on the network calls.
 
-![](https://microlithalternatives.kanekotic.com/images/microliths.jpg)
+![Microlith architecture demonstrating tightly coupled microservices](https://microlithalternatives.kanekotic.com/images/microliths.jpg)
 
 ### What got lost in translation?
 
@@ -95,7 +95,7 @@ If we have well-defined contracts in between our pieces, we don't need to finish
 ## Conclusion and follow-ups
 
 Are we doomed?  
-![](https://microlithalternatives.kanekotic.com/images/timetopanic.jpg)
+![Panic response to cascading failures in microlith systems](https://microlithalternatives.kanekotic.com/images/timetopanic.jpg)
 
 The answer is no, we are not doomed! We can design our services with the correct division using some DDD tooling and also use the correct tools to decouple our microservices.  
 Let's talk about this on the next chapters of this series.

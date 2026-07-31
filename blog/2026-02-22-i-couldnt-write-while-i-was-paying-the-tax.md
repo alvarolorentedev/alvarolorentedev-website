@@ -10,7 +10,8 @@ tags:
 - developer
 draft: false
 series: ''
-canonical_url: https://theengineeringtax.com/p/i-couldnt-write-while-i-was-paying
+canonical_url: 'https://alvarolorente.dev/blog/2026/02/22/i-couldnt-write-while-i-was-paying-the-tax'
+source_url: 'https://theengineeringtax.com/p/i-couldnt-write-while-i-was-paying'
 cover_image: https://substack-post-media.s3.amazonaws.com/public/images/e656200b-1aac-4208-9926-8d31c4b859fd_1024x1536.png
 ---
 
@@ -30,7 +31,7 @@ I was navigating the same things I was trying to write about:
 
 And I found it hard to give recommendations while I was still inside the fog. It felt dishonest to write “how to lead clearly” when I was figuring it out myself. So I stopped.
 
-![](https://substack-post-media.s3.amazonaws.com/public/images/e656200b-1aac-4208-9926-8d31c4b859fd_1024x1536.png)
+![Engineering tax concept representing hidden organizational cost](https://substack-post-media.s3.amazonaws.com/public/images/e656200b-1aac-4208-9926-8d31c4b859fd_1024x1536.png)
 
 Over this last year, something clicked. The problem wasn’t a lack of ideas. It was that I was trying to write about leadership as if it were clean and structured.
 

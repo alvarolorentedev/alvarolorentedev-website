@@ -19,6 +19,7 @@ export const SocialLinks: FunctionComponent<SocialLinksProps> = ({ data }) => {
       <a
         href={url}
         target="_blank"
+        rel="noopener noreferrer"
         className={clsx("button button--outline button--primary", styles.btn)}
       >
         <span className={styles.btnIcon}>{svg}</span>

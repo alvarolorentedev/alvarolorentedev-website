@@ -39,6 +39,7 @@ export const Project: FunctionComponent<ProjectData> = ({
           <a
             href={url}
             target="_blank"
+            rel="noopener noreferrer"
             className="button button--primary button--outline"
           >
             <span className="button__icon">

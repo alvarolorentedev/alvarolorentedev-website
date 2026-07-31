@@ -10,7 +10,7 @@ tags:
   - programming
   - productivity
   - motivation
-canonical_url: https://www.alvarolorente.dev/blog/2023-01-26-psycological-safety-in-software-developmente
+canonical_url: 'https://alvarolorente.dev/blog/2023/01/26/psycological-safety-in-software-developmente'
 cover_image: https://raw.githubusercontent.com/alvarolorentedev/website/main/static/img/blog/unnamed-1.jpg
 series: What makes high-performing teams
 ---

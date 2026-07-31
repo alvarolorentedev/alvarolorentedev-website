@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "@docusaurus/Head";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import { AboutMe } from "../components/homepage/AboutMe";
@@ -49,7 +50,7 @@ const socialLinks: SocialLinkData[] = [
     svg: (
       <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
         <title>Substack</title>
-        <path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"/>
+        <path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z" />
       </svg>
     ),
   },
@@ -67,16 +68,53 @@ const socialLinks: SocialLinkData[] = [
 
 export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
+  const personStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "@id": `${siteConfig.url}/#person`,
+    name: "Alvaro Lorente",
+    url: siteConfig.url,
+    image: `${siteConfig.url}/img/logo-small.png`,
+    jobTitle: "Fractional CTO and engineering leadership advisor",
+    address: {
+      "@type": "PostalAddress",
+      addressCountry: "ES",
+    },
+    sameAs: [
+      "https://github.com/alvarolorentedev",
+      "https://www.linkedin.com/in/alvarolorentedev",
+      "https://x.com/lorentedev",
+      "https://theengineeringtax.com/",
+      "https://dev.to/alvarolorentedev",
+    ],
+    knowsAbout: [
+      "Engineering strategy",
+      "Software architecture",
+      "Engineering leadership",
+      "Platform engineering",
+      "Software delivery",
+    ],
+  };
+
   return (
     <Layout
       title="Fractional CTO and engineering strategy advisor"
       description={siteConfig.tagline}
     >
+      <Head>
+        <script type="application/ld+json">
+          {JSON.stringify(personStructuredData)}
+        </script>
+      </Head>
       <Hero />
       <main>
         <div className="container padding-vert">
           <Highlights />
-          <AboutMe avatar={avatar} descriptionComponent={<AboutMeDesc />} />
+          <AboutMe
+            avatar={avatar}
+            avatarAlt="Alvaro Lorente, fractional CTO and engineering advisor"
+            descriptionComponent={<AboutMeDesc />}
+          />
           <SocialLinks data={socialLinks} />
         </div>
       </main>

@@ -1,7 +1,6 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
-
-// eslint-disable-next-line @typescript-eslint/no-var-requires
+// eslint-disable-next-line @typescript-eslint/no-require-imports
 const { themes } = require("prism-react-renderer");
 const lightCodeTheme = themes.github;
 const darkCodeTheme = themes.dracula;
@@ -15,6 +14,29 @@ const config = {
   baseUrl: "/",
   onBrokenLinks: "throw",
   favicon: "img/favicon.ico",
+  headTags: [
+    {
+      tagName: "link",
+      attributes: {
+        rel: "preconnect",
+        href: "https://fonts.googleapis.com",
+      },
+    },
+    {
+      tagName: "link",
+      attributes: {
+        rel: "preconnect",
+        href: "https://fonts.gstatic.com",
+        crossOrigin: "anonymous",
+      },
+    },
+  ],
+  stylesheets: [
+    {
+      href: "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap",
+      type: "text/css",
+    },
+  ],
   markdown: {
     hooks: {
       onBrokenMarkdownLinks: "warn",
@@ -47,7 +69,7 @@ const config = {
         docs: false,
         blog: {
           postsPerPage: 10,
-          blogSidebarCount: 'ALL',
+          blogSidebarCount: "ALL",
           showReadingTime: true,
           editUrl: "https://github.com/alvarolorentedev/website/tree/main/",
           feedOptions: {
@@ -79,7 +101,15 @@ const config = {
         },
         {
           name: "twitter:card",
-          content: "summary",
+          content: "summary_large_image",
+        },
+        {
+          name: "twitter:creator",
+          content: "@lorentedev",
+        },
+        {
+          name: "twitter:site",
+          content: "@lorentedev",
         },
       ],
       colorMode: {

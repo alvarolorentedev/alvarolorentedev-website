@@ -11,7 +11,7 @@ tags:
 - devops
 - productivity
 series: Accelerate Continious Integration & Delivery Practices
-canonical_url: https://www.alvarolorente.dev/blog/2022/09/24/devilery-acceleration-intro
+canonical_url: 'https://alvarolorente.dev/blog/2022/09/24/devilery-acceleration-intro'
 cover_image: https://www.alvarolorente.dev/img/blog/key_metrics.png
 ---
 
@@ -27,7 +27,7 @@ The answer is no, most of the thing you will see on this series comes from pract
 
 A few years ago, I read the book Accelerate that is derived of the analysis of the state of DevOps report that happens in a regular basis.
 
-![](https://www.alvarolorente.dev/img/blog/accelerate.jpg)
+![Accelerate book cover by Nicole Forsgren, Jez Humble, and Gene Kim](https://www.alvarolorente.dev/img/blog/accelerate.jpg)
 
 The book does not speak only about technology but also speaks about communication, organization, etc. And how this affects effectiveness in teams & companies. I recommend reading the entire book.
 
@@ -35,7 +35,7 @@ The book does not speak only about technology but also speaks about communicatio
 
 Nevertheless, most of the people resume this book (erroneously) in the next table.
 
-![](https://www.alvarolorente.dev/img/blog/key_metrics.png)
+![DORA four key metrics comparison chart for team performance classification](https://www.alvarolorente.dev/img/blog/key_metrics.png)
 
 It does a comparison on a what are called the 4 key metrics, and provide a classification of performance (teams & companies, since 2017 this classification has evolved).
 
@@ -59,8 +59,17 @@ The intent of this series is to share the Extreme programming practices that we 
 
 As this twitter thread shows, this is not one size fits all, the challenges of a team are not the challenges of another one.  There is no silver bullet or common root cause to the issue, and each team should use this metrics to track improvements in an unbiased way. For this, the 4 key metrics do not mean anything at company level and should not be used to compare teams.
 
-![](https://www.alvarolorente.dev/img/blog/metrics_caution.png)
+![Caution symbol warning about team-level metric comparison pitfalls](https://www.alvarolorente.dev/img/blog/metrics_caution.png)
 
 ## Next
 
 In the following installments, I will walk backwards from having something in production and how to keep it running in a healthy manner stress-free up to coding techniques that enable Trunk-based development.
+
+## Related reading
+
+- [Delivery acceleration: DevOps attitudes](/blog/2022/09/25/delivery-acceleration-devops-attitudes)
+- [Delivery acceleration: testing and validation](/blog/2022/10/11/delivery-acceleration-testing-validation)
+- [TDD is not called TDT for a reason](/blog/2022/11/24/tdd-is-not-called-tdt-for-a-reason)
+- [Continuous Delivery Bootcamp](/blog/2023/04/13/continious-delivery-bootcamp-intro)
+
+See these delivery practices in context through my [projects](/projects).

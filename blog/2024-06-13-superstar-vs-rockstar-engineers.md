@@ -7,7 +7,8 @@ tags:
   - substack
 draft: false
 series: Engineering Strategy 101
-canonical_url: https://theengineeringtax.com/p/superstar-vs-rockstar-engineers
+canonical_url: 'https://alvarolorente.dev/blog/2024/06/13/superstar-vs-rockstar-engineers'
+source_url: 'https://theengineeringtax.com/p/superstar-vs-rockstar-engineers'
 cover_image:
 ---
 

@@ -12,7 +12,7 @@ tags:
 draft: false
 series: microservices a double-edged sword
 cover_image: https://www.alvarolorente.dev/img/blog/captura-de-pantalla-2022-12-19-a-las-17-16-39.png
-canonical_url: https://www.alvarolorente.dev/blog/2022/12/19/api-singleton
+canonical_url: 'https://alvarolorente.dev/blog/2022/12/19/api-singleton'
 ---
 
 The singleton pattern has got a bad reputation over the years due to be widely overused in the incorrect use cases. With the proliferation of microservices, **have APIs become the new singleton?**

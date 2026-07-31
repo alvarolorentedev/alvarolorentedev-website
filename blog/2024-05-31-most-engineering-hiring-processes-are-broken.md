@@ -7,7 +7,8 @@ tags:
   - substack
 draft: false
 series: Engineering Strategy 101
-canonical_url: https://theengineeringtax.com/p/most-engineering-hiring-process-are
+canonical_url: 'https://alvarolorente.dev/blog/2024/05/31/most-engineering-hiring-processes-are-broken'
+source_url: 'https://theengineeringtax.com/p/most-engineering-hiring-process-are'
 cover_image: https://substack-post-media.s3.amazonaws.com/public/images/f54e5d3e-2ace-4f7f-9912-dc9ccbdd4956_2832x3145.png
 ---
 
@@ -21,7 +22,7 @@ Leads Horizons is a reader-supported publication. To receive new posts and suppo
 
 Whenever I step into a company, my gaze is often drawn to their recruitment procedures. Typically, the process aligns with or forms a subset of this schematic.
 
-![](https://substack-post-media.s3.amazonaws.com/public/images/f54e5d3e-2ace-4f7f-9912-dc9ccbdd4956_2832x3145.png)
+![Hiring process flowchart showing screening through final offer stages](https://substack-post-media.s3.amazonaws.com/public/images/f54e5d3e-2ace-4f7f-9912-dc9ccbdd4956_2832x3145.png)
 
 Most companies employ these steps as filters, aiming to discover the “ideal candidate” with the least possible commitment. This turns the hiring process into a lengthy, high-effort endeavor that can span multiple months. As you can see, from application to hire, we're looking at an average of 32 days and a time investment of 15.5 hours.
 
@@ -41,7 +42,7 @@ However, lengthy processes are the embodiment of these fears. The rationale is s
 
 Remember, most companies aren't engaged in rocket science, which means you probably don't need a rocket scientist on your team. What you do need are team players who can collaborate effectively and add value to your product.
 
-![](https://substack-post-media.s3.amazonaws.com/public/images/5a1946ab-da2f-4580-9991-c292d60366cd_700x439.jpeg)
+![Meme contrasting interview expectations versus actual job requirements](https://substack-post-media.s3.amazonaws.com/public/images/5a1946ab-da2f-4580-9991-c292d60366cd_700x439.jpeg)
 
 Source: [https://devrant.com/rants/2848905/interview-vs-job](https://devrant.com/rants/2848905/interview-vs-job)
 
@@ -61,11 +62,11 @@ A more efficient solution would be to invert this evaluation method, implementin
 
 Let's see examples that I have seen in real life:
 
-![](https://substack-post-media.s3.amazonaws.com/public/images/5639ae90-967a-4933-8d36-17291b953a4b_718x599.png)
+![Simplified hiring evaluation matrix identifying red flags only](https://substack-post-media.s3.amazonaws.com/public/images/5639ae90-967a-4933-8d36-17291b953a4b_718x599.png)
 
 Here is how the simplified process looks like:
 
-![](https://substack-post-media.s3.amazonaws.com/public/images/eb250c1e-3723-4494-a708-136526ce4bf5_2792x2531.png)
+![Streamlined hiring process reducing feedback loops and steps](https://substack-post-media.s3.amazonaws.com/public/images/eb250c1e-3723-4494-a708-136526ce4bf5_2792x2531.png)
 
 ### Reduce The Feedback Loops
 
@@ -77,7 +78,7 @@ Moreover, these filters may inadvertently prevent a potential candidate from sho
 
 Eliminating filters from feedback loops can accelerate the process and lessen the burden on our existing employees. By removing reporting for future steps and not discarding candidates early, candidate success rate will increase, resulting in fewer interviews in the long run.
 
-![](https://substack-post-media.s3.amazonaws.com/public/images/def1ac22-e1dc-45d7-b1fa-8a34d365b135_2814x2172.png)
+![Hiring process without premature candidate filters](https://substack-post-media.s3.amazonaws.com/public/images/def1ac22-e1dc-45d7-b1fa-8a34d365b135_2814x2172.png)
 
 ## Final Words
 

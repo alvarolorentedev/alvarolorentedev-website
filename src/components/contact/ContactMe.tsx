@@ -2,9 +2,7 @@ import React, { FunctionComponent } from "react";
 import clsx from "clsx";
 import styles from "./ContactMe.module.scss";
 
-export interface ContactMeProps {}
-
-export const ContactMe: FunctionComponent<ContactMeProps> = () => {
+export const ContactMe: FunctionComponent = () => {
   return (
     <div className={clsx("row", styles.wrapper)}>
       <div className={clsx("col col--6", styles.panel)}>
@@ -18,8 +16,10 @@ export const ContactMe: FunctionComponent<ContactMeProps> = () => {
           method="POST"
           className={styles.form}
         >
-          <input type="text" name="name" placeholder="Your name" required />
-          <input type="email" name="email" placeholder="Your email" required />
+          <label htmlFor="contact-name">Your name</label>
+          <input id="contact-name" type="text" name="name" required />
+          <label htmlFor="contact-email">Your email</label>
+          <input id="contact-email" type="email" name="email" required />
           <button className="button button--primary" type="submit">
             Send
           </button>
@@ -31,7 +31,10 @@ export const ContactMe: FunctionComponent<ContactMeProps> = () => {
           Book a short call if you want to talk through your context quickly.
         </p>
         <div className={styles.actions}>
-          <a className="button button--primary" href="https://cal.com/alvarolorente/30min">
+          <a
+            className="button button--primary"
+            href="https://cal.com/alvarolorente/30min"
+          >
             Book a 30 minute call
           </a>
         </div>

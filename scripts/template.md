@@ -5,11 +5,13 @@ description: >-
   [DESCRIPTION]
 authors: alvarolorentedev
 tags:
-- substack
+  - substack
 draft: false
 published: true
-series: ''
+series: ""
 canonical_url: >-
+  [CANONICAL_URL]
+source_url: >-
   [LINK]
 cover_image: >-
   [IMAGE]

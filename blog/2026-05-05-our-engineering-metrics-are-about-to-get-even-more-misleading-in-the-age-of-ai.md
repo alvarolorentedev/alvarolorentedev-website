@@ -6,7 +6,8 @@ tags:
 - substack
 draft: false
 series: ''
-canonical_url: https://theengineeringtax.com/p/our-metrics-are-about-to-get-even
+canonical_url: 'https://alvarolorente.dev/blog/2026/05/05/our-engineering-metrics-are-about-to-get-even-more-misleading-in-the-age-of-ai'
+source_url: 'https://theengineeringtax.com/p/our-metrics-are-about-to-get-even'
 cover_image: 
 ---
 

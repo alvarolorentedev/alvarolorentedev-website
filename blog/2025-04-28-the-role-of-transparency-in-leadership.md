@@ -7,7 +7,8 @@ tags:
   - substack
 draft: false
 series: Engineering Strategy 101
-canonical_url: https://theengineeringtax.com/p/the-role-of-transparency-in-leadership
+canonical_url: 'https://alvarolorente.dev/blog/2025/04/28/the-role-of-transparency-in-leadership'
+source_url: 'https://theengineeringtax.com/p/the-role-of-transparency-in-leadership'
 cover_image: https://substack-post-media.s3.amazonaws.com/public/images/00100645-f92a-437c-8197-7e45b8753a18_2000x2000.png
 ---
 
@@ -15,7 +16,7 @@ As someone who has spent years navigating the complexities of engineering leader
 
 <!-- truncate -->
 
-![](https://substack-post-media.s3.amazonaws.com/public/images/00100645-f92a-437c-8197-7e45b8753a18_2000x2000.png)
+![Transparency in leadership concept visual representation](https://substack-post-media.s3.amazonaws.com/public/images/00100645-f92a-437c-8197-7e45b8753a18_2000x2000.png)
 
 Leads Horizons is a reader-supported publication. To receive new posts and support my work, consider becoming a free or paid subscriber.
 
@@ -43,7 +44,7 @@ When transparency is lacking, it can lead to misunderstandings, mistrust, and a 
 
 While there are instances where strategic secrecy is necessary, it's equally important to recognize the potential downsides of keeping strategic decisions hidden from your team. Transparency in strategic decision-making can significantly enhance trust, engagement, and overall organizational performance.
 
-![](https://substack-post-media.s3.amazonaws.com/public/images/e84d664e-2c2f-45ce-af76-02e71cff9a37_2000x2000.png)
+![Strategic decision transparency avoiding secrecy benefits](https://substack-post-media.s3.amazonaws.com/public/images/e84d664e-2c2f-45ce-af76-02e71cff9a37_2000x2000.png)
 
 Here’s why avoiding secrecy in strategic decisions is crucial:
 

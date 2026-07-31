@@ -10,7 +10,7 @@ tags:
 description: Learn how to get things fast into production with good quality
 draft: false
 cover_image: https://raw.githubusercontent.com/alvarolorentedev/website/main/static/img/blog/copy-of-continious.png
-canonical_url: https://www.alvarolorente.dev/blog/2023/04/13/continious-delivery-bootcamp-test-driven-development
+canonical_url: 'https://alvarolorente.dev/blog/2023/04/13/continious-delivery-bootcamp-test-driven-development'
 series: Continuous Delivery Bootcamp
 ---
 # Context

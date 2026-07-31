@@ -12,7 +12,7 @@ tags:
   - technology
   - productivity
 series: What makes high-performing teams
-canonical_url: https://www.alvarolorente.dev/blog/2022/09/13/the-future-of-teams-crossfunctional-and-t-shaped
+canonical_url: 'https://alvarolorente.dev/blog/2022/09/13/the-future-of-teams-crossfunctional-and-t-shaped'
 cover_image: https://www.alvarolorente.dev/img/blog/t-shapped-cross-functional-tshapped-crossfunctional-drawio.png
 ---
 
@@ -28,7 +28,7 @@ It's probably easier to see the evolution of team culture as a chronology, as it
 
 Traditionally, when we had only big monolithic applications, teams have been split by their expertise. This meaning all the quality assurance, Frontend, Backend roles will be in a team with their expertise-based peers. This might look like the next image:
 
-![](https://www.alvarolorente.dev/img/blog/t-shapped-cross-functional-drawio-1.png)
+![Specialization-based team structure organized by expertise silos](https://www.alvarolorente.dev/img/blog/t-shapped-cross-functional-drawio-1.png)
 
 What are the pros and cons of this model:
 
@@ -48,7 +48,7 @@ This allows more independence and control over what is required to fulfill the n
 
 This might look like the next image:
 
-![](https://www.alvarolorente.dev/img/blog/t-shapped-cross-functional-expertise-crossfunctional-teams-drawio.png)
+![Specialized cross-functional teams organized by business domain](https://www.alvarolorente.dev/img/blog/t-shapped-cross-functional-expertise-crossfunctional-teams-drawio.png)
 
 What are the pros and cons of this model:
 
@@ -70,7 +70,7 @@ Nevertheless, it lacked the focus on collaboration and support inside the team, 
 T-shaped development tries to solve this by making sure all team members can work in every part of the solution (represented by the horizontal part of the 'T'). Nevertheless, each member can have his own preferred field of expertise (represented by the vertical part of the 'T').  
 This has been enabled by the lower complexity on the tooling and entry-level learning curve to most of the expertises.
 
-![](https://www.alvarolorente.dev/img/blog/t-shapped-cross-functional-tshapped-crossfunctional-drawio.png)
+![T-shaped cross-functional team with broad skills and individual deep expertise](https://www.alvarolorente.dev/img/blog/t-shapped-cross-functional-tshapped-crossfunctional-drawio.png)
 
 What are the pros and cons of this model:
 

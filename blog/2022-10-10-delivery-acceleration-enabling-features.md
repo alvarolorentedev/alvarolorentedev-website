@@ -10,7 +10,7 @@ tags:
 - devops
 - programming
 - softwaredevelopment
-canonical_url: https://www.alvarolorente.dev/blog/2022/10/10/delivery-acceleration-enabling-features
+canonical_url: 'https://alvarolorente.dev/blog/2022/10/10/delivery-acceleration-enabling-features'
 cover_image: https://www.alvarolorente.dev/img/blog/toggles.jpeg
 series: Accelerate Continious Integration & Delivery Practices
 ---
@@ -25,7 +25,7 @@ What is this?, The concept is simple, we have a set of machines (ex. blue) where
 
 You can see the process in the next graph:
 
-![](https://www.alvarolorente.dev/img/blog/blue_green.jpeg)
+![Blue-green deployment strategy for zero-downtime releases](https://www.alvarolorente.dev/img/blog/blue_green.jpeg)
 
 With this, we are trying to achieve a 0 downtime while deploying a new version of our code. This is critical for teams that practice continuous deployment, as you want to avoid having systems down as you deploy multiple times a day.
 
@@ -45,7 +45,7 @@ This is a practice that comes from the mining industry, The idea was the next on
 
 If we translate this to software, the idea is to have deployed the changes only to one or a few servers. With this, we can monitor this canary instances and act if any issue happens, we reduce the blast radius of issues to only the users who go through that server.
 
-![](https://www.alvarolorente.dev/img/blog/canary.jpeg)
+![Canary release strategy minimizing blast radius of failures](https://www.alvarolorente.dev/img/blog/canary.jpeg)
 
 This affect the next DORA 4 metrics:
 
@@ -59,7 +59,7 @@ To improve upon the canary release strategy, we can move towards feature flags.
 
 Feature Flags are hiding our code behind a 'flag' this can help decide if the code is enabled or disabled, as in the next image.
 
-![](https://www.alvarolorente.dev/img/blog/toggles.jpeg)
+![Feature flags controlling gradual rollout and A/B testing](https://www.alvarolorente.dev/img/blog/toggles.jpeg)
 
 There are a multitude of services, libraries & SDKs that allow you to create flags in your code. They help by:
 

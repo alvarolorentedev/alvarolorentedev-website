@@ -5,11 +5,13 @@ import styles from "./AboutMe.module.scss";
 
 export interface AboutMeProps {
   avatar: string;
+  avatarAlt: string;
   descriptionComponent: React.ReactNode;
 }
 
 export const AboutMe: FunctionComponent<AboutMeProps> = ({
   avatar,
+  avatarAlt,
   descriptionComponent,
 }) => {
   return (
@@ -22,7 +24,7 @@ export const AboutMe: FunctionComponent<AboutMeProps> = ({
         <div className="col col--6">{descriptionComponent}</div>
         <div className={clsx("col col--5", styles.avatarContainer)}>
           <div className={styles.avatar}>
-            <Image img={avatar} />
+            <Image img={avatar} alt={avatarAlt} />
           </div>
         </div>
       </div>

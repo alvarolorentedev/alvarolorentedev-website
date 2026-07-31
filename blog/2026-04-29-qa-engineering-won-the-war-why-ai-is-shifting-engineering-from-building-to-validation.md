@@ -6,7 +6,8 @@ tags:
 - substack
 draft: false
 series: ''
-canonical_url: https://theengineeringtax.com/p/qa-engineering-won-the-war-why-ai
+canonical_url: 'https://alvarolorente.dev/blog/2026/04/29/qa-engineering-won-the-war-why-ai-is-shifting-engineering-from-building-to-validation'
+source_url: 'https://theengineeringtax.com/p/qa-engineering-won-the-war-why-ai'
 cover_image: https://substack-post-media.s3.amazonaws.com/public/images/210de0f0-df30-46b6-8433-8b1fc9feccf3_1024x1024.png
 ---
 
@@ -42,7 +43,7 @@ You get more review debt.
 
 You get more plausible nonsense entering the system. More rework disguised as speed. More software that looked good in the editor and collapsed the moment it touched production reality.
 
-![](https://substack-post-media.s3.amazonaws.com/public/images/210de0f0-df30-46b6-8433-8b1fc9feccf3_1024x1024.png)
+![QA validation leverage increasing as code generation becomes abundant](https://substack-post-media.s3.amazonaws.com/public/images/210de0f0-df30-46b6-8433-8b1fc9feccf3_1024x1024.png)
 
 The bottleneck does not disappear.
 
@@ -76,7 +77,7 @@ Not a bureaucrat. Not a ticket approver. A judge.
 
 Someone who can evaluate competing outputs under uncertainty. Someone who can decide what is good enough to proceed, what needs tighter constraints, and what should be rejected entirely. Someone who understands that the job is no longer just constructing the mechanism by hand, but designing an environment in which good mechanisms can be trusted and bad ones are caught early.
 
-![](https://substack-post-media.s3.amazonaws.com/public/images/bb2708a8-485a-4edf-bcc5-1156a5776e0f_1024x1024.png)
+![Engineering judgment and guardrails replacing pure craftsperson authorship](https://substack-post-media.s3.amazonaws.com/public/images/bb2708a8-485a-4edf-bcc5-1156a5776e0f_1024x1024.png)
 
 That is why the winning engineering model will not be more gates. It will be better guardrails.
 
@@ -96,7 +97,7 @@ Only one of those questions creates durable value.
 
 ## QA engineering won the war
 
-![](https://substack-post-media.s3.amazonaws.com/public/images/ba5afe17-19d6-442f-a92e-832cadde3492_1024x1024.png)
+![QA engineering leverage from validation becoming scarce capability](https://substack-post-media.s3.amazonaws.com/public/images/ba5afe17-19d6-442f-a92e-832cadde3492_1024x1024.png)
 
 So yes, I believe that sentence.
 

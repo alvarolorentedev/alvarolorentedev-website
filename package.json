@@ -21,6 +21,7 @@
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
+    "seo:check": "node scripts/validate-seo.js",
     "typecheck": "tsc",
     "lint": "npm run eslint:check && npm run prettier:check",
     "lint:fix": "npm run eslint:fix && npm run prettier:fix",

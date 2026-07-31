@@ -4,20 +4,22 @@ import React, { FunctionComponent } from "react";
 import DiscoverIcon from "./assets/icon-discover.svg";
 import styles from "./Service.module.scss";
 
+type ServiceImage = string | { src?: string; default?: string };
+
 export interface ServiceData {
   title: string;
   description: string;
   role?: string;
   url: string;
-  image: any;
+  image: ServiceImage;
 }
 
-function getImageSrc(image: any): string {
+function getImageSrc(image: ServiceImage): string {
   if (typeof image === "string") {
     return image;
   }
 
-  return image?.src ?? image?.default ?? image;
+  return image.src ?? image.default ?? "";
 }
 
 export const Service: FunctionComponent<ServiceData> = ({
@@ -33,7 +35,15 @@ export const Service: FunctionComponent<ServiceData> = ({
     <div className={clsx("col col--6", styles.cardContainer)}>
       <div className={clsx("card", styles.card)}>
         <div className={clsx("card__image", styles.image)}>
-          <img src={imageSrc} alt={title} title={title} loading="lazy" />
+          <img
+            src={imageSrc}
+            alt={title}
+            title={title}
+            width="1200"
+            height="700"
+            loading="lazy"
+            decoding="async"
+          />
           {role && (
             <span className={clsx("badge badge--secondary", styles.role)}>
               Role: {role}
@@ -48,6 +58,7 @@ export const Service: FunctionComponent<ServiceData> = ({
           <a
             href={url}
             target="_blank"
+            rel="noopener noreferrer"
             className="button button--primary button--outline"
           >
             <span className="button__icon">

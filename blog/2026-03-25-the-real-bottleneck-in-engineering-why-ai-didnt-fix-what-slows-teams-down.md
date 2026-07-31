@@ -10,7 +10,8 @@ tags:
   - software
 draft: false
 series: Engineering After AI
-canonical_url: https://theengineeringtax.com/p/the-real-bottleneck-in-engineering
+canonical_url: 'https://alvarolorente.dev/blog/2026/03/25/the-real-bottleneck-in-engineering-why-ai-didnt-fix-what-slows-teams-down'
+source_url: 'https://theengineeringtax.com/p/the-real-bottleneck-in-engineering'
 cover_image: https://substack-post-media.s3.amazonaws.com/public/images/3b841a9f-4522-458d-9fa7-5c386769f628_1536x1024.png
 ---
 
@@ -46,7 +47,7 @@ This contradiction points to a deeper reality:
 
 > When improving one part of a system no longer improves the whole, it usually means the constraint has moved elsewhere.
 
-![](https://substack-post-media.s3.amazonaws.com/public/images/3b841a9f-4522-458d-9fa7-5c386769f628_1536x1024.png)
+![Engineering bottleneck shift from execution to coordination and decisions](https://substack-post-media.s3.amazonaws.com/public/images/3b841a9f-4522-458d-9fa7-5c386769f628_1536x1024.png)
 
 ---
 
@@ -66,7 +67,7 @@ This is where the real work happens.
 
 Deciding what to build. Aligning on why it matters. Understanding how it fits into an evolving system. And validating it affects the correct metrics in the expected way.
 
-![](https://substack-post-media.s3.amazonaws.com/public/images/77402805-ae57-4e5f-82c5-6f1dc5411864_1536x1024.png)
+![AI accelerates execution but exposes hidden coordination complexity](https://substack-post-media.s3.amazonaws.com/public/images/77402805-ae57-4e5f-82c5-6f1dc5411864_1536x1024.png)
 
 These activities are inherently slower, more ambiguous, and harder to optimize than execution. And unlike code generation, they cannot be easily automated.
 
@@ -100,7 +101,7 @@ Teams hit the coordination bottleneck more frequently. More work enters the syst
 
 We did not remove complexity. We increased the rate at which we collide with it.
 
-![](https://substack-post-media.s3.amazonaws.com/public/images/3ceeb00e-a558-4900-807a-e4868780a4b4_1536x1024.png)
+![Cognitive bottleneck now limiting engineering performance in AI age](https://substack-post-media.s3.amazonaws.com/public/images/3ceeb00e-a558-4900-807a-e4868780a4b4_1536x1024.png)
 
 ---
 

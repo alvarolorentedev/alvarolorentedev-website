@@ -7,7 +7,8 @@ tags:
   - substack
 draft: false
 series: Engineering Strategy 101
-canonical_url: https://theengineeringtax.com/p/rethinking-technical-tasks-define
+canonical_url: 'https://alvarolorente.dev/blog/2024/07/31/rethinking-technical-tasks-define-all-tasks-as-user-value'
+source_url: 'https://theengineeringtax.com/p/rethinking-technical-tasks-define'
 cover_image: https://substack-post-media.s3.amazonaws.com/public/images/c0414364-e7a8-40cc-96bc-5efa20d80151_1080x1080.jpeg
 ---
 
@@ -23,7 +24,7 @@ Technical tasks are typically considered those that involve the underlying work 
 
 While they may not always have a direct visible impact on the end user, In reality, almost every task a development team undertakes has some level of impact on the product. Even tasks perceived as purely technical, such as improving code quality or optimizing performance, ultimately contribute to a better user experience and product reliability.
 
-![](https://substack-post-media.s3.amazonaws.com/public/images/c0414364-e7a8-40cc-96bc-5efa20d80151_1080x1080.jpeg)
+![Value calculation concept for evaluating technical task ROI](https://substack-post-media.s3.amazonaws.com/public/images/c0414364-e7a8-40cc-96bc-5efa20d80151_1080x1080.jpeg)
 
 ## Understanding the Net Value of Tasks
 
@@ -41,7 +42,7 @@ It's normally simpler to calculate the expected value of functional tasks becaus
 
 The benefit we will achieve from this approach is a more cohesive and efficient development process, where all tasks are recognized for their contribution to the product's success. This integrated approach to task management allows for more strategic prioritization. When all tasks are evaluated based on their potential impact on the product, teams can make more informed decisions about where to allocate their resources. This can result in more timely delivery of features and improvements, better risk management, and a more adaptable development process.
 
-![](https://substack-post-media.s3.amazonaws.com/public/images/9d28ed39-a436-42f3-b59f-eb0eafa539ef_1080x1080.jpeg)
+![Example net value calculations comparing functional and non-functional tasks](https://substack-post-media.s3.amazonaws.com/public/images/9d28ed39-a436-42f3-b59f-eb0eafa539ef_1080x1080.jpeg)
 
 ## Example of Task Calculations
 

@@ -7,7 +7,8 @@ tags:
   - substack
 draft: false
 series: Engineering Strategy 101
-canonical_url: https://theengineeringtax.com/p/job-probation-period-a-two-way-street
+canonical_url: 'https://alvarolorente.dev/blog/2024/09/26/job-probation-period-a-two-way-street-for-success'
+source_url: 'https://theengineeringtax.com/p/job-probation-period-a-two-way-street'
 cover_image: https://substack-post-media.s3.amazonaws.com/public/images/03da3cea-93f6-4d53-9fe0-0f4641af5c91_1080x1080.jpeg
 ---
 
@@ -17,7 +18,7 @@ Dear readers, I am back. It has been a few “interesting” months in my life t
 
 To the question “During your career, did to pass a Job probation period?” the most common answer will be “Yes”. Traditionally, it is viewed as a tool for employers to evaluate potential hires, nevertheless it's crucial to recognize that these periods serve a dual purpose. They are, in fact, a two-way street that benefits both employers and employees alike.
 
-![](https://substack-post-media.s3.amazonaws.com/public/images/03da3cea-93f6-4d53-9fe0-0f4641af5c91_1080x1080.jpeg)
+![Probation period as two-way evaluation street symbol](https://substack-post-media.s3.amazonaws.com/public/images/03da3cea-93f6-4d53-9fe0-0f4641af5c91_1080x1080.jpeg)
 
 Leads Horizons is a reader-supported publication. To receive new posts and support my work, consider becoming a free or paid subscriber.
 
@@ -79,7 +80,7 @@ An effective onboarding plan should contain:
 
 - **Regular feedback sessions:** as a manager, schedule frequent check-ins to address concerns and acknowledge progress.
 
-![](https://substack-post-media.s3.amazonaws.com/public/images/81d4a0d9-3506-4da3-a8bd-0b8af0fcd72e_1080x1080.jpeg)
+![Onboarding plan structure showing buddy and mentor pairing](https://substack-post-media.s3.amazonaws.com/public/images/81d4a0d9-3506-4da3-a8bd-0b8af0fcd72e_1080x1080.jpeg)
 
 A well-structured onboarding plan helps new employees quickly integrate into their roles and the organization, reducing the learning curve and increasing productivity during the probation period.
 
@@ -93,7 +94,7 @@ A 30-60-90 plan is a strategic framework used for onboarding new employees or se
 
 - **90 days:** Fully integrate into the role, start driving results, and propose long-term strategies or improvements.
 
-![](https://substack-post-media.s3.amazonaws.com/public/images/8b614285-73a1-4d18-bf6f-980f0152cc1d_1080x1080.jpeg)
+![30-60-90 day plan roadmap for new employee integration milestones](https://substack-post-media.s3.amazonaws.com/public/images/8b614285-73a1-4d18-bf6f-980f0152cc1d_1080x1080.jpeg)
 
 This plan helps structure the transition period, ensuring clear expectations and measurable progress for both the employee and the employer during the probation period, with a framework that can help focus the feedback and
 
@@ -121,7 +122,7 @@ The employee should provide honest feedback about their experience, highlighting
 
 The employee should also ensure they fulfill any contractual obligations, such as providing proper notice.
 
-![](https://substack-post-media.s3.amazonaws.com/public/images/9cf02d48-79e4-4b70-a97a-1e6615ab30fc_1080x1080.jpeg)
+![Celebrating successful probation period completion milestone](https://substack-post-media.s3.amazonaws.com/public/images/9cf02d48-79e4-4b70-a97a-1e6615ab30fc_1080x1080.jpeg)
 
 ## Conclusion
 

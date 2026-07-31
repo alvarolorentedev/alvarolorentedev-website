@@ -10,7 +10,7 @@ tags:
 - testing
 - architecture
 - programming
-canonical_url: https://www.alvarolorente.dev/blog/2022/11/24/tdd-is-not-called-tdt-for-a-reason
+canonical_url: 'https://alvarolorente.dev/blog/2022/11/24/tdd-is-not-called-tdt-for-a-reason'
 cover_image: https://www.alvarolorente.dev/img/blog/tdd.png
 series: ''
 ---

@@ -10,7 +10,7 @@ tags:
 - programming
 - devops
 - productivity
-canonical_url: https://www.alvarolorente.dev/blog/2022/10/11/delivery-acceleration-testing-validation
+canonical_url: 'https://alvarolorente.dev/blog/2022/10/11/delivery-acceleration-testing-validation'
 cover_image: https://www.alvarolorente.dev/img/blog/testing.jpg
 series: Accelerate Continious Integration & Delivery Practices
 ---
@@ -30,7 +30,7 @@ This ratio has always been shown as a pyramid with:
 * **Integration test**: validates interactions with multiple parts of your system or other systems.
 * **Integrated test**: They test the system as a whole.
 
-![](https://www.alvarolorente.dev/img/blog/pyramid.jpeg)
+![Testing pyramid showing unit, integration, and end-to-end test ratio](https://www.alvarolorente.dev/img/blog/pyramid.jpeg)
 
 Tests are divided in these layers because there is a cost in time and complexity.
 

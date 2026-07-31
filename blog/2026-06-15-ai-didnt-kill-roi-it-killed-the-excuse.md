@@ -6,7 +6,8 @@ tags:
 - substack
 draft: false
 series: ''
-canonical_url: https://theengineeringtax.com/p/ai-didnt-kill-roi-it-killed-the-excuse
+canonical_url: 'https://alvarolorente.dev/blog/2026/06/15/ai-didnt-kill-roi-it-killed-the-excuse'
+source_url: 'https://theengineeringtax.com/p/ai-didnt-kill-roi-it-killed-the-excuse'
 cover_image: https://substack-post-media.s3.amazonaws.com/public/images/dea3e6e4-3a2e-46ab-9214-3261599d0ea0_1254x1254.png
 ---
 
@@ -40,7 +41,7 @@ My suspicion is that many companies already create more product development work
 
 Not because people are lazy. Usually the opposite. People are working very hard. They are responding to customers, sales pressure, executive ideas, competitor comparisons, roadmap commitments, compliance requirements, internal escalations, platform needs, and the permanent pressure to show progress.
 
-![](https://substack-post-media.s3.amazonaws.com/public/images/dea3e6e4-3a2e-46ab-9214-3261599d0ea0_1254x1254.png)
+![Organizational bias toward creation over validation in feature factories](https://substack-post-media.s3.amazonaws.com/public/images/dea3e6e4-3a2e-46ab-9214-3261599d0ea0_1254x1254.png)
 
 But the system is biased toward creation.
 
@@ -114,7 +115,7 @@ This is where slop enters the company.
 
 Not only as ugly AI content. As unnecessary work that looks professional enough to survive. A polished product brief with no real trade-off. A roadmap analysis with no decision. A generated PR that creates review burden. A strategy document that sounds smart but changes nothing. A customer summary that is fluent but misses the actual pain.
 
-![](https://substack-post-media.s3.amazonaws.com/public/images/8ff8167b-559e-4d24-9f27-9f8b9f941588_1254x1254.png)
+![AI-generated content polished enough to survive without real validation](https://substack-post-media.s3.amazonaws.com/public/images/8ff8167b-559e-4d24-9f27-9f8b9f941588_1254x1254.png)
 
 AI did not create the old bias toward output.
 
@@ -126,7 +127,7 @@ This is the uncomfortable conclusion.
 
 Many departments are already too big for the amount of value they can actually validate.
 
-![](https://substack-post-media.s3.amazonaws.com/public/images/89e230f0-84bd-4f4d-8dfb-ce95a1147b49_1254x1254.png)
+![Organizational right-sizing from oversized to validation-focused departments](https://substack-post-media.s3.amazonaws.com/public/images/89e230f0-84bd-4f4d-8dfb-ce95a1147b49_1254x1254.png)
 
 Not too big because people are lazy. Too big because they were designed for an older world where producing work was expensive. More people meant more features, more documents, more tickets, more campaigns, more analysis, more delivery.
 

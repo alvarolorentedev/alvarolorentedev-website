@@ -10,7 +10,7 @@ tags:
 - programming
 - devops
 - productivity
-canonical_url: https://www.alvarolorente.dev/blog/2022/09/27/delivery-acceleration-observability
+canonical_url: 'https://alvarolorente.dev/blog/2022/09/27/delivery-acceleration-observability'
 cover_image: https://www.alvarolorente.dev/img/blog/no_alarms.png
 series: Accelerate Continious Integration & Delivery Practices
 ---
@@ -19,7 +19,7 @@ When we talk about observability, we talk about:
 
 > Capability of developers to understand the health and status of their application.
 
-![](https://www.alvarolorente.dev/img/blog/no_alarms.png)
+![System alarms as first-line defense against production issues](https://www.alvarolorente.dev/img/blog/no_alarms.png)
 
 We don't want users or clients to be the ones noticing something is wrong. For this, there are multiple tools that fall under the observability category.
 
@@ -49,7 +49,7 @@ This metrics are shown in dashboards that allow us to visually understand what i
 
 It's important to not mix this 2 together, as they have different purposes. Like with alarms, it helps focus our mental bandwidth in the correct place.
 
-![](https://www.alvarolorente.dev/img/blog/dashboards.jpeg)
+![Status and detail dashboard design for observability monitoring](https://www.alvarolorente.dev/img/blog/dashboards.jpeg)
 
 As you see in the previous image, the left represents a detail dashboard that makes it difficult to know on a single view if there is an issue. For this, as in the image on the right,  we have a status dashboard that in a single glance we can spot where to look next.
 
@@ -71,7 +71,7 @@ This affect the next DORA 4 metrics:
 
 let's get practical on how would this work.
 
-![](https://www.alvarolorente.dev/img/blog/observability-drawio.png)
+![Observability system architecture flow from metrics to logs to alarms](https://www.alvarolorente.dev/img/blog/observability-drawio.png)
 
 * Implement your service
 * Create metrics and send them to your metrics system (ex. [Datadog](https://www.datadoghq.com/), [Grafana](https://grafana.com/))

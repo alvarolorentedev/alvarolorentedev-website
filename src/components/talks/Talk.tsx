@@ -52,6 +52,7 @@ const Talk: FunctionComponent<TalkMetadata> = ({
               <a
                 href={recordingURL}
                 target="_blank"
+                rel="noopener noreferrer"
                 className="button button--primary button--outline"
               >
                 <span className="button__icon">
@@ -64,6 +65,7 @@ const Talk: FunctionComponent<TalkMetadata> = ({
               <a
                 href={slidesURL}
                 target="_blank"
+                rel="noopener noreferrer"
                 className="button button--secondary button--outline"
               >
                 <span className="button__icon">
@@ -76,6 +78,7 @@ const Talk: FunctionComponent<TalkMetadata> = ({
               <a
                 href={repoURL}
                 target="_blank"
+                rel="noopener noreferrer"
                 className="button button--secondary button--outline"
               >
                 <span className="button__icon">

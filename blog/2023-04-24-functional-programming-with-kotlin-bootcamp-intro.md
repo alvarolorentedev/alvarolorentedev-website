@@ -10,7 +10,7 @@ tags:
 description: Learn how to do functional programming with kotlin
 draft: false
 cover_image: https://raw.githubusercontent.com/alvarolorentedev/website/main/static/img/blog/fpusing-kotlin.png
-canonical_url: https://www.alvarolorente.dev/blog/2023/04/24/functional-programming-with-kotlin-bootcamp-intro
+canonical_url: 'https://alvarolorente.dev/blog/2023/04/24/functional-programming-with-kotlin-bootcamp-intro'
 series: Functional Programming With Kotlin
 ---
 # Context

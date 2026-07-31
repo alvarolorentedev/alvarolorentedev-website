@@ -11,7 +11,7 @@ tags:
 - architecture
 draft: false
 series: microservices a double-edged sword
-canonical_url: https://www.alvarolorente.dev/blog/2022/12/19/macroInfrastructure-microservice-obsesion
+canonical_url: 'https://alvarolorente.dev/blog/2022/12/19/macroInfrastructure-microservice-obsesion'
 cover_image: https://www.alvarolorente.dev/img/blog/captura-de-pantalla-2022-12-19-a-las-17-17-49.png
 ---
 

@@ -7,7 +7,8 @@ tags:
 - substack
 draft: false
 series: ''
-canonical_url: https://theengineeringtax.com/p/long-term-team-productivity
+canonical_url: 'https://alvarolorente.dev/blog/2024/07/17/long-term-team-productivity'
+source_url: 'https://theengineeringtax.com/p/long-term-team-productivity'
 cover_image: https://substack-post-media.s3.amazonaws.com/public/images/4fb72926-2d5a-4437-bc54-962a08c49f3e_941x287.png
 ---
 
@@ -31,7 +32,7 @@ Kingman's Formula, also known as the VUT equation, is a widely used approximatio
 
 Kingman's Formula highlights the impact of variability and utilization on waiting times. As utilization approaches 100%, waiting times increase dramatically, which is why it's crucial to avoid overloading systems.
 
-![](https://substack-post-media.s3.amazonaws.com/public/images/4fb72926-2d5a-4437-bc54-962a08c49f3e_941x287.png)
+![Kingman's formula VUT equation for queueing theory waiting times](https://substack-post-media.s3.amazonaws.com/public/images/4fb72926-2d5a-4437-bc54-962a08c49f3e_941x287.png)
 
 ### Little's Law
 
@@ -43,7 +44,7 @@ Little's Law is useful for understanding and managing queues in various contexts
 
 If we combine both formulas, we can have an obvious image of what happens to our system when a 100% utilization is reached and there is even the slightest amount of variability
 
-![](https://substack-post-media.s3.amazonaws.com/public/images/805947a1-258f-4e0d-823c-c53980810896_882x552.png)
+![System degradation chart showing waiting time at high utilization levels](https://substack-post-media.s3.amazonaws.com/public/images/805947a1-258f-4e0d-823c-c53980810896_882x552.png)
 
 ## Effects of +100% Long-Term Utilization
 

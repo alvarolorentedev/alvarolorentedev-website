@@ -9,7 +9,8 @@ tags:
 - career
 draft: false
 series: ''
-canonical_url: https://theengineeringtax.com/p/the-moment-process-starts-eating
+canonical_url: 'https://alvarolorente.dev/blog/2026/03/04/the-moment-process-starts-eating-your-day'
+source_url: 'https://theengineeringtax.com/p/the-moment-process-starts-eating'
 cover_image: https://substack-post-media.s3.amazonaws.com/public/images/225eaa5e-9a9d-4a4c-853f-09eef91395d4_1024x1536.png
 ---
 
@@ -27,7 +28,7 @@ This is the moment the process starts eating the day. The risk is not that the p
 
 The paradox is clear: process is introduced to support value creation, yet beyond a certain threshold, it competes with it.
 
-![](https://substack-post-media.s3.amazonaws.com/public/images/225eaa5e-9a9d-4a4c-853f-09eef91395d4_1024x1536.png)
+![Process overwhelming value work at organizational growth inflection point](https://substack-post-media.s3.amazonaws.com/public/images/225eaa5e-9a9d-4a4c-853f-09eef91395d4_1024x1536.png)
 
 * * *
 
@@ -75,7 +76,7 @@ To understand the tipping point, it is useful to distinguish between two categor
 
 Both categories are necessary. However, only one category compounds long-term engineering capability.
 
-![](https://substack-post-media.s3.amazonaws.com/public/images/0130b8cd-55f0-4766-a81c-115a45745316_1536x1024.png)
+![Value work versus process work time allocation in leadership roles](https://substack-post-media.s3.amazonaws.com/public/images/0130b8cd-55f0-4766-a81c-115a45745316_1536x1024.png)
 
 Beyond the time allocation, there is also a cognitive dimension to this problem. As value-oriented tasks require uninterrupted cognitive bandwidth. When leadership calendars are saturated with 30-minute blocks dedicated to reporting, coordination, and alignment, deep thinking becomes fragmented.
 
@@ -115,7 +116,7 @@ These investments may not generate immediate visibility, but they determine long
 
 If leadership capacity is absorbed entirely by governance management, the organization risks optimizing for short-term coordination while sacrificing long-term capability.
 
-![](https://substack-post-media.s3.amazonaws.com/public/images/1f1c5f3f-d222-4504-a210-19e5c4a3187d_1536x1024.png)
+![Strategic opportunity cost when process work consumes technical leadership time](https://substack-post-media.s3.amazonaws.com/public/images/1f1c5f3f-d222-4504-a210-19e5c4a3187d_1536x1024.png)
 
 * * *
 

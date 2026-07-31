@@ -7,7 +7,8 @@ tags:
   - substack
 draft: false
 series: Engineering Strategy 101
-canonical_url: https://theengineeringtax.com/p/key-strategies-for-building-high
+canonical_url: 'https://alvarolorente.dev/blog/2024/06/07/key-strategies-for-building-high-performance-teams-in-tech'
+source_url: 'https://theengineeringtax.com/p/key-strategies-for-building-high'
 cover_image: https://substack-post-media.s3.amazonaws.com/public/images/3eb06d36-fe8c-449a-9220-ac52c0444446_926x272.png
 ---
 
@@ -59,7 +60,7 @@ On the top of Performing, we could say there is o**utperforming** is where **Hig
 
 4.  **Performing to Outperforming (High-Performance)**: The leap from performing to outperforming is achieved by exceeding expectations consistently. It's vital to maintain the momentum, continuously innovate, and strive for improvement. Commitment to the team's shared vision and purpose, trust among team members, and open communication are crucial factors in this stage. The team should also be flexible in adapting to changes and challenges and should be driven to continually improve their performance.
 
-![](https://substack-post-media.s3.amazonaws.com/public/images/3eb06d36-fe8c-449a-9220-ac52c0444446_926x272.png)
+![Team development stages: forming, storming, norming, performing, outperforming](https://substack-post-media.s3.amazonaws.com/public/images/3eb06d36-fe8c-449a-9220-ac52c0444446_926x272.png)
 
 ## Traits Of a High-Performance Team
 
@@ -83,13 +84,13 @@ Team Personal Presentations is an exercise where each team member creates a shor
 
 This exercise can help to build stronger relationships within the team, foster empathy and understanding, and improve team cohesion. It gives team members an insight into who their colleagues really are, which can lead to greater trust, better communication, and a more effective working environment.
 
-![](https://substack-post-media.s3.amazonaws.com/public/images/c40be4d5-9878-4a15-8e13-e223b1d9a186_960x540.png)
+![Team personal presentations building interpersonal relationships](https://substack-post-media.s3.amazonaws.com/public/images/c40be4d5-9878-4a15-8e13-e223b1d9a186_960x540.png)
 
 ### Getting to Know How We Exchange: Communication Preferences
 
 Communication Preferences is an activity that helps team members understand each other's preferred methods of communication. This can include when and how they like to receive information, how they handle conflict, and how they give and receive feedback. Understanding these preferences can greatly improve team collaboration and prevent misunderstandings.
 
-![](https://substack-post-media.s3.amazonaws.com/public/images/92122bea-2039-475f-b60e-9046e27854dc_1708x1374.png)
+![Communication preferences exercise improving team collaboration](https://substack-post-media.s3.amazonaws.com/public/images/92122bea-2039-475f-b60e-9046e27854dc_1708x1374.png)
 
 ### Getting to Know What We Care About: Moving motivators
 
@@ -97,7 +98,7 @@ The Moving Motivators exercise is a tool from Management 3.0 that helps in under
 
 The participant orders these cards in order of personal importance. Then, they consider a recent change in their work or life and move the cards up or down based on whether this change has positively or negatively impacted each motivator. This provides valuable insights into what drives a person and how changes affect their motivation, which is crucial for effective team management and leadership.
 
-![](https://substack-post-media.s3.amazonaws.com/public/images/b8824859-1e9b-4f8f-8b51-fd17281a2ae2_2108x846.png)
+![Team health check using traffic light voting system on metrics](https://substack-post-media.s3.amazonaws.com/public/images/b8824859-1e9b-4f8f-8b51-fd17281a2ae2_2108x846.png)
 
 ### Getting to Know What Area to Improve Next: Team Health Check
 
@@ -107,7 +108,7 @@ Teams collectively assess how they are doing on several aspects, such as collabo
 
 The results are then discussed openly, helping to facilitate communication about challenges, improvements, and actions to be taken. The exercise is not about blaming or pointing fingers but about understanding and improving team dynamics and performance.
 
-![](https://substack-post-media.s3.amazonaws.com/public/images/92f84dd4-959b-49ac-9c07-46e66608a44a_1039x379.png)
+![Spotify team health check with traffic-light ratings](https://substack-post-media.s3.amazonaws.com/public/images/92f84dd4-959b-49ac-9c07-46e66608a44a_1039x379.png)
 
 ---
 
@@ -119,7 +120,7 @@ The results are then discussed openly, helping to facilitate communication about
 
 [
 
-![](https://substackcdn.com/image/fetch/$s_!va4S!,w_56,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe58ebc2f-5af7-4c21-a4e8-f8cdda0392fe_1000x1000.png)Perspectiveship
+![Perspectiveship publication logo](https://substackcdn.com/image/fetch/$s_!va4S!,w_56,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe58ebc2f-5af7-4c21-a4e8-f8cdda0392fe_1000x1000.png)Perspectiveship
 
 Hanlon's Razor - Mental Model
 
@@ -133,7 +134,7 @@ Read more
 
 [
 
-![](https://substackcdn.com/image/fetch/$s_!T71V!,w_56,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa121fa47-e415-48b2-b282-32583cbcc1d6_720x720.png)Tech Unfiltered
+![Tech Unfiltered publication logo](https://substackcdn.com/image/fetch/$s_!T71V!,w_56,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa121fa47-e415-48b2-b282-32583cbcc1d6_720x720.png)Tech Unfiltered
 
 When Agile, isn't agile
 
@@ -160,3 +161,12 @@ Use the links below, or even better, hit reply and say hello. I’d love to hear
 - [🤮 Bad](https://tally.so/r/nWNL5P?rating=Bad&source=substack&medium=email&url=high-perf-team)
 
 Please don't hesitate to connect with me on [LinkedIn](https://www.linkedin.com/in/alvarolorentedev/) and send a message. I always respond to every one!
+
+## Related reading
+
+- [Leaders build trust, managers take control](/blog/2024/02/14/leaders-build-trust-managers-take-control-the-path-to-empowering-teams)
+- [The future of cross-functional and T-shaped teams](/blog/2022/09/13/the-future-of-teams-crossfunctional-and-t-shaped)
+- [Psychological safety in software development](/blog/2023/01/26/psycological-safety-in-software-developmente)
+- [The role of transparency in leadership](/blog/2025/04/28/the-role-of-transparency-in-leadership)
+
+Explore related engineering leadership sessions on my [talks page](/talks).

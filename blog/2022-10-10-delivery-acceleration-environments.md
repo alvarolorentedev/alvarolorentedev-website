@@ -10,7 +10,7 @@ tags:
 - programming
 - productivity
 - devops
-canonical_url: https://www.alvarolorente.dev/blog/2022/09/10/delivery-acceleration-environments
+canonical_url: 'https://alvarolorente.dev/blog/2022/10/10/delivery-acceleration-environments'
 cover_image: https://www.alvarolorente.dev/img/blog/cicd.png
 series: Accelerate Continious Integration & Delivery Practices
 ---
@@ -25,7 +25,7 @@ when people talk about continuous integration, delivery and deployment, they nor
 
 Nevertheless, let's reflect why these are 3 different practices. As they are steps in a journey, you can do one and not the next one.
 
-![](https://www.alvarolorente.dev/img/blog/cicd.png)
+![CI/CD pipeline stages: continuous integration, delivery, deployment](https://www.alvarolorente.dev/img/blog/cicd.png)
 
 * Continuous integration: allows making reproducible states of the code in multiple places.
 * Continuous Delivery: Now that it's reproducible, it needs to be marked as potentially deployable and provide the ability to deploy it.
@@ -35,7 +35,7 @@ Nevertheless, let's reflect why these are 3 different practices. As they are ste
 
 As you can imagine, with the previous definition of CI/CD, having multiple environments will never allow you to achieve Continuous Deployment.
 
-![](https://www.alvarolorente.dev/img/blog/environments.jpeg)
+![Multiple environment trap showing dev, staging, prod separation](https://www.alvarolorente.dev/img/blog/environments.jpeg)
 
 The intent of having multiple environments is to reduce change failure rate, are we actually achieving this with the practices? The answer is normally not due to:
 
@@ -65,7 +65,7 @@ Be aware this does not mean to have our users experience possible bugs or see te
 
 An example strategy is the one in the next diagram.
 
-![](https://www.alvarolorente.dev/img/blog/single_environment.jpeg)
+![Single production environment with feature flags for testing](https://www.alvarolorente.dev/img/blog/single_environment.jpeg)
 
 This allows us to keep only one environment that discriminates in between test and non-test data that can be clean periodically, while it provides the real environment with the real behavior. With this, we solved:
 

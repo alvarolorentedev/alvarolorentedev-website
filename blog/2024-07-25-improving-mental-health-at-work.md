@@ -7,7 +7,8 @@ tags:
   - substack
 draft: false
 series: Engineering Strategy 101
-canonical_url: https://theengineeringtax.com/p/improving-mental-health-at-work
+canonical_url: 'https://alvarolorente.dev/blog/2024/07/25/improving-mental-health-at-work'
+source_url: 'https://theengineeringtax.com/p/improving-mental-health-at-work'
 cover_image:
 ---
 

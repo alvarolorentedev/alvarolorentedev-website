@@ -6,7 +6,8 @@ tags:
 - substack
 draft: false
 series: ''
-canonical_url: https://theengineeringtax.com/p/the-hardest-part-of-ai-is-letting
+canonical_url: 'https://alvarolorente.dev/blog/2026/05/13/the-hardest-part-of-ai-is-letting-go-of-our-ego'
+source_url: 'https://theengineeringtax.com/p/the-hardest-part-of-ai-is-letting'
 cover_image: https://substack-post-media.s3.amazonaws.com/public/images/e1e80dda-3c40-4229-9afc-aee063fcf851_1024x1024.png
 ---
 
@@ -44,7 +45,7 @@ But the same mechanism that makes us effective also makes us rigid.
 
 A brain trained on years of similar constraints becomes efficient by exploring less. It learns what usually works, what usually fails, and what is usually not worth trying. That creates speed. It also creates bias. We become better at navigating the world that trained us, but worse at noticing when the world itself has changed.
 
-![](https://substack-post-media.s3.amazonaws.com/public/images/e1e80dda-3c40-4229-9afc-aee063fcf851_1024x1024.png)
+![Experience as double-edged sword providing judgement and rigidity](https://substack-post-media.s3.amazonaws.com/public/images/e1e80dda-3c40-4229-9afc-aee063fcf851_1024x1024.png)
 
 This is where ego enters the system.
 
@@ -74,7 +75,7 @@ It is not anymore.
 
 The question is no longer whether the solution matches our reasoning. The question is whether it works in the context that matters. In other words, our work is shifting from producing the answer to judging the answer. In many ways, engineering has already been drifting in that direction as coordination, trade-offs, and decision-making under ambiguity take more weight than pure execution.
 
-![](https://substack-post-media.s3.amazonaws.com/public/images/9f12b0f6-bfaf-40e7-b0fd-c845074c2c8a_1024x1024.png)
+![Mental models and ego challenged by AI generating valid alternative solutions](https://substack-post-media.s3.amazonaws.com/public/images/9f12b0f6-bfaf-40e7-b0fd-c845074c2c8a_1024x1024.png)
 
 That is a much bigger change than most engineers want to admit.
 
@@ -96,7 +97,7 @@ The machine has broader exposure, faster iteration, and no ego attached to its l
 
 That is why the future of engineering is not about beating the machine. It is about pairing with it.
 
-![](https://substack-post-media.s3.amazonaws.com/public/images/59b6c4e4-9a0a-42cc-8550-ba50ddc09756_1024x1024.png)
+![Pairing with AI as collaborative partner leveraging complementary strengths](https://substack-post-media.s3.amazonaws.com/public/images/59b6c4e4-9a0a-42cc-8550-ba50ddc09756_1024x1024.png)
 
 The leverage is not in proving we are smarter. It is in knowing where we are stronger. The machine is better at exploring, generating, and iterating without hesitation. We are better at framing the problem, understanding the environment, and judging what matters.
 

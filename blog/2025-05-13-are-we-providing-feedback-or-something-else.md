@@ -7,7 +7,8 @@ tags:
 - substack
 draft: false
 series: ''
-canonical_url: https://theengineeringtax.com/p/are-we-providing-feedback-or-something
+canonical_url: 'https://alvarolorente.dev/blog/2025/05/13/are-we-providing-feedback-or-something-else'
+source_url: 'https://theengineeringtax.com/p/are-we-providing-feedback-or-something'
 cover_image: https://substack-post-media.s3.amazonaws.com/public/images/a2b982ea-1b47-4abe-a1b4-13528921cc89_1531x652.png
 ---
 
@@ -21,7 +22,7 @@ Let's take the definition from [wikipedia](http://en.wikipedia.org/wiki/Feedback
 
 > **Feedback** occurs when outputs of a system are routed back as inputs as part of a chain of cause and effect that forms a circuit or loop. The system can then be said to _feed back_ into itself.
 
-![](https://substack-post-media.s3.amazonaws.com/public/images/a2b982ea-1b47-4abe-a1b4-13528921cc89_1531x652.png)
+![Feedback definition showing outputs routed back as circular inputs](https://substack-post-media.s3.amazonaws.com/public/images/a2b982ea-1b47-4abe-a1b4-13528921cc89_1531x652.png)
 
 This type of feedback requires an event to occur before it can become an input for future iterations. In human interactions, we typically think of **Corrective feedback:**
 
@@ -39,11 +40,11 @@ While this definition seems straightforward, complexity arises when two or more 
 
 We can represent this with the next graphic:
 
-![](https://substack-post-media.s3.amazonaws.com/public/images/04e04160-c543-462f-b2a5-e6a91a70bc46_1810x552.png)
+![Circular feedback system showing interaction between two parties](https://substack-post-media.s3.amazonaws.com/public/images/04e04160-c543-462f-b2a5-e6a91a70bc46_1810x552.png)
 
 This dynamic often leads to a situation where the feedback provider includes their personal views on the receiver's output, introducing bias or prejudice into the system. As a result, what should be feedback becomes merely an opinion or judgment.
 
-![](https://substack-post-media.s3.amazonaws.com/public/images/243d0c34-cf10-4f60-ab40-97725a356ce4_1795x556.png)
+![Observer bias in feedback contaminating pure feedback with opinion](https://substack-post-media.s3.amazonaws.com/public/images/243d0c34-cf10-4f60-ab40-97725a356ce4_1795x556.png)
 
 ## The difference between Feedback, Judgment & Opinion
 
@@ -59,7 +60,7 @@ As humans, we find it challenging to provide pure feedback, since we're not mach
 
 Like many complex problems, the solution lies in simplification. Here, we can remove layers of bias and prejudice by leveraging the recipient's capacity for self-reflection.
 
-![](https://substack-post-media.s3.amazonaws.com/public/images/9114a40f-94ae-4a4a-8697-fef14d11af4a_1487x672.png)
+![Reflection-based feedback that separates observation from judgment](https://substack-post-media.s3.amazonaws.com/public/images/9114a40f-94ae-4a4a-8697-fef14d11af4a_1487x672.png)
 
 Why this approach avoids bias:
 

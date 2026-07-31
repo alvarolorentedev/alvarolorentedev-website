@@ -11,7 +11,7 @@ tags:
 - softwaredevelopment
 - programming
 series: Accelerate Continious Integration & Delivery Practices
-canonical_url: https://www.alvarolorente.dev/blog/2022/09/25/delivery-acceleration-devops-attitudes
+canonical_url: 'https://alvarolorente.dev/blog/2022/09/25/delivery-acceleration-devops-attitudes'
 cover_image: https://www.alvarolorente.dev/img/blog/run_it.jpg
 ---
 
@@ -23,7 +23,7 @@ When we start our journey towards continuous integration & delivery, the first t
 
 ### You build it, you run it
 
-![](https://www.alvarolorente.dev/img/blog/run_it.jpg)
+!["You build it, you run it" DevOps ownership mindset icon](https://www.alvarolorente.dev/img/blog/run_it.jpg)
 
 > create a DevOps culture, not a Devs vs Ops
 
@@ -45,7 +45,7 @@ This affect the next DORA 4 metrics:
 
 ### Embrace Ownership in Failure Culture
 
-![](https://www.alvarolorente.dev/img/blog/1_w7sfzhdxzldtdwt7wfiabg.png)
+![Blame-free failure culture enabling learning from incidents](https://www.alvarolorente.dev/img/blog/1_w7sfzhdxzldtdwt7wfiabg.png)
 
 > the problem is not breaking things, is the inability to recover from it
 
@@ -67,7 +67,7 @@ This affect the next DORA 4 metrics:
 
 ### Be a Boy Scout
 
-![](https://www.alvarolorente.dev/img/blog/scout.jpeg)
+![Boy Scout mindset encouraging continuous improvement practices](https://www.alvarolorente.dev/img/blog/scout.jpeg)
 
 > Don’t continue the same path if you think something can be done better
 
@@ -82,7 +82,7 @@ This affect the next DORA 4 metrics:
 
 ### Learn & Adapt
 
-![](https://www.alvarolorente.dev/img/blog/learn-64058_960_720-3730821950.jpeg)
+![Lightbulb symbolizing learning and knowledge acquisition](https://www.alvarolorente.dev/img/blog/learn-64058_960_720-3730821950.jpeg)
 
 Not everything is solved in the same way, don't follow:
 
@@ -101,7 +101,7 @@ This affect the next DORA 4 metrics:
 
 ### Firefighter Role
 
-![](https://www.alvarolorente.dev/img/blog/firefighter.jpeg)
+![Firefighter role for on-call incident response rotation](https://www.alvarolorente.dev/img/blog/firefighter.jpeg)
 
 The firefighter role is a rotating role inside the team. They are responsible for being the first responder to incidents and helping solve them.  
 At the same time, to make sure this person does not suffer from cognitive load due to context switching, this person is not involved on the normal pair rotation and development tasks.  
@@ -116,7 +116,7 @@ This affect the next DORA 4 metrics:
 
 ### On Call Rotation
 
-![](https://www.alvarolorente.dev/img/blog/on-call.jpeg)
+![On-call rotation for shared production ownership](https://www.alvarolorente.dev/img/blog/on-call.jpeg)
 
 As the development team is also in charge of running the service, some of them will require after working hour support. On call is just this, the disposition of team members to take care of their services around the clock.  
 This tends to sound bad, but there are ways to not make this suck. I can't express it better than [Chris Ford](https://twitter.com/ctford) has already done in this [page](https://ctford.github.io/oncall-charter/).

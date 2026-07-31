@@ -7,7 +7,8 @@ tags:
   - substack
 draft: false
 series: Engineering Strategy 101
-canonical_url: https://theengineeringtax.com/p/transforming-systems-operations-teams
+canonical_url: 'https://alvarolorente.dev/blog/2025/05/08/transforming-systems-operations-teams-into-a-unified-platform-team'
+source_url: 'https://theengineeringtax.com/p/transforming-systems-operations-teams'
 cover_image: https://substack-post-media.s3.amazonaws.com/public/images/bdbf3ca6-a5d8-4c6f-967f-fe46640e59e2_1000x1000.png
 ---
 
@@ -45,7 +46,7 @@ This brings the next benefits:
 
 - **Customer-Centric Approach:** By aligning development and operations goals, teams can better understand and meet the needs of end-users, resulting in higher customer satisfaction.
 
-![](https://substack-post-media.s3.amazonaws.com/public/images/bdbf3ca6-a5d8-4c6f-967f-fe46640e59e2_1000x1000.png)
+![DevOps culture vs Dev vs Ops organizational transformation](https://substack-post-media.s3.amazonaws.com/public/images/bdbf3ca6-a5d8-4c6f-967f-fe46640e59e2_1000x1000.png)
 
 ## The Birth of the Platform Team
 
@@ -69,7 +70,7 @@ To truly drive value within an organization, a platform team must deeply underst
 
 - **Reliability:** A dedicated platform team ensures that the infrastructure is reliable and secure, minimizing downtime and enhancing the overall stability of applications.
 
-![](https://substack-post-media.s3.amazonaws.com/public/images/2608ec91-e93d-4b9d-993c-1711f92f9a4a_1000x1000.png)
+![Platform team providing abstractions reducing cognitive load for stream teams](https://substack-post-media.s3.amazonaws.com/public/images/2608ec91-e93d-4b9d-993c-1711f92f9a4a_1000x1000.png)
 
 ## Closing thoughts
 

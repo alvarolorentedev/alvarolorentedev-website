@@ -10,7 +10,8 @@ tags:
   - programming
 draft: false
 series: Engineering After AI
-canonical_url: https://theengineeringtax.com/p/clean-architecture-is-dying-how-ai
+canonical_url: 'https://alvarolorente.dev/blog/2026/04/08/clean-architecture-is-dying-how-ai-is-killing-essential-software-patterns'
+source_url: 'https://theengineeringtax.com/p/clean-architecture-is-dying-how-ai'
 cover_image: https://substack-post-media.s3.amazonaws.com/public/images/47cff2fb-67dd-4c98-9dea-b0cc08902076_1024x1024.png
 ---
 
@@ -36,7 +37,7 @@ It is increasingly closer to bytecode.
 
 And because of that, a large part of what we call “good engineering” has quietly become unnecessary. Meaning, patterns, and languages are becoming less important.
 
-![](https://substack-post-media.s3.amazonaws.com/public/images/47cff2fb-67dd-4c98-9dea-b0cc08902076_1024x1024.png)
+![Code now read by machines instead of humans shifting design optimization](https://substack-post-media.s3.amazonaws.com/public/images/47cff2fb-67dd-4c98-9dea-b0cc08902076_1024x1024.png)
 
 ---
 
@@ -64,7 +65,7 @@ So we prepare. We abstract. We decouple. We introduce interfaces that may never 
 
 We built systems that are easy to change because changing them was hard.
 
-![](https://substack-post-media.s3.amazonaws.com/public/images/af00a3e1-b74c-48cd-95b3-43aa6724def4_1024x1024.png)
+![Clean architecture patterns unnecessary when regeneration is cheaper](https://substack-post-media.s3.amazonaws.com/public/images/af00a3e1-b74c-48cd-95b3-43aa6724def4_1024x1024.png)
 
 AI changes that equation. We are now operating in a world where regeneration is getting cheaper faster than abstraction.
 
@@ -124,7 +125,7 @@ And that naturally pulls us toward languages and paradigms we spent years abstra
 
 We might return to low-level languages not because developers improved, but because developers matter less in the loop.
 
-![](https://substack-post-media.s3.amazonaws.com/public/images/ae259ae0-ef1f-4622-9907-8bb352f0fa03_1024x1024.png)
+![Runtime behavior now defining quality over internal code structure elegance](https://substack-post-media.s3.amazonaws.com/public/images/ae259ae0-ef1f-4622-9907-8bb352f0fa03_1024x1024.png)
 
 ---
 

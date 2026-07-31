@@ -10,7 +10,8 @@ tags:
 description: Are leaders and managers important for organizational success?
 draft: false
 cover_image: https://raw.githubusercontent.com/alvarolorentedev/website/main/static/img/blog/leader-manager.jpeg
-canonical_url: https://scalinghorizons.substack.com/p/leaders-build-trust-managers-take
+canonical_url: 'https://alvarolorente.dev/blog/2024/02/14/leaders-build-trust-managers-take-control-the-path-to-empowering-teams'
+source_url: 'https://scalinghorizons.substack.com/p/leaders-build-trust-managers-take'
 series: Engineering Strategy 101
 ---
 

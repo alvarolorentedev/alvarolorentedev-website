@@ -47,6 +47,10 @@ jobs:
         if: steps.rss_to_markdown.outcome == 'success'
         run: npm run substack:postprocess
 
+      - name: Build and validate website
+        if: steps.rss_to_markdown.outcome == 'success'
+        run: npm run build && npm run seo:check
+
       - name: Clean temporary files
         if: always()
         run: rm -rf "$SUBSTACK_INPUT_DIR"

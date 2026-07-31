@@ -12,6 +12,7 @@ const sanitize = require("sanitize-filename");
 
 const cwd = process.cwd();
 const args = process.argv.slice(2);
+const siteUrl = "https://alvarolorente.dev";
 
 function getArgValue(flag, fallback) {
   const index = args.indexOf(flag);
@@ -24,7 +25,10 @@ function getArgValue(flag, fallback) {
 
 const inputDir = path.resolve(
   cwd,
-  getArgValue("--input-dir", process.env.SUBSTACK_INPUT_DIR || ".tmp/substack-sync"),
+  getArgValue(
+    "--input-dir",
+    process.env.SUBSTACK_INPUT_DIR || ".tmp/substack-sync",
+  ),
 );
 const outputDir = path.resolve(
   cwd,
@@ -151,12 +155,16 @@ function getText(value) {
 }
 
 function firstNonEmpty(...values) {
-  return values.find((value) => typeof value === "string" && value.trim()) || "";
+  return (
+    values.find((value) => typeof value === "string" && value.trim()) || ""
+  );
 }
 
 async function fetchFeedEntries(url) {
   if (!url || url === "https://yournewsletter.substack.com/feed") {
-    console.warn("SUBSTACK_FEED_URL is not configured. Skipping post-processing.");
+    console.warn(
+      "SUBSTACK_FEED_URL is not configured. Skipping post-processing.",
+    );
     return new Map();
   }
 
@@ -168,7 +176,9 @@ async function fetchFeedEntries(url) {
   });
 
   if (!response.ok) {
-    throw new Error(`Failed to fetch feed: ${response.status} ${response.statusText}`);
+    throw new Error(
+      `Failed to fetch feed: ${response.status} ${response.statusText}`,
+    );
   }
 
   const xml = await response.text();
@@ -215,11 +225,19 @@ function formatDate(dateValue, fallbackFile) {
   return match ? match[1] : new Date().toISOString().slice(0, 10);
 }
 
+function isExpiringImageUrl(url) {
+  return /[?&]X-Amz-(?:Algorithm|Credential|Date|Expires|Signature)=/i.test(
+    url,
+  );
+}
+
 function cleanupHtml(html) {
   const $ = load(html || "");
 
   $("script, iframe, style, noscript").remove();
-  $(".captioned-button-wrap, .subscription-widget-wrap, .available-content").remove();
+  $(
+    ".captioned-button-wrap, .subscription-widget-wrap, .available-content",
+  ).remove();
   $("button, svg").remove();
   $("picture source").remove();
 
@@ -245,15 +263,21 @@ function cleanupHtml(html) {
       return;
     }
 
-    img.attr("src", he.decode(src));
+    const decodedSrc = he.decode(src);
+    if (isExpiringImageUrl(decodedSrc)) {
+      throw new Error(
+        `Refusing to import an expiring signed image URL: ${decodedSrc}`,
+      );
+    }
+
+    img.attr("src", decodedSrc);
+    img.attr("loading", "lazy");
+    img.attr("decoding", "async");
     img.removeAttr("srcset");
     img.removeAttr("sizes");
-    img.removeAttr("loading");
     img.removeAttr("fetchpriority");
     img.removeAttr("class");
     img.removeAttr("style");
-    img.removeAttr("width");
-    img.removeAttr("height");
     img.removeAttr("data-attrs");
   });
 
@@ -315,7 +339,10 @@ function extractDescription(html, fallbackDescription) {
     return clean;
   }
 
-  return `${clean.slice(0, 157).replace(/\s+\S*$/, "").trim()}...`;
+  return `${clean
+    .slice(0, 157)
+    .replace(/\s+\S*$/, "")
+    .trim()}...`;
 }
 
 function extractCoverImage(html) {
@@ -394,7 +421,14 @@ function extractTags(entry) {
   return uniqueTags.length > 0 ? uniqueTags : ["substack"];
 }
 
-function formatFrontMatter({ title, description, canonicalUrl, coverImage, tags }) {
+function formatFrontMatter({
+  title,
+  description,
+  canonicalUrl,
+  sourceUrl,
+  coverImage,
+  tags,
+}) {
   const escapeValue = (value) =>
     String(value || "")
       .replace(/\\/g, "\\\\")
@@ -409,7 +443,8 @@ function formatFrontMatter({ title, description, canonicalUrl, coverImage, tags 
     ...tags.map((tag) => `- ${tag}`),
     "draft: false",
     "series: ''",
-    `canonical_url: ${canonicalUrl || ""}`,
+    `canonical_url: ${canonicalUrl}`,
+    `source_url: ${sourceUrl || ""}`,
     `cover_image: ${coverImage || ""}`,
     "---",
   ].join("\n");
@@ -438,15 +473,20 @@ async function main() {
   for (const filePath of stubFiles) {
     const raw = fs.readFileSync(filePath, "utf8");
     const parsed = frontMatter(raw);
-    const link = String(parsed.attributes.canonical_url || "").trim();
+    const link = String(
+      parsed.attributes.source_url || parsed.attributes.canonical_url || "",
+    ).trim();
     const title = String(parsed.attributes.title || "").trim();
     const feedEntry = feedEntries.get(link);
     const pubDate = formatDate(
-      getText(feedEntry?.pubDate) || getText(feedEntry?.published) || getText(feedEntry?.updated),
+      getText(feedEntry?.pubDate) ||
+        getText(feedEntry?.published) ||
+        getText(feedEntry?.updated),
       filePath,
     );
     const slug = normalizeSlug(title);
     const targetPath = path.join(outputDir, `${pubDate}-${slug}.md`);
+    const canonicalUrl = `${siteUrl}/blog/${pubDate.replaceAll("-", "/")}/${slug}`;
 
     if (fs.existsSync(targetPath)) {
       console.log(`Skipping existing post ${path.basename(targetPath)}.`);
@@ -460,15 +500,19 @@ async function main() {
       String(parsed.attributes.description || ""),
     );
     const coverImage =
-      extractCoverImage(sourceHtml) || String(parsed.attributes.cover_image || "").trim();
+      extractCoverImage(sourceHtml) ||
+      String(parsed.attributes.cover_image || "").trim();
     const tags = extractTags(feedEntry);
     const markdownBody = injectTruncate(
-      sourceHtml ? normalizeMarkdown(turndown.turndown(sourceHtml)) : fallbackMarkdown,
+      sourceHtml
+        ? normalizeMarkdown(turndown.turndown(sourceHtml))
+        : fallbackMarkdown,
     );
     const frontMatterBlock = formatFrontMatter({
       title,
       description,
-      canonicalUrl: link,
+      canonicalUrl,
+      sourceUrl: link,
       coverImage,
       tags,
     });

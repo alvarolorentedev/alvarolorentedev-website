@@ -10,7 +10,7 @@ tags:
 - productivity
 draft: false
 series: ''
-canonical_url: https://www.alvarolorente.dev/blog/2022/08/24/power-automate-automating-social-media
+canonical_url: 'https://alvarolorente.dev/blog/2022/08/24/power-automate-automating-social-media'
 cover_image: https://github.com/alvarolorentedev/diagrams/blob/main/automate.drawio.png?raw=true
 ---
 
@@ -29,7 +29,7 @@ I am currently starting some new open-source projects and I feel it is tedious t
 * Announce a new release.
 
 [Power Automate](https://powerautomate.microsoft.com/en-us/) & [IFTTT](https://ifttt.com/) integrations allow just this, by a process of action and reaction.  
-![](https://github.com/alvarolorentedev/diagrams/blob/main/automate.drawio.png?raw=true)
+![Power Automate workflow diagram showing triggers, actions, and integrations](https://github.com/alvarolorentedev/diagrams/blob/main/automate.drawio.png?raw=true)
 
 These systems provide:
 

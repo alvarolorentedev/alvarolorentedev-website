@@ -10,7 +10,8 @@ tags:
 - systemdesign
 draft: false
 series: ''
-canonical_url: https://theengineeringtax.com/p/when-you-realize-engineering-is-everyones
+canonical_url: 'https://alvarolorente.dev/blog/2026/02/25/when-you-realize-engineering-is-everyones-dependency'
+source_url: 'https://theengineeringtax.com/p/when-you-realize-engineering-is-everyones'
 cover_image: https://substack-post-media.s3.amazonaws.com/public/images/72fe64c0-2ab0-4077-85eb-a01ff5d90b0c_1536x1024.png
 ---
 
@@ -42,7 +43,7 @@ In digital-first companies, every major initiative requires engineering particip
 
 -   Financial efficiency initiatives often depend on architectural optimization and automation.
 
-![](https://substack-post-media.s3.amazonaws.com/public/images/72fe64c0-2ab0-4077-85eb-a01ff5d90b0c_1536x1024.png)
+![Engineering as organizational convergence layer and execution engine](https://substack-post-media.s3.amazonaws.com/public/images/72fe64c0-2ab0-4077-85eb-a01ff5d90b0c_1536x1024.png)
 
 Cross-functional coordination has grown accordingly. A **[Harvard Business Review analysis on collaboration overload](https://hbr.org/2016/01/collaborative-overload)** by Rob Cross and colleagues found that time spent on collaborative work has increased dramatically over the past two decades, often consuming more than 50% of managers’ time. In environments where engineering sits at the center of execution, this coordination burden is amplified.
 
@@ -78,7 +79,7 @@ One of the defining characteristics of engineering dependency is simultaneous ur
 
 However, engineering throughput is bounded. The **Theory of Constraints**, introduced by Eliyahu Goldratt, provides a useful systems lens: in any production system, throughput is limited by its bottleneck. In software organizations, engineering frequently becomes that constraint.
 
-![](https://substack-post-media.s3.amazonaws.com/public/images/649f544d-ca87-45f1-b574-13fcbdd7bb31_1536x1024.png)
+![Engineering as system bottleneck under theory of constraints](https://substack-post-media.s3.amazonaws.com/public/images/649f544d-ca87-45f1-b574-13fcbdd7bb31_1536x1024.png)
 
 Empirical research reinforces this. The [DORA research](https://cloud.google.com/devops) program highlights that elite-performing teams focus on improving flow efficiency and limiting work in progress rather than maximizing parallel initiatives. Organizations that attempt to advance too many simultaneous priorities experience degraded delivery performance.
 

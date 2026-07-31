@@ -1,0 +1,38 @@
+.author {
+  display: grid;
+  grid-template-columns: 72px minmax(0, 1fr);
+  gap: 1rem;
+  align-items: start;
+  margin: 2.5rem 0 1.5rem;
+  padding: 1.25rem 0;
+  border-top: 1px solid var(--site-border);
+  border-bottom: 1px solid var(--site-border);
+}
+
+.authorImage {
+  display: block;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+}
+
+.authorTitle {
+  margin: 0 0 0.35rem;
+  font-size: 1.15rem;
+}
+
+.authorDescription {
+  margin: 0 0 0.35rem;
+  color: var(--site-text-soft);
+}
+
+@media (max-width: 480px) {
+  .author {
+    grid-template-columns: 56px minmax(0, 1fr);
+  }
+
+  .authorImage {
+    width: 56px;
+    height: 56px;
+  }
+}

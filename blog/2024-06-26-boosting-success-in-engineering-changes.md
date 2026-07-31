@@ -7,7 +7,8 @@ tags:
   - substack
 draft: false
 series: Engineering Strategy 101
-canonical_url: https://theengineeringtax.com/p/boosting-success-in-engineering-changes
+canonical_url: 'https://alvarolorente.dev/blog/2024/06/26/boosting-success-in-engineering-changes'
+source_url: 'https://theengineeringtax.com/p/boosting-success-in-engineering-changes'
 cover_image: https://substack-post-media.s3.amazonaws.com/public/images/ca210222-8426-48f0-ae2a-721d973f1f87_1080x1080.jpeg
 ---
 
@@ -17,7 +18,7 @@ Ever found yourself in engineering departments where tools and practices are ado
 
 One example that might resonate are companies that try to implement their goals through OKRs. Typically, the first year doesn't yield substantial value, leading to a gradual disregard in the second year. Before the close of year two, a new acronym supersedes the existing goal definition, setting off yet another cycle.
 
-![](https://substack-post-media.s3.amazonaws.com/public/images/ca210222-8426-48f0-ae2a-721d973f1f87_1080x1080.jpeg)
+![Cycle symbol representing repeated pattern of methodology adoption-abandonment](https://substack-post-media.s3.amazonaws.com/public/images/ca210222-8426-48f0-ae2a-721d973f1f87_1080x1080.jpeg)
 
 Leads Horizons is a reader-supported publication. To receive new posts and support my work, consider becoming a free or paid subscriber.
 
@@ -49,7 +50,7 @@ To foster patience within the engineering department, it's essential that the co
 
 - **Lead by Example**: Leadership should portray patience in their actions and decision-making. This means resisting the urge to follow the latest trends without adequate evaluation, and allowing new processes sufficient time to integrate and yield results.
 
-![](https://substack-post-media.s3.amazonaws.com/public/images/3c9c2dac-3feb-4769-a0c0-f684fd0b4732_1080x1080.jpeg)
+![Patience emphasis for successful long-term methodology implementation](https://substack-post-media.s3.amazonaws.com/public/images/3c9c2dac-3feb-4769-a0c0-f684fd0b4732_1080x1080.jpeg)
 
 ### Aligning Knowledge
 
@@ -63,7 +64,7 @@ To effectively share knowledge throughout the engineering department, it's essen
 
 - **Promoting open dialogue**: We should create spaces for our people to share their thoughts, concerns, and feelings about upcoming changes. This approach encourages a sense of ownership and commitment, which can minimize the risk of premature termination.
 
-![](https://substack-post-media.s3.amazonaws.com/public/images/06e0b933-9408-4822-9d3c-acd6579f1379_1080x1080.jpeg)
+![Open dialogue and knowledge alignment for engineering culture change](https://substack-post-media.s3.amazonaws.com/public/images/06e0b933-9408-4822-9d3c-acd6579f1379_1080x1080.jpeg)
 
 ## Final thoughts
 
@@ -81,7 +82,7 @@ Patience, coupled with knowledge alignment, can significantly increase the succe
 
 [
 
-![](https://substackcdn.com/image/fetch/$s_!va4S!,w_56,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe58ebc2f-5af7-4c21-a4e8-f8cdda0392fe_1000x1000.png)Perspectiveship
+![Perspectiveship publication logo](https://substackcdn.com/image/fetch/$s_!va4S!,w_56,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe58ebc2f-5af7-4c21-a4e8-f8cdda0392fe_1000x1000.png)Perspectiveship
 
 Occam's Razor - Mental Model
 
@@ -95,7 +96,7 @@ Read more
 
 [
 
-![](https://substackcdn.com/image/fetch/$s_!ERyX!,w_56,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F69f2b31c-bed1-4854-b2c2-76a5eb18d49d_500x500.png)Data Gibberish
+![Data Gibberish publication logo](https://substackcdn.com/image/fetch/$s_!ERyX!,w_56,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F69f2b31c-bed1-4854-b2c2-76a5eb18d49d_500x500.png)Data Gibberish
 
 Ask Me Anything, June 2024
 

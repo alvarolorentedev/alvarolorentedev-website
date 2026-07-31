@@ -10,7 +10,8 @@ tags:
   - programming
 draft: false
 series: Engineering After AI
-canonical_url: https://theengineeringtax.com/p/most-software-engineering-ilities
+canonical_url: 'https://alvarolorente.dev/blog/2026/04/16/most-software-engineering-ilities-are-becoming-irrelevant-in-the-age-of-ai'
+source_url: 'https://theengineeringtax.com/p/most-software-engineering-ilities'
 cover_image: https://substack-post-media.s3.amazonaws.com/public/images/366d545f-8173-4418-83fe-e94602f9286a_1536x1024.png
 ---
 
@@ -26,7 +27,7 @@ A world where writing software was expensive. A world where change was slow. A w
 
 That world is disappearing, but our mental models have not caught up.
 
-![](https://substack-post-media.s3.amazonaws.com/public/images/366d545f-8173-4418-83fe-e94602f9286a_1536x1024.png)
+!["-ilities" response to past constraints losing relevance with new cost structure](https://substack-post-media.s3.amazonaws.com/public/images/366d545f-8173-4418-83fe-e94602f9286a_1536x1024.png)
 
 In previous articles, I explored how AI is not removing complexity, but shifting where it lives. Execution is no longer the bottleneck. The constraints have moved toward coordination, decision-making, and validation. The system did not get simpler. It just changed shape.
 
@@ -52,7 +53,7 @@ Testability exists because confidence was hard to achieve. When systems were opa
 
 These were not universal truths about good engineering. They were adaptations to a specific cost structure.
 
-![](https://substack-post-media.s3.amazonaws.com/public/images/1e794bcd-52b8-4bc7-a3d1-91d436f55020_1536x1024.png)
+![Maintainability and reusability value decrease as regeneration becomes cheap](https://substack-post-media.s3.amazonaws.com/public/images/1e794bcd-52b8-4bc7-a3d1-91d436f55020_1536x1024.png)
 
 ---
 
@@ -110,7 +111,7 @@ What all of these have in common is that they optimize for a world where executi
 
 If we shift the focus from code to systems, a different set of concerns emerges. These are not tied to how code is written, but to how systems behave under continuous change.
 
-![](https://substack-post-media.s3.amazonaws.com/public/images/42dcc6c6-98f4-4490-b1a1-3eb434f67d20_1536x1024.png)
+![Observability, reliability, security, scalability, evolvability replacing "-ilities"](https://substack-post-media.s3.amazonaws.com/public/images/42dcc6c6-98f4-4490-b1a1-3eb434f67d20_1536x1024.png)
 
 - Observability becomes critical because systems evolve faster than individuals can track. Understanding behavior in production becomes more valuable than understanding implementation details. When change accelerates, visibility becomes the only stable reference point.
 
