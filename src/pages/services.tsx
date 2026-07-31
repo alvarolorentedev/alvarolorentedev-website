@@ -4,13 +4,6 @@ import Layout from "@theme/Layout";
 import { Service, ServiceData } from "../components/services/Service";
 import { PageMeta } from "../components/site/PageMeta";
 import { ClosingCta, PageHero } from "../components/site/PageHero";
-import AiAdvisory from "./assets/services/ai-advisory.svg";
-import ArchitectureModernization from "./assets/services/architecture-modernization.svg";
-import DueDiligence from "./assets/services/due-diligence.svg";
-import EngineeringStrategy from "./assets/services/engineering-strategy.svg";
-import FractionalCto from "./assets/services/fractional-cto.svg";
-import StartupMvp from "./assets/services/startup-mvp.svg";
-import TechnologyStrategy from "./assets/services/technology-strategy.svg";
 import styles from "./services.module.scss";
 
 const services: ServiceData[] = [
@@ -18,12 +11,8 @@ const services: ServiceData[] = [
     title: "Technology Strategy and Transformation",
     description:
       "Align technology decisions, architecture, teams, and investments with business goals.",
-    image: (
-      <TechnologyStrategy
-        title="Technology strategy and transformation roadmap"
-        role="img"
-      />
-    ),
+    visual: "strategy",
+    accent: "#c3d3cc",
     url: "https://cal.com/alvarolorente/30min",
     role: "Strategy",
   },
@@ -31,12 +20,8 @@ const services: ServiceData[] = [
     title: "Organizational Design and Engineering Effectiveness",
     description:
       "Improve team structures, ownership, delivery processes, collaboration, and technical decision-making.",
-    image: (
-      <EngineeringStrategy
-        title="Organizational design and engineering effectiveness"
-        role="img"
-      />
-    ),
+    visual: "organization",
+    accent: "#d9d0b8",
     url: "https://cal.com/alvarolorente/30min",
     role: "Organization",
   },
@@ -44,9 +29,8 @@ const services: ServiceData[] = [
     title: "AI Strategy, Products and Automation",
     description:
       "Identify valuable AI opportunities and turn them into practical products, agents, and workflows.",
-    image: (
-      <AiAdvisory title="AI strategy, products and automation" role="img" />
-    ),
+    visual: "ai",
+    accent: "#bbcbd5",
     url: "https://cal.com/alvarolorente/30min",
     role: "AI",
   },
@@ -54,12 +38,8 @@ const services: ServiceData[] = [
     title: "Architecture and Platform Modernization",
     description:
       "Modernize systems, platforms, cloud foundations, developer experience, and engineering practices.",
-    image: (
-      <ArchitectureModernization
-        title="Architecture and platform modernization"
-        role="img"
-      />
-    ),
+    visual: "architecture",
+    accent: "#d8c2ba",
     url: "https://cal.com/alvarolorente/30min",
     role: "Modernization",
   },
@@ -67,12 +47,8 @@ const services: ServiceData[] = [
     title: "Fractional CTO and Technology Leadership",
     description:
       "Provide senior technical leadership for startups and organizations navigating growth, change, or complex decisions.",
-    image: (
-      <FractionalCto
-        title="Fractional CTO and technology leadership"
-        role="img"
-      />
-    ),
+    visual: "leadership",
+    accent: "#c9d2b5",
     url: "https://cal.com/alvarolorente/30min",
     role: "Leadership",
   },
@@ -80,7 +56,8 @@ const services: ServiceData[] = [
     title: "Startup Product and MVP Advisory",
     description:
       "Help founders validate ideas, define product scope, choose the right architecture, and move efficiently from concept to market.",
-    image: <StartupMvp title="Startup product and MVP journey" role="img" />,
+    visual: "startup",
+    accent: "#cec4d2",
     url: "https://cal.com/alvarolorente/30min",
     role: "Startup",
   },
@@ -88,7 +65,8 @@ const services: ServiceData[] = [
     title: "Technical Due Diligence and Advisory",
     description:
       "Assess architecture, teams, risks, scalability, security, and technical readiness for investments or strategic decisions.",
-    image: <DueDiligence title="Technical due diligence review" role="img" />,
+    visual: "diligence",
+    accent: "#dac9b6",
     url: "https://cal.com/alvarolorente/30min",
     role: "Advisory",
   },
@@ -160,9 +138,14 @@ export default function Services(): JSX.Element {
               </span>
             </div>
 
-            <div className="row">
-              {services.map((service) => (
-                <Service key={service.title} {...service} />
+            <div className={styles.serviceGrid}>
+              {services.map((service, index) => (
+                <Service
+                  key={service.title}
+                  {...service}
+                  index={index + 1}
+                  featured={index === 0}
+                />
               ))}
             </div>
           </div>

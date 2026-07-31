@@ -26,8 +26,18 @@
   }
 }
 
+.serviceGrid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 @media (max-width: 996px) {
   .services {
     padding: 4.5rem 1rem 3rem;
+  }
+
+  .serviceGrid {
+    grid-template-columns: 1fr;
   }
 }
