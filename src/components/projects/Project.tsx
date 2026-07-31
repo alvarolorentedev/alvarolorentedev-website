@@ -1,54 +1,67 @@
 import clsx from "clsx";
-import React, { FunctionComponent } from "react";
-import Image from "@theme/IdealImage";
+import React, { CSSProperties, FunctionComponent, ReactNode } from "react";
 
 import DiscoverIcon from "./assets/icon-discover.svg";
 import styles from "./Project.module.scss";
 
 export interface ProjectData {
   title: string;
+  category: string;
   description: string;
-  role?: string;
+  capability: string;
+  accent: string;
   url: string;
-  image: string;
+  logo: ReactNode;
 }
 
-export const Project: FunctionComponent<ProjectData> = ({
+interface ProjectProps extends ProjectData {
+  index: number;
+  featured?: boolean;
+}
+
+export const Project: FunctionComponent<ProjectProps> = ({
   title,
+  category,
   description,
+  capability,
+  accent,
   url,
-  role,
-  image,
+  logo,
+  index,
+  featured = false,
 }) => {
   return (
-    <div className={clsx("col col--6", styles.cardContainer)}>
-      <div className={clsx("card", styles.card)}>
-        <div className={clsx("card__image", styles.image)}>
-          <Image img={image} alt={description} title={title} />
-          {role && (
-            <span className={clsx("badge badge--secondary", styles.role)}>
-              Role: {role}
-            </span>
-          )}
-        </div>
-        <div className="card__body">
+    <article
+      className={clsx(styles.project, featured && styles.featured)}
+      style={{ "--project-accent": accent } as CSSProperties}
+    >
+      <div className={styles.visual}>
+        <span className={styles.index}>{String(index).padStart(2, "0")}</span>
+        <div className={styles.image}>{logo}</div>
+      </div>
+      <div className={styles.content}>
+        <div>
+          <p className={styles.category}>{category}</p>
           <h2>{title}</h2>
           <p>{description}</p>
         </div>
-        <div className="card__footer">
+        <div className={styles.bottom}>
+          <p className={styles.capability}>
+            <span>What it demonstrates</span>
+            {capability}
+          </p>
           <a
             href={url}
             target="_blank"
             rel="noopener noreferrer"
-            className="button button--primary button--outline"
+            className={styles.link}
+            aria-label={`Visit ${title} (opens in a new tab)`}
           >
-            <span className="button__icon">
-              <DiscoverIcon />
-            </span>
-            Discover
+            View project
+            <DiscoverIcon />
           </a>
         </div>
       </div>
-    </div>
+    </article>
   );
 };

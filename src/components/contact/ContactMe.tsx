@@ -20,8 +20,16 @@ export const ContactMe: FunctionComponent = () => {
           <input id="contact-name" type="text" name="name" required />
           <label htmlFor="contact-email">Your email</label>
           <input id="contact-email" type="email" name="email" required />
+          <label htmlFor="contact-context">What decision are you facing?</label>
+          <textarea
+            id="contact-context"
+            name="message"
+            rows={5}
+            required
+            placeholder="A little context, what is at stake, and your timeline."
+          />
           <button className="button button--primary" type="submit">
-            Send
+            Send context
           </button>
         </form>
       </div>
@@ -34,6 +42,8 @@ export const ContactMe: FunctionComponent = () => {
           <a
             className="button button--primary"
             href="https://cal.com/alvarolorente/30min"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Book a 30 minute call
           </a>
@@ -43,7 +53,11 @@ export const ContactMe: FunctionComponent = () => {
         <p className={styles.copy}>
           LinkedIn is a good option for lightweight intros and follow-up.
         </p>
-        <a href="https://www.linkedin.com/in/alvarolorentedev/">
+        <a
+          href="https://www.linkedin.com/in/alvarolorentedev/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Say hi on LinkedIn
         </a>
       </div>

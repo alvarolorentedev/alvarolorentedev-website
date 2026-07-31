@@ -5,9 +5,9 @@
 }
 
 .panel {
-  padding: 1.5rem;
+  padding: 2.25rem;
   border: 1px solid var(--site-border);
-  border-radius: 1.5rem;
+  border-radius: 0;
   background: var(--site-surface);
 }
 
@@ -28,7 +28,8 @@
   flex-direction: column;
   gap: 0.9rem;
 
-  > input {
+  > input,
+  > textarea {
     line-height: 1.5;
     padding: calc(var(--ifm-button-padding-vertical))
       calc(var(--ifm-button-padding-horizontal) / 2);
@@ -36,11 +37,24 @@
     border: 1px solid var(--site-border);
     border-radius: var(--ifm-button-border-radius);
     background: var(--ifm-background-color);
+    color: var(--ifm-font-color-base);
+    font-family: inherit;
+
+    &:focus {
+      border-color: var(--ifm-color-primary);
+      outline: 2px solid
+        color-mix(in srgb, var(--ifm-color-primary) 30%, transparent);
+      outline-offset: 2px;
+    }
 
     @include small-size {
       width: 100%;
       display: block;
       margin-right: 0;
     }
+  }
+
+  > textarea {
+    resize: vertical;
   }
 }

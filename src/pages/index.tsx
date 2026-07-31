@@ -1,5 +1,4 @@
 import React from "react";
-import Head from "@docusaurus/Head";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import { AboutMe } from "../components/homepage/AboutMe";
@@ -9,6 +8,9 @@ import {
   SocialLinks,
 } from "../components/homepage/SocialLinks";
 import { Hero } from "../components/homepage/Hero";
+import { PageMeta } from "../components/site/PageMeta";
+import { ClosingCta } from "../components/site/PageHero";
+import styles from "./index.module.scss";
 
 import avatar from "./assets/index/avatar.jpg";
 import AboutMeDesc from "./assets/index/_about-me.md";
@@ -101,22 +103,42 @@ export default function Home(): JSX.Element {
       title="Fractional CTO and engineering strategy advisor"
       description={siteConfig.tagline}
     >
-      <Head>
-        <script type="application/ld+json">
-          {JSON.stringify(personStructuredData)}
-        </script>
-      </Head>
+      <PageMeta
+        title="Fractional CTO and engineering strategy advisor"
+        description={siteConfig.tagline}
+        path=""
+        structuredData={personStructuredData}
+      />
       <Hero />
       <main>
-        <div className="container padding-vert">
-          <Highlights />
-          <AboutMe
-            avatar={avatar}
-            avatarAlt="Alvaro Lorente, fractional CTO and engineering advisor"
-            descriptionComponent={<AboutMeDesc />}
-          />
-          <SocialLinks data={socialLinks} />
-        </div>
+        <section className={styles.focusBand}>
+          <div className="container">
+            <Highlights />
+          </div>
+        </section>
+        <section className={styles.aboutBand}>
+          <div className="container">
+            <AboutMe
+              avatar={avatar}
+              avatarAlt="Alvaro Lorente, fractional CTO and engineering advisor"
+              descriptionComponent={<AboutMeDesc />}
+            />
+          </div>
+        </section>
+        <section className={styles.connectBand}>
+          <div className="container">
+            <SocialLinks data={socialLinks} />
+          </div>
+        </section>
+        <ClosingCta
+          eyebrow="A consequential technical decision?"
+          title="Add senior judgment before the cost compounds."
+          description="Bring the context, constraints, and tradeoffs. We will establish what matters and whether I am the right person to help."
+          primaryLabel="Discuss your next move"
+          primaryHref="https://cal.com/alvarolorente/30min"
+          secondaryLabel="See the portfolio"
+          secondaryHref="/projects"
+        />
       </main>
     </Layout>
   );

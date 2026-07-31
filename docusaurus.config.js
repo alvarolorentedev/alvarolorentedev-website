@@ -111,6 +111,22 @@ const config = {
           name: "twitter:site",
           content: "@lorentedev",
         },
+        {
+          property: "og:type",
+          content: "website",
+        },
+        {
+          property: "og:site_name",
+          content: "Alvaro Lorente",
+        },
+        {
+          property: "og:image",
+          content: "https://alvarolorente.dev/img/logo-small.png",
+        },
+        {
+          name: "twitter:image",
+          content: "https://alvarolorente.dev/img/logo-small.png",
+        },
       ],
       colorMode: {
         respectPrefersColorScheme: true,

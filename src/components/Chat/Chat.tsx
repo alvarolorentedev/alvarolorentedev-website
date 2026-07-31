@@ -1,4 +1,3 @@
-
 import React, { useRef, useEffect } from "react";
 import { DeepChat } from "deep-chat-react";
 
@@ -25,8 +24,9 @@ const Chat: React.FC = () => {
       } catch (e) {}
       if (Array.isArray(messages) && messages.length >= MAX_MESSAGES) {
         deepChatRef.current.disableSubmitButton(true);
-        deepChatRef.current.textInput.disabled=true;
-        deepChatRef.current.textInput.placeholder.text="Message Limit Reached. Please contact the real Alvaro Lorente for further assistance.";
+        deepChatRef.current.textInput.disabled = true;
+        deepChatRef.current.textInput.placeholder.text =
+          "Message Limit Reached. Please contact the real Alvaro Lorente for further assistance.";
       } else {
         deepChatRef.current.disableSubmitButton(false);
       }
@@ -36,22 +36,21 @@ const Chat: React.FC = () => {
     checkMessagesToDisable();
   }, [deepChatRef]);
 
-
   return (
     <DeepChat
       ref={deepChatRef}
       style={{
-        display: 'block',
-        borderRadius: '10px',
-        width: '100%',
-        height: 'calc(100vh - 50vh)'
+        display: "block",
+        borderRadius: "10px",
+        width: "100%",
+        height: "calc(100vh - 50vh)",
       }}
       browserStorage={{
         key: "deepchat-messages",
         maxMessages: 15,
       }}
       introMessage={{
-        text: "Welcome to the chat with the virtual Alvaro Lorente! How can I assist you today?"
+        text: "Welcome to the chat with the virtual Alvaro Lorente! How can I assist you today?",
       }}
       onInput={checkMessagesToDisable}
       messageStyles={{
@@ -61,23 +60,24 @@ const Chat: React.FC = () => {
               maxWidth: "100%",
               backgroundColor: "unset",
               marginTop: "10px",
-              marginBottom: "10px"
-            }
+              marginBottom: "10px",
+            },
           },
           user: {
             bubble: {
               marginLeft: "0px",
-              color: "black"
-            }
+              color: "#243139",
+            },
           },
           ai: {
             outerContainer: {
-              backgroundColor: "rgba(247,247,248)",
-              borderTop: "1px solid rgba(0,0,0,.1)",
-              borderBottom: "1px solid rgba(0,0,0,.1)"
-            }
-          }
-        }
+              backgroundColor: "#e6ebe7",
+              color: "#243139",
+              borderTop: "1px solid #cbd2ce",
+              borderBottom: "1px solid #cbd2ce",
+            },
+          },
+        },
       }}
       textInput={{
         styles: {
@@ -85,22 +85,22 @@ const Chat: React.FC = () => {
             width: "100%",
             margin: "0",
             border: "unset",
-            borderTop: "1px solid #d5d5d5",
+            borderTop: "1px solid #cbd2ce",
             borderRadius: "0px",
-            boxShadow: "unset"
+            boxShadow: "unset",
           },
           text: {
             fontSize: "1.05em",
             paddingTop: "11px",
             paddingBottom: "13px",
             paddingLeft: "12px",
-            paddingRight: "2.4em"
-          }
+            paddingRight: "2.4em",
+          },
         },
         placeholder: {
           text: "Send a message",
-          style: { color: "#bcbcbc" }
-        }
+          style: { color: "#66756f" },
+        },
       }}
       submitButtonStyles={{
         submit: {
@@ -108,26 +108,32 @@ const Chat: React.FC = () => {
             default: {
               transform: "scale(1.21)",
               marginBottom: "-3px",
-              marginRight: "0.4em"
-            }
-          }
-        }
+              marginRight: "0.4em",
+            },
+          },
+        },
       }}
       avatars={{
-          default: {"styles": {"position": "left"}},
+        default: { styles: { position: "left" } },
       }}
       connect={{
         url: AGENT_ENDPOINT,
         headers: {
           "Content-Type": "application/json",
           Origin: SITE_ORIGIN,
-        }
+        },
       }}
       requestInterceptor={(details: any) => {
-        const messages = Array.isArray(details.body?.messages) ? details.body.messages : [];
+        const messages = Array.isArray(details.body?.messages)
+          ? details.body.messages
+          : [];
         const latestUserMessage = [...messages]
           .reverse()
-          .find((message: any) => typeof message?.text === "string" && message.text.trim().length > 0);
+          .find(
+            (message: any) =>
+              typeof message?.text === "string" &&
+              message.text.trim().length > 0,
+          );
 
         return {
           ...details,

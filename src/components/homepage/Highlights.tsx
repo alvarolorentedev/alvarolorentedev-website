@@ -40,7 +40,9 @@ export const Highlights: FunctionComponent = () => {
     <section className={styles.section} aria-labelledby="focus-areas-title">
       <div className={styles.header}>
         <p className={styles.eyebrow}>How I help</p>
-        <h2 id="focus-areas-title">Strategy, systems, and leadership that scale</h2>
+        <h2 id="focus-areas-title">
+          Strategy, systems, and leadership that scale
+        </h2>
         <p className={styles.lead}>
           I work with software companies that want stronger technical direction
           without sacrificing delivery speed or organizational clarity.
@@ -49,7 +51,10 @@ export const Highlights: FunctionComponent = () => {
 
       <div className="row">
         {items.map((item) => (
-          <div key={item.title} className={clsx("col col--4", styles.cardColumn)}>
+          <div
+            key={item.title}
+            className={clsx("col col--4", styles.cardColumn)}
+          >
             <article className={styles.card}>
               <h3>{item.title}</h3>
               <p>{item.description}</p>

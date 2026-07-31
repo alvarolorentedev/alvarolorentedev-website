@@ -1,0 +1,259 @@
+@import "../css/mixins";
+
+.hero {
+  background: var(--site-hero);
+  color: var(--site-hero-text);
+  min-height: calc(100vh - var(--ifm-navbar-height));
+  padding: 5rem 0 4rem;
+}
+
+.heroLayout {
+  display: grid;
+  gap: 5rem;
+  grid-template-columns: minmax(0, 1.45fr) minmax(18rem, 0.55fr);
+  min-height: calc(100vh - var(--ifm-navbar-height) - 9rem);
+}
+
+.heroContent {
+  align-self: center;
+  max-width: 60rem;
+
+  h1 {
+    font-size: clamp(3.5rem, 7vw, 6.8rem);
+    letter-spacing: 0;
+    line-height: 0.92;
+    margin-bottom: 2rem;
+    max-width: 58rem;
+  }
+
+  em {
+    color: var(--site-hero-accent);
+    font-style: normal;
+  }
+
+  .eyebrow {
+    color: var(--site-hero-accent);
+  }
+}
+
+.eyebrow {
+  color: var(--site-accent-strong);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.75rem;
+  text-transform: uppercase;
+}
+
+.intro {
+  color: var(--site-hero-muted);
+  font-size: 1.12rem;
+  max-width: 42rem;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem;
+  margin-top: 1.75rem;
+}
+
+.textLink {
+  align-items: center;
+  color: var(--site-hero-text);
+  display: inline-flex;
+  font-weight: 700;
+  gap: 0.55rem;
+  padding: 0.8rem 0;
+  text-decoration: none;
+
+  &:hover {
+    color: var(--site-hero-accent);
+    text-decoration: none;
+  }
+}
+
+.heroIndex {
+  align-self: stretch;
+  border-left: 1px solid
+    color-mix(in srgb, var(--site-hero-text) 20%, transparent);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 2rem;
+
+  > p {
+    color: var(--site-hero-muted);
+    max-width: 13rem;
+  }
+
+  dl {
+    margin: 2rem 0 0;
+  }
+
+  dl div {
+    border-top: 1px solid
+      color-mix(in srgb, var(--site-hero-text) 16%, transparent);
+    display: grid;
+    grid-template-columns: 2.5rem 1fr;
+    padding: 0.7rem 0;
+  }
+
+  dt {
+    color: var(--site-hero-accent);
+    font-size: 0.72rem;
+  }
+
+  dd {
+    font-size: 0.86rem;
+    margin: 0;
+  }
+}
+
+.projectCount {
+  color: var(--site-hero-accent);
+  font-family: "Space Grotesk", sans-serif;
+  font-size: clamp(6rem, 11vw, 10rem);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 0.8;
+}
+
+.workSection,
+.principlesSection {
+  padding: 7rem 0;
+}
+
+.sectionHeading {
+  margin-bottom: 2.5rem;
+  max-width: 48rem;
+
+  h2 {
+    font-size: clamp(2.5rem, 4vw, 4rem);
+    letter-spacing: 0;
+    line-height: 1;
+  }
+
+  > p:last-child {
+    color: var(--site-text-soft);
+    font-size: 1.05rem;
+  }
+}
+
+.projectGrid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.principlesSection {
+  background: var(--site-band);
+  border-bottom: 1px solid var(--site-border);
+  border-top: 1px solid var(--site-border);
+  color: var(--site-band-text);
+
+  .eyebrow,
+  .principles span {
+    color: var(--site-accent-strong);
+  }
+
+  .principles p {
+    color: var(--site-text-soft);
+  }
+}
+
+.principles {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+
+  article {
+    border-top: 1px solid var(--site-border);
+    padding-top: 1.5rem;
+  }
+
+  span {
+    color: var(--site-accent-strong);
+    display: block;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 0.78rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.65rem;
+  }
+
+  p {
+    color: var(--site-text-soft);
+    margin: 0;
+  }
+}
+
+.ctaSection {
+  background: var(--site-cta);
+  color: var(--site-cta-text);
+  padding: 6rem 1.5rem;
+}
+
+.ctaInner {
+  margin: 0 auto;
+  max-width: 72rem;
+  padding: 0;
+
+  h2 {
+    font-size: clamp(2rem, 3.5vw, 3.25rem);
+    line-height: 1.08;
+    max-width: 50rem;
+  }
+
+  > p:not(.eyebrow) {
+    color: var(--site-text-soft);
+    max-width: 45rem;
+  }
+
+  .eyebrow {
+    color: var(--site-accent-strong);
+  }
+}
+
+@include small-size {
+  .hero {
+    min-height: auto;
+    padding: 3rem 1rem 3.25rem;
+  }
+
+  .heroLayout {
+    gap: 0;
+    grid-template-columns: 1fr;
+    min-height: auto;
+  }
+
+  .heroContent h1 {
+    font-size: clamp(3rem, 9vw, 4rem);
+    margin-bottom: 1.4rem;
+  }
+
+  .heroIndex {
+    display: none;
+  }
+
+  .workSection,
+  .principlesSection {
+    padding: 4.5rem 1rem;
+  }
+
+  .projectGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .principles {
+    grid-template-columns: 1fr;
+  }
+
+  .ctaSection {
+    padding: 4.5rem 1.5rem;
+  }
+}

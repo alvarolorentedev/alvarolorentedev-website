@@ -6,16 +6,16 @@
   bottom: 1.5rem;
   z-index: 110;
   padding: 0.9rem 1.25rem;
-  border: 1px solid rgba(255, 255, 255, 0.22);
+  border: 1px solid
+    color-mix(in srgb, var(--site-accent) 55%, var(--site-border));
   border-radius: 999px;
-  background:
-    linear-gradient(135deg, rgba(11, 95, 255, 0.95), rgba(15, 79, 207, 0.95));
-  color: #fff;
+  background: var(--site-accent);
+  color: var(--site-hero-text);
   font-family: "Space Grotesk", sans-serif;
   font-size: 0.95rem;
   font-weight: 700;
   letter-spacing: 0.01em;
-  box-shadow: 0 18px 40px rgba(11, 95, 255, 0.28);
+  box-shadow: 0 14px 32px rgba(36, 49, 57, 0.2);
   cursor: pointer;
   transition:
     transform 160ms ease,
@@ -25,7 +25,8 @@
   &:hover,
   &:focus {
     transform: translateY(-2px);
-    box-shadow: 0 22px 46px rgba(11, 95, 255, 0.32);
+    background: var(--site-accent-strong);
+    box-shadow: 0 18px 36px rgba(36, 49, 57, 0.24);
     outline: none;
   }
 
@@ -36,11 +37,10 @@
 }
 
 [data-theme="dark"] .subscribeButton {
-  border-color: rgba(141, 236, 201, 0.22);
-  background:
-    linear-gradient(135deg, rgba(141, 236, 201, 0.92), rgba(107, 212, 181, 0.92));
-  color: #08121f;
-  box-shadow: 0 20px 44px rgba(7, 16, 29, 0.4);
+  border-color: var(--site-border);
+  background: var(--site-accent);
+  color: #172126;
+  box-shadow: 0 16px 36px rgba(10, 16, 19, 0.3);
 }
 
 .overlay {
@@ -51,7 +51,7 @@
   align-items: center;
   justify-content: center;
   padding: 1.5rem;
-  background: rgba(7, 12, 24, 0.62);
+  background: rgba(25, 34, 39, 0.68);
   backdrop-filter: blur(10px);
 }
 
@@ -61,17 +61,13 @@
   padding: 1rem;
   border: 1px solid var(--site-border);
   border-radius: 1.25rem;
-  background:
-    radial-gradient(circle at top right, rgba(11, 95, 255, 0.12), transparent 32%),
-    linear-gradient(180deg, rgba(255, 255, 255, 0.94), rgba(255, 255, 255, 0.9));
-  box-shadow: 0 28px 70px rgba(12, 18, 30, 0.2);
+  background: var(--site-surface);
+  box-shadow: 0 28px 70px rgba(36, 49, 57, 0.2);
 }
 
 [data-theme="dark"] .modal {
-  background:
-    radial-gradient(circle at top right, rgba(141, 236, 201, 0.1), transparent 30%),
-    linear-gradient(180deg, rgba(12, 19, 31, 0.98), rgba(9, 15, 25, 0.94));
-  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.42);
+  background: var(--site-surface);
+  box-shadow: 0 30px 80px rgba(10, 16, 19, 0.42);
 }
 
 .closeButton {
@@ -82,7 +78,7 @@
   height: 2.5rem;
   border: 0;
   border-radius: 999px;
-  background: rgba(18, 32, 56, 0.08);
+  background: var(--site-surface-muted);
   color: var(--ifm-font-color-base);
   font-size: 1.5rem;
   line-height: 1;
@@ -90,19 +86,19 @@
 }
 
 [data-theme="dark"] .closeButton {
-  background: rgba(255, 255, 255, 0.08);
+  background: var(--site-surface-muted);
 }
 
 .embedFrame {
   overflow: hidden;
   border: 1px solid var(--site-border);
   border-radius: 1rem;
-  background: rgba(255, 255, 255, 0.72);
+  background: var(--site-surface-muted);
   padding-top: 2.5rem;
 }
 
 [data-theme="dark"] .embedFrame {
-  background: rgba(5, 9, 18, 0.72);
+  background: var(--site-surface-muted);
 }
 
 .embedFrame iframe {

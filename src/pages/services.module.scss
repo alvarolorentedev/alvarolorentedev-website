@@ -1,0 +1,33 @@
+.services {
+  padding: 7rem 0 5rem;
+}
+
+.heading {
+  margin-bottom: 3rem;
+  max-width: 52rem;
+
+  > p {
+    color: var(--site-accent-strong);
+    font-size: 0.76rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    font-size: clamp(2.5rem, 4vw, 4rem);
+    letter-spacing: 0;
+    line-height: 1;
+  }
+
+  span {
+    color: var(--site-text-soft);
+    font-size: 1.05rem;
+  }
+}
+
+@media (max-width: 996px) {
+  .services {
+    padding: 4.5rem 1rem 3rem;
+  }
+}

@@ -1,8 +1,8 @@
 .card {
   border: 1px solid var(--site-border);
-  box-shadow: 0 18px 40px rgba(14, 20, 33, 0.08);
+  box-shadow: none;
   height: 100%;
-  border-radius: 1.5rem;
+  border-radius: 0;
   overflow: hidden;
 
   &Container {
@@ -12,10 +12,11 @@
 
 .image {
   aspect-ratio: 12 / 7;
-  background: linear-gradient(180deg, #e8f2ff 0%, #f5f8fc 100%);
+  background: var(--site-surface-muted);
   position: relative;
 
-  img {
+  img,
+  svg {
     display: block;
     width: 100%;
     height: 100%;

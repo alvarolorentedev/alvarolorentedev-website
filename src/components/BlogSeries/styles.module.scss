@@ -65,12 +65,14 @@
   background: rgba(255, 255, 255, 0.56);
   color: inherit;
   text-decoration: none;
-  transition: transform 160ms ease, border-color 160ms ease,
+  transition:
+    transform 160ms ease,
+    border-color 160ms ease,
     box-shadow 160ms ease;
 }
 
 .seriesLink:hover {
-  border-color: rgba(11, 95, 255, 0.28);
+  border-color: color-mix(in srgb, var(--site-accent) 45%, var(--site-border));
   box-shadow: 0 16px 30px rgba(14, 20, 33, 0.08);
   transform: translateY(-1px);
   text-decoration: none;

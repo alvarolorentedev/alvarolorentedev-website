@@ -1,0 +1,23 @@
+.focusBand {
+  background: var(--site-bg);
+}
+
+.aboutBand {
+  background: var(--site-band);
+  border-bottom: 1px solid var(--site-border);
+  border-top: 1px solid var(--site-border);
+  color: var(--site-band-text);
+}
+
+.connectBand {
+  padding: 4rem 0;
+}
+
+@media (max-width: 996px) {
+  .focusBand,
+  .aboutBand,
+  .connectBand {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
