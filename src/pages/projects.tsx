@@ -6,69 +6,80 @@ import Layout from "@theme/Layout";
 import { Project, ProjectData } from "../components/projects/Project";
 import { PageMeta } from "../components/site/PageMeta";
 import BarklarmLogo from "./assets/projects/barklarm-logo.svg";
-import billlyLogo from "./assets/projects/billly-logo-text.png";
-import FlagbearLogo from "./assets/projects/flagbear-logo.svg";
 import OctolaunchLogo from "./assets/projects/octolaunch-logo.svg";
 import OpencodeLogo from "./assets/projects/opencode-logo.svg";
 import owlumiIcon from "./assets/projects/owlumi-icon.png";
-import strengthsosLogo from "./assets/projects/strengthsos-logo-navbar.png";
+import PwnedPackagesLogo from "./assets/projects/pwnedpackages-logo.svg";
+import SimulmarktLogo from "./assets/projects/simulmarkt-logo.svg";
+import VFXBeatLogo from "./assets/projects/vfxbeat-logo.svg";
 import styles from "./projects.module.scss";
 
 const projects: ProjectData[] = [
   {
-    title: "OctoLaunch",
-    category: "Developer operations",
+    title: "OpenCode Mobile",
+    category: "AI developer experience",
     description:
-      "A DevOps companion for correlating CI/CD events, deployments, incidents, and production signals.",
+      "A mobile client for following, controlling, and continuing OpenCode sessions away from your desk.",
     capability:
-      "Turning fragmented operational data into a clearer system for engineering decisions.",
+      "Designing human oversight into agentic coding workflows without tying developers to a workstation.",
+    accent: "#bbcbd5",
+    url: "https://play.google.com/apps/testing/app.getopencode",
+    logo: <OpencodeLogo title="OpenCode Mobile logo" role="img" />,
+  },
+  {
+    title: "OctoLaunch",
+    category: "DevOps intelligence",
+    description:
+      "A DevOps intelligence platform that connects deployments, CI/CD activity, incidents, and production signals into a shared investigation context.",
+    capability:
+      "Turning fragmented operational data into faster root-cause analysis and clearer engineering decisions.",
     accent: "#c3d3cc",
     url: "https://octolaunch.com/",
     logo: <OctolaunchLogo title="OctoLaunch logo" role="img" />,
   },
   {
-    title: "StrengthsOS",
-    category: "Engineering leadership",
+    title: "Simulmarkt",
+    category: "Decision intelligence",
     description:
-      "A capability workflow for engineering leaders to define role expectations, assess gaps, and plan growth.",
+      "An AI-powered platform for validating products, pricing, positioning, messaging, and market opportunities using simulated audiences.",
     capability:
-      "Connecting organizational design, career development, and engineering effectiveness.",
+      "Reducing product uncertainty by testing consequential market decisions before committing real time and money.",
     accent: "#d9d0b8",
-    url: "https://strengthsos.com/",
-    logo: <Image img={strengthsosLogo} alt="StrengthsOS logo" />,
+    url: "https://simulmarkt.com/",
+    logo: <SimulmarktLogo title="Simulmarkt logo" role="img" />,
   },
   {
-    title: "OpenCode Mobile",
-    category: "AI developer experience",
+    title: "VFXBeat",
+    category: "Creative technology",
     description:
-      "A mobile companion for OpenCode that lets you inspect tasks, approve changes, and keep agent work moving.",
+      "A local-first creative tool for generating music videos with synchronized visual effects, lyrics, and social-ready formats.",
     capability:
-      "Designing human oversight into AI-assisted workflows without slowing delivery.",
-    accent: "#bbcbd5",
-    url: "http://getopencode.app/",
-    logo: <OpencodeLogo title="OpenCode Mobile logo" role="img" />,
+      "Combining media processing and approachable workflows in a product that keeps creative work private and local.",
+    accent: "#cec4d2",
+    url: "https://vfxbeat.com/",
+    logo: <VFXBeatLogo title="VFXBeat logo" role="img" />,
   },
   {
     title: "Owlumi",
     category: "Consumer AI",
     description:
-      "A calm storytelling companion for families that co-creates bedtime stories with a friendly owl mascot.",
+      "A creative experience for generating personalized stories and imaginative adventures for children and families.",
     capability:
-      "Shaping approachable AI experiences around trust, context, and a specific human ritual.",
+      "Shaping approachable AI experiences around trust, creativity, and a specific family ritual.",
     accent: "#d8c2ba",
-    url: "http://playowlumi.com/",
+    url: "https://play.google.com/apps/testing/com.playowlumi",
     logo: <Image img={owlumiIcon} alt="Owlumi owl app icon" />,
   },
   {
-    title: "Billly",
-    category: "Conversational fintech",
+    title: "PwnedPackages",
+    category: "Supply-chain security",
     description:
-      "A WhatsApp-based expense manager that splits household bills automatically and sends payment links.",
+      "Tools and experiments for identifying risky, compromised, or malicious software dependencies before they reach production.",
     capability:
-      "Removing product friction by meeting users inside a familiar communication channel.",
+      "Applying security intelligence at the point where engineering teams make dependency decisions.",
     accent: "#c9d2b5",
-    url: "https://billly.xyz/",
-    logo: <Image img={billlyLogo} alt="Billly logo" />,
+    url: "https://pwnedpackages.com/",
+    logo: <PwnedPackagesLogo title="PwnedPackages logo" role="img" />,
   },
   {
     title: "Barklarm",
@@ -77,20 +88,9 @@ const projects: ProjectData[] = [
       "A desktop app that centralizes build and monitoring alarms natively in the operating system.",
     capability:
       "Making critical delivery signals visible without adding another dashboard to monitor.",
-    accent: "#cec4d2",
+    accent: "#dac9b6",
     url: "https://www.barklarm.com/",
     logo: <BarklarmLogo title="Barklarm logo" role="img" />,
-  },
-  {
-    title: "Flagbear",
-    category: "Software architecture",
-    description:
-      "A serviceless feature flag system for enabling and disabling features without a third-party platform.",
-    capability:
-      "Choosing a deliberately small architecture when operational simplicity is the real requirement.",
-    accent: "#dac9b6",
-    url: "https://www.flagbear.dev/",
-    logo: <FlagbearLogo title="Flagbear logo" role="img" />,
   },
 ];
 
@@ -142,10 +142,11 @@ export default function Projects(): JSX.Element {
                   Products are where <em>strategy earns its keep.</em>
                 </h1>
                 <p className={styles.intro}>
-                  I build technology ventures across developer tools, AI,
-                  fintech, and engineering leadership. The work keeps my advice
-                  grounded in the same uncertainty, tradeoffs, and delivery
-                  pressure founders face.
+                  I build technology ventures across AI, developer tooling,
+                  platform engineering, security, decision intelligence, and
+                  creative software. The work keeps my advice grounded in the
+                  same uncertainty, tradeoffs, and delivery pressure founders
+                  face.
                 </p>
                 <div className={styles.actions}>
                   <a
@@ -170,19 +171,19 @@ export default function Projects(): JSX.Element {
                 <dl>
                   <div>
                     <dt>01</dt>
-                    <dd>Developer platforms</dd>
+                    <dd>AI-native products</dd>
                   </div>
                   <div>
                     <dt>02</dt>
-                    <dd>Applied AI</dd>
+                    <dd>Developer platforms</dd>
                   </div>
                   <div>
                     <dt>03</dt>
-                    <dd>Leadership systems</dd>
+                    <dd>Security &amp; operations</dd>
                   </div>
                   <div>
                     <dt>04</dt>
-                    <dd>Consumer products</dd>
+                    <dd>Decision intelligence</dd>
                   </div>
                 </dl>
               </aside>

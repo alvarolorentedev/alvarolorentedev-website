@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Technical due diligence and advisory</title>
+  <desc id="desc">A structured technical review with evidence, risk signals, and a clear assessment.</desc>
+  <rect width="1200" height="700" rx="48" fill="#243139"/>
+  <circle cx="170" cy="570" r="150" fill="#a8c5b8" opacity=".1"/>
+  <rect x="170" y="105" width="600" height="490" rx="34" fill="#fbfaf7"/>
+  <rect x="240" y="180" width="300" height="24" rx="12" fill="#59676c" opacity=".75"/>
+  <rect x="240" y="250" width="42" height="42" rx="9" fill="#c8d9d1"/>
+  <path d="M250 270 l10 10 18 -22" fill="none" stroke="#315849" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="310" y="259" width="350" height="18" rx="9" fill="#59676c" opacity=".55"/>
+  <rect x="240" y="335" width="42" height="42" rx="9" fill="#e1cec5"/>
+  <path d="M250 355 l10 10 18 -22" fill="none" stroke="#a7634c" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="310" y="344" width="290" height="18" rx="9" fill="#59676c" opacity=".55"/>
+  <rect x="240" y="420" width="42" height="42" rx="9" fill="#c8d9d1"/>
+  <path d="M250 440 l10 10 18 -22" fill="none" stroke="#315849" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="310" y="429" width="330" height="18" rx="9" fill="#59676c" opacity=".55"/>
+  <circle cx="825" cy="390" r="150" fill="none" stroke="#a8c5b8" stroke-width="28"/>
+  <path d="M930 495 l135 135" stroke="#a8c5b8" stroke-width="38" stroke-linecap="round"/>
+  <path d="M770 390 l38 38 78 -92" fill="none" stroke="#f5f3ed" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

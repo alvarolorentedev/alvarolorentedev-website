@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Startup product and MVP advisory</title>
+  <desc id="desc">A focused product journey moving from an idea through validation to launch.</desc>
+  <rect width="1200" height="700" rx="48" fill="#315849"/>
+  <circle cx="1030" cy="130" r="130" fill="#f5f3ed" opacity=".08"/>
+  <rect x="130" y="150" width="940" height="400" rx="40" fill="#f5f3ed" opacity=".08"/>
+  <path d="M230 420 H940" stroke="#a8c5b8" stroke-width="14" stroke-linecap="round" stroke-dasharray="24 24"/>
+  <circle cx="250" cy="420" r="70" fill="#f5f3ed"/>
+  <path d="M250 378 c-30 0 -48 22 -48 48 0 19 10 33 25 42 v22 h46 v-22 c15 -9 25 -23 25 -42 0 -26 -18 -48 -48 -48z" fill="#e1cec5"/>
+  <circle cx="590" cy="420" r="70" fill="#c8d9d1"/>
+  <path d="M554 420 l24 24 50 -56" fill="none" stroke="#315849" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M888 438 l54 -112 54 112 -54 38z" fill="#e1cec5"/>
+  <path d="M918 432 h48 l-24 78z" fill="#a7634c"/>
+  <circle cx="942" cy="393" r="14" fill="#315849"/>
+  <rect x="196" y="518" width="108" height="18" rx="9" fill="#f5f3ed" opacity=".7"/>
+  <rect x="532" y="518" width="116" height="18" rx="9" fill="#f5f3ed" opacity=".7"/>
+  <rect x="888" y="518" width="108" height="18" rx="9" fill="#f5f3ed" opacity=".7"/>
+</svg>

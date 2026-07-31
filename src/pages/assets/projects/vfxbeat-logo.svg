@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 242 52" role="img" aria-labelledby="title">
+  <title id="title">VFXBeat</title>
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d341fa"/><stop offset=".55" stop-color="#8b48ff"/><stop offset="1" stop-color="#26d4ef"/></linearGradient></defs>
+  <g fill="url(#g)"><rect x="2" y="19" width="4" height="14" rx="2"/><rect x="10" y="11" width="4" height="30" rx="2"/><rect x="18" y="3" width="4" height="46" rx="2"/><rect x="26" y="14" width="4" height="24" rx="2"/><rect x="34" y="7" width="4" height="38" rx="2"/><rect x="42" y="16" width="4" height="20" rx="2"/><rect x="50" y="21" width="4" height="10" rx="2"/></g>
+  <text x="67" y="36" fill="#fff" font-family="Inter,Arial,sans-serif" font-size="31" font-weight="750" letter-spacing="-1.5">VFXBeat</text>
+</svg>

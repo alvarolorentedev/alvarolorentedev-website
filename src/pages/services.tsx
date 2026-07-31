@@ -6,71 +6,97 @@ import { PageMeta } from "../components/site/PageMeta";
 import { ClosingCta, PageHero } from "../components/site/PageHero";
 import AiAdvisory from "./assets/services/ai-advisory.svg";
 import ArchitectureModernization from "./assets/services/architecture-modernization.svg";
-import DevopsDelivery from "./assets/services/devops-delivery.svg";
+import DueDiligence from "./assets/services/due-diligence.svg";
 import EngineeringStrategy from "./assets/services/engineering-strategy.svg";
 import FractionalCto from "./assets/services/fractional-cto.svg";
-import MentoringWorkshops from "./assets/services/mentoring-workshops.svg";
+import StartupMvp from "./assets/services/startup-mvp.svg";
+import TechnologyStrategy from "./assets/services/technology-strategy.svg";
 import styles from "./services.module.scss";
 
 const services: ServiceData[] = [
   {
-    title: "Fractional CTO advisory",
+    title: "Technology Strategy and Transformation",
     description:
-      "Ongoing senior technical leadership for founders and executive teams who need clearer priorities, stronger decision-making rhythms, and practical support shaping engineering strategy.",
-    image: <FractionalCto title="Fractional CTO advisory" role="img" />,
-    url: "https://cal.com/alvarolorente/30min",
-    role: "Advisor",
-  },
-  {
-    title: "AI and LLM product advisory",
-    description:
-      "Support teams building AI-enabled products, internal agents, and automation workflows with product evaluation, technical roadmap guidance, and implementation direction.",
-    image: <AiAdvisory title="AI and LLM product advisory" role="img" />,
-    url: "https://cal.com/alvarolorente/30min",
-    role: "AI",
-  },
-  {
-    title: "Engineering strategy and operating model",
-    description:
-      "Define the team structure, decision rights, and delivery cadence that help organizations scale from startup pace to a more predictable engineering operating model.",
-    image: <EngineeringStrategy title="Engineering strategy" role="img" />,
-    url: "https://cal.com/alvarolorente/30min",
-    role: "Strategy",
-  },
-  {
-    title: "Leadership mentoring and workshops",
-    description:
-      "Coaching for engineering managers and technical leaders who want to strengthen servant leadership, grow team ownership, and share better technical practices.",
-    image: <MentoringWorkshops title="Leadership mentoring" role="img" />,
-    url: "https://cal.com/alvarolorente/30min",
-    role: "Mentor",
-  },
-  {
-    title: "Delivery excellence and DevOps",
-    description:
-      "Improve flow, reliability, and security with stronger CI/CD, observability, operational habits, and delivery metrics such as DORA in high-change environments.",
-    image: <DevopsDelivery title="Delivery excellence and DevOps" role="img" />,
-    url: "https://cal.com/alvarolorente/30min",
-    role: "Delivery",
-  },
-  {
-    title: "Architecture modernization",
-    description:
-      "Simplify complex systems, reduce technical friction, and guide re-architecture decisions across modular monoliths, microservices, DDD, and platform boundaries.",
+      "Align technology decisions, architecture, teams, and investments with business goals.",
     image: (
-      <ArchitectureModernization
-        title="Architecture modernization"
+      <TechnologyStrategy
+        title="Technology strategy and transformation roadmap"
         role="img"
       />
     ),
     url: "https://cal.com/alvarolorente/30min",
-    role: "Architect",
+    role: "Strategy",
+  },
+  {
+    title: "Organizational Design and Engineering Effectiveness",
+    description:
+      "Improve team structures, ownership, delivery processes, collaboration, and technical decision-making.",
+    image: (
+      <EngineeringStrategy
+        title="Organizational design and engineering effectiveness"
+        role="img"
+      />
+    ),
+    url: "https://cal.com/alvarolorente/30min",
+    role: "Organization",
+  },
+  {
+    title: "AI Strategy, Products and Automation",
+    description:
+      "Identify valuable AI opportunities and turn them into practical products, agents, and workflows.",
+    image: (
+      <AiAdvisory title="AI strategy, products and automation" role="img" />
+    ),
+    url: "https://cal.com/alvarolorente/30min",
+    role: "AI",
+  },
+  {
+    title: "Architecture and Platform Modernization",
+    description:
+      "Modernize systems, platforms, cloud foundations, developer experience, and engineering practices.",
+    image: (
+      <ArchitectureModernization
+        title="Architecture and platform modernization"
+        role="img"
+      />
+    ),
+    url: "https://cal.com/alvarolorente/30min",
+    role: "Modernization",
+  },
+  {
+    title: "Fractional CTO and Technology Leadership",
+    description:
+      "Provide senior technical leadership for startups and organizations navigating growth, change, or complex decisions.",
+    image: (
+      <FractionalCto
+        title="Fractional CTO and technology leadership"
+        role="img"
+      />
+    ),
+    url: "https://cal.com/alvarolorente/30min",
+    role: "Leadership",
+  },
+  {
+    title: "Startup Product and MVP Advisory",
+    description:
+      "Help founders validate ideas, define product scope, choose the right architecture, and move efficiently from concept to market.",
+    image: <StartupMvp title="Startup product and MVP journey" role="img" />,
+    url: "https://cal.com/alvarolorente/30min",
+    role: "Startup",
+  },
+  {
+    title: "Technical Due Diligence and Advisory",
+    description:
+      "Assess architecture, teams, risks, scalability, security, and technical readiness for investments or strategic decisions.",
+    image: <DueDiligence title="Technical due diligence review" role="img" />,
+    url: "https://cal.com/alvarolorente/30min",
+    role: "Advisory",
   },
 ];
 
 const title = "Services";
 const description =
-  "Services shaped by 15+ years in engineering leadership, architecture, platform engineering, delivery, and AI-enabled product work.";
+  "Technology strategy, organizational design, AI, architecture modernization, fractional CTO leadership, startup advisory, and technical due diligence.";
 
 export default function Services(): JSX.Element {
   const structuredData = {
@@ -113,7 +139,7 @@ export default function Services(): JSX.Element {
           </>
         }
         description="Focused advisory for founders and engineering leaders making consequential decisions about product, architecture, delivery, AI, and organization design."
-        index="06"
+        index="07"
         primaryLabel="Discuss your context"
         primaryHref="https://cal.com/alvarolorente/30min"
         secondaryLabel="See the work"
