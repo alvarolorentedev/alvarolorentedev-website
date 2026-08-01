@@ -67,6 +67,10 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: false,
+        gtag: {
+          trackingID: "G-P5DKRZ65NQ",
+          anonymizeIP: true,
+        },
         blog: {
           postsPerPage: 10,
           blogSidebarCount: "ALL",
